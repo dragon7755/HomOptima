@@ -1,0 +1,8725 @@
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .homeSearch-slider {
+    .searchBox {
+      .cardBox {
+        .card-body {
+          padding: 25px 15px;
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.buy-banner {
+      .left-img {
+        background-position: left -153px top;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .home-banner {
+    &.buy-banner {
+      .left-img {
+        background-position: left -203px top;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .brandTool-section {
+    .brandCard {
+      .card-body {
+        .toolItem-list {
+          li {
+            width: calc(50% - 12px);
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .homeSearch-slider {
+    .searchSlider {
+      .slick-arrow {
+        &::before {
+          background-size: 16px;
+        }
+
+        &.slick-next {
+          &::before {
+            right: -10px;
+          }
+        }
+
+        &.slick-prev {
+          &::before {
+            left: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .searchHome {
+    .searchHome-area {
+      .row {
+        .customInput {
+          max-width: 250px;
+        }
+
+        .priceRange {
+          min-width: 250px;
+
+          .form-range {
+            max-width: 220px;
+          }
+        }
+
+        .filterSelect {
+          select {
+            min-width: 150px;
+          }
+
+          i {
+            right: 0px;
+            font-size: 15px;
+            top: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .cardBox {
+    .card-body {
+      padding: 22px 15px;
+
+      .homePrice {
+        .saleTag {
+          padding: 4px 10px;
+        }
+      }
+
+      .comment-icon {
+      }
+
+      .assetsList {
+        li {
+          img {
+            width: 16px;
+          }
+
+          span {
+            font-size: 13px;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+
+  .homeSearch-result {
+    .row {
+      .leftData {
+        padding: 39px 27px 14px;
+
+        .realEstate-result {
+          .registerBox {
+            .registerOverlay {
+              .card-body {
+                padding: 22px 15px;
+
+                p {
+                  margin: 20px auto 40px;
+                }
+              }
+            }
+          }
+
+          .cardBox {
+            &.aboutSale {
+              h3 {
+                font-size: 22px;
+                line-height: 26px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.buy-banner {
+      .left-img {
+        background-position: left -283px top;
+      }
+    }
+  }
+
+  .getResult-slider {
+    .sliderCard {
+      .slick-arrow {
+        &::before {
+          background-size: 18px;
+        }
+
+        &.slick-prev {
+          &::before {
+            left: -6px;
+          }
+        }
+
+        &.slick-next {
+          &::before {
+            right: -15px;
+          }
+        }
+      }
+    }
+  }
+
+  .userComment {
+    .userComment-slid {
+      .slick-arrow {
+        &::before {
+          background-size: 16px;
+        }
+
+        &.slick-prev {
+          &::before {
+            left: 0px;
+          }
+        }
+
+        &.slick-next {
+          &::before {
+            right: -10px;
+          }
+        }
+      }
+    }
+  }
+  .agent-teamHero-slider {
+    .agentTeam-rowSlider {
+      .slick-arrow {
+        &::before {
+          width: 15px;
+          height: 30px;
+          background-size: 15px;
+        }
+        &.slick-prev {
+          left: 0;
+          &::before {
+            left: 0px;
+          }
+        }
+        &.slick-next {
+          right: 0;
+          &::before {
+            right: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .appartment-sec {
+            .aprt-data {
+              .ast-list {
+                max-width: 75%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .myDeal_sec {
+    &.invitation-dashboard {
+      .showDatabase {
+        .btn {
+          font-size: 14px;
+          line-height: 18px;
+          padding: 8.5px 12px;
+          margin-right: 5px;
+        }
+      }
+
+      .searchFilter_sec {
+        .searchFilter {
+          i {
+            font-size: 18px;
+            top: 8px;
+          }
+
+          .form-control {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .cma-dashboardSec {
+    .cma-tabList {
+      .cma-btn {
+        width: 28%;
+      }
+
+      .cma-data {
+        width: 72%;
+      }
+    }
+  }
+
+  h1,
+  .h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .mainHeaer {
+    .navBar {
+      .logo {
+        img {
+          max-width: 180px;
+        }
+      }
+
+      .menuList {
+        margin: 0 0 0 50px;
+
+        .menuItem {
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    .right-content {
+      padding: 82px 30px 67px;
+
+      .bannerTabs {
+        li {
+          max-width: 120px;
+
+          button {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+
+      .marketPreictor {
+        .tabdata {
+          .detechedList {
+            max-width: 100%;
+
+            li {
+              margin-right: 8px;
+              width: calc(20% - 8px);
+              max-width: 78px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .dreamHome {
+    .leftContent {
+      margin-left: 0;
+    }
+
+    .rightImg {
+      .bgGradient {
+        max-width: 350px;
+
+        img {
+          margin-left: 30px;
+          padding-bottom: 30px;
+          margin-top: -30px;
+        }
+      }
+    }
+
+    .row {
+      &.rtlRow {
+        .rightImg {
+          .bgGradient {
+            img {
+              margin-left: -30px;
+              margin-top: 30px;
+              margin-bottom: -30px;
+            }
+          }
+        }
+      }
+
+      &.upsizeReport {
+        .rightImg {
+          .bgGradient {
+            img {
+              margin-left: -30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .searchResult {
+    .resultBox {
+      .card {
+        .card-body {
+          .okaRoad {
+            p {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+
+          .averageTREB {
+            .percetCircle {
+              width: 120px;
+              height: 120px;
+
+              h1 {
+                font-size: 40px;
+                line-height: 44px;
+              }
+            }
+
+            .perDeal {
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ourFooter {
+    .topFooter {
+      .footerLogo {
+        .f-des {
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .midFooter {
+      .mobileDevice {
+        .innerImg {
+          left: 10%;
+        }
+      }
+    }
+  }
+
+  .homeSearch-slider {
+    .searchBox {
+      .cardBox {
+        .card-body {
+          .assetsList {
+            li {
+              margin: 0 6px 0 0;
+
+              img {
+                width: 18px;
+              }
+
+              span {
+                font-size: 14px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .homeSearch-result {
+    .row {
+      .leftData {
+        .leftShowcase {
+          .showResult {
+            font-size: 15px;
+          }
+
+          .customeSelect {
+            margin: 0 0 0 10px;
+
+            select {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .searchHome {
+    .searchHome-area {
+      .row {
+        .filterSelect {
+          i {
+            right: -25px;
+            top: 17px;
+            font-size: 15px;
+          }
+        }
+
+        .priceRange {
+          label {
+            min-width: initial;
+          }
+        }
+      }
+    }
+  }
+
+  .cardBox {
+    .card-body {
+      padding: 22px 8px;
+
+      .homePrice {
+        .saleTag {
+          padding: 3px 5px;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  .homeSearch-result {
+    .row {
+      .leftData {
+        padding: 39px 27px 14px;
+
+        .realEstate-result {
+          .registerBox {
+            .registerOverlay {
+              .card-body {
+                padding: 22px 8px;
+
+                p {
+                  margin: 20px auto 30px;
+                }
+
+                .btn-green {
+                  padding: 12px 15px;
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+
+          .cardBox {
+            &.aboutSale {
+              .card-body {
+                h3 {
+                  font-size: 20px;
+                  line-height: 24px;
+                }
+
+                p {
+                  font-size: 15px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .getResult-slider {
+    .sectionHead {
+      h2 {
+        &::after {
+          left: 6%;
+        }
+      }
+    }
+  }
+
+  .optimaAgent {
+    &.agentPage {
+      .helpBox {
+        .leftAgent {
+          left: 22%;
+
+          img {
+            max-height: 360px;
+          }
+        }
+      }
+    }
+  }
+
+  .optimaAgent {
+    &.homeAgent-b {
+      .helpBox {
+        .leftAgent {
+          left: 11%;
+
+          img {
+            max-height: 450px;
+          }
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    &.filter {
+      .more-filter-popup {
+        .top-sec {
+          padding: 20px 0;
+
+          .drop-down {
+            .dropdown {
+              .days-on-market-main {
+                i {
+                  position: absolute;
+                  right: 11px;
+                  top: 11px;
+                }
+              }
+            }
+          }
+        }
+
+        .property-sec {
+          padding: 20px 0;
+        }
+
+        .dropdown-sec {
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+
+  // old page css start =============================
+  .myDeal_sec {
+    .searchFilter_sec {
+      .form-row {
+        .searchFilter {
+          .form-control {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .userComment {
+    .commentBox {
+      .card-body {
+        .commentT {
+          .message-tag {
+            min-height: 136px;
+          }
+        }
+      }
+    }
+  }
+
+  .searchHack-loc {
+    .hackSearch-card {
+      .card-body {
+        .searchDoor-form {
+          .form-group {
+            label {
+              font-size: 15px;
+              line-height: 18px;
+              margin-bottom: 8px;
+            }
+
+            .homeType-list {
+              li {
+                .form-check {
+                  .form-check-label {
+                    font-size: 15px;
+                    line-height: 18px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Agent new css changes==================
+  .connet-rachel-sec {
+    &.connerWith-rachel-new {
+      .card {
+        .card-body {
+          .qusAsk-form {
+            .form-group {
+              label {
+                font-size: 13px;
+                line-height: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .brandTool-section {
+    .brandCard {
+      .card-body {
+        padding: 20px 10px;
+
+        .toolItem-list {
+          li {
+            .leftImg {
+              width: 45px;
+              height: 45px;
+              min-width: 45px;
+
+              img {
+                width: 22px;
+                height: 22px;
+                object-fit: contain;
+              }
+            }
+
+            .rightData {
+              p {
+                font-size: 14px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main_agent_sec {
+    &.listOptimiser-table {
+      .my-route-box {
+        .card {
+          .card-body {
+            .recommanDate-plan {
+              .DoNothing-cir {
+                // width: 200px;
+                // height: 200px;
+                // margin: 40px auto;
+
+                img {
+                  // width: 60px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .stateStatus {
+        .content-box {
+          .puls-sec-p {
+            .puls-box-b {
+              span {
+                font-size: 15px;
+              }
+
+              h3 {
+                font-size: 16px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .searchHack-loc {
+    .pfdTable-head {
+      .rightPDF-prt {
+        button {
+          font-size: 14px;
+          line-height: 18px;
+          padding: 7px 14px;
+
+          img {
+            height: 18px;
+          }
+        }
+      }
+    }
+  }
+  .dashVideo-listBox {
+    .videoTut-listRow {
+      .leftStep-list {
+        .tutList {
+          li {
+            a {
+              padding: 10px 18px;
+              font-size: 15px;
+              line-height: 18px;
+              .stepVdo {
+                margin-right: 8px;
+                &::after {
+                  left: 28px;
+                  top: 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .rightVideo-BoxList {
+        padding: 20px;
+        .tutList-row {
+          .videoBox {
+            .card-header {
+              h3 {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+            .viewAll-vdo {
+              font-size: 15px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .dashVideo-listBox {
+    .videoTut-listRow {
+      .leftStep-list {
+        width: 25%;
+        max-width: 320px;
+      }
+      .rightVideo-BoxList {
+        width: 75%;
+        .tutList-row {
+          [class*="col-"] {
+            width: 33.33%;
+          }
+        }
+      }
+    }
+  }
+  .userComment {
+    .sectionHead {
+      h3 {
+        &.heading-comment {
+          font-size: 36px;
+          line-height: 42px;
+        }
+      }
+    }
+  }
+
+  .subpage-banner {
+    &.search-home {
+      &.watchArea-section {
+        .watchItem-row {
+          .left-opt {
+            .top-search {
+              max-width: 260px;
+            }
+            .watch-btn {
+              padding: 12px 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .registerMdal-box {
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          .right-data {
+            h5 {
+              font-size: 36px;
+              line-height: 42px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .agent-teamHero-slider {
+    .agentTeam-rowSlider {
+      .slick-slide {
+        .agentTeam-image {
+          img {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin: 0 auto -13px;
+          }
+        }
+      }
+    }
+  }
+  .heroTeam-memberName {
+    .heroTeam-basicDataSlide {
+      .member-Basicdata {
+        .mamberName {
+          font-size: 24px;
+          line-height: 28px;
+          max-width: 180px;
+        }
+        .memberProfile {
+          font-size: 12px;
+          line-height: 15px;
+        }
+        .memberExp {
+          font-size: 12px;
+          line-height: 15px;
+        }
+        .contact-optionsList {
+          li {
+            a {
+              img {
+                width: 15px;
+                margin-right: 6px;
+              }
+              span {
+                font-size: 13px;
+                line-height: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .knowledgeRequest-detailPage {
+    .row {
+      [class*="col-md-9"] {
+        width: 72%;
+      }
+      [class*="col-md-3"] {
+        width: 28%;
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .mobile-AreaBox {
+            .mobOverlay-box {
+              h6 {
+                font-size: 20px;
+                line-height: 24px;
+                i {
+                  font-size: 20px;
+                }
+              }
+            }
+          }
+          .GTA-reviewBox {
+            .app-detail {
+              h5 {
+                font-size: 20px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+        .rightForm-data {
+          .qusAsk-form {
+            .row.aptStreet-no {
+              [class*="col-md-3"] {
+                width: 30%;
+              }
+              [class*="col-md-6"] {
+                width: 40%;
+              }
+            }
+            .form-group {
+              label {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .teamMember-dataList {
+    .teamData-list {
+      .img-block {
+        width: 120px;
+        height: 120px;
+        img {
+          height: 100px;
+        }
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .detached-tableRD {
+            table {
+              thead {
+                tr {
+                  th {
+                    .detachedImg-bx {
+                      border-radius: 5px;
+                      max-width: 100px;
+                      max-height: 70px;
+                    }
+                    p {
+                      line-height: 18px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .ourFooter {
+    .midFooter {
+      &.midOnly-contact {
+        .left-title {
+          h3 {
+            font-size: 24px;
+            line-height: 28px;
+          }
+        }
+        .mail-moblist {
+          li {
+            a {
+              span {
+                font-size: 20px;
+                line-height: 26px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .subpage-banner {
+    &.search-home {
+      &.watchArea-section {
+        .watchItem-row {
+          .left-opt {
+            width: 100%;
+            position: relative;
+            .watch-btn {
+              position: absolute;
+              top: 63px;
+            }
+          }
+          .right-opt {
+            width: 100%;
+            justify-content: flex-end;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .homeSearch-slider {
+    .searchSlider {
+      .slick-arrow {
+        &.slick-prev {
+          &::before {
+            left: 6px;
+          }
+        }
+
+        &.slick-next {
+          &::before {
+            right: -8px;
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    .right-content {
+      .bannerTabs {
+        li {
+          margin: 0 15px 7px 0;
+        }
+      }
+
+      .marketPreictor {
+        .tabdata {
+          .detechedList {
+            li {
+              max-width: 76px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.buy-banner {
+      .left-img {
+        background-position: left -390px top;
+      }
+    }
+  }
+
+  .getResult-slider {
+    .sliderCard {
+      .slick-arrow {
+        &::before {
+          background-size: 8px;
+          bottom: 0px;
+          width: 15px;
+          height: 15px;
+          padding: 0;
+        }
+
+        &.slick-prev {
+          &::before {
+            left: 14px;
+          }
+        }
+
+        &.slick-next {
+          &::before {
+            right: 4px;
+          }
+        }
+      }
+    }
+  }
+
+  .userComment {
+    .userComment-slid {
+      .slick-arrow {
+        &::before {
+          background-size: 12px;
+        }
+
+        &.slick-prev {
+          &::before {
+            left: 10px;
+          }
+        }
+
+        &.slick-next {
+          &::before {
+            right: -5px;
+          }
+        }
+      }
+    }
+  }
+
+  .toolMarket {
+    .sectionHead {
+      h2 {
+        &::after {
+          top: 64%;
+          left: 1%;
+        }
+      }
+    }
+  }
+
+  .userComment {
+    .sectionHead {
+      h2 {
+        &::after {
+          left: 9%;
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    .right-content {
+      &.pulse {
+        .bannerTabs {
+          li {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    &.filter {
+      .more-filter-popup {
+        padding: 20px 15px;
+
+        .top-sec {
+          .form-group {
+            .custom-input {
+              span {
+                font-size: 13px;
+
+                &.minus {
+                  width: 40px;
+                }
+
+                &.plus {
+                  width: 40px;
+                }
+
+                &.number {
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+
+        .property-sec {
+          .block {
+            .box {
+              width: 33.33%;
+              flex: inherit;
+            }
+          }
+        }
+
+        .dropdown-sec {
+          .drop-down {
+            label {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .bottom {
+          padding: 20px 15px;
+        }
+      }
+    }
+  }
+
+  .home-value-section {
+    .card-homevalue {
+      .about-top {
+        .right-data {
+          .home-assets-list {
+            li {
+              margin: 0 9px 0 0;
+
+              img {
+                max-width: 18px;
+              }
+
+              span {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+
+      .about-bottom {
+        .left-graph {
+          .g-detailblock {
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .property-search-sec {
+    .search-loc {
+      .search-city {
+        flex-wrap: wrap;
+
+        h4 {
+          max-width: 100%;
+          margin: 0 0 15px 0;
+        }
+      }
+    }
+  }
+
+  // old page css start =============================
+  .printProperty-sec {
+    .print-view-box {
+      .left-ellen {
+        h3 {
+          font-size: 28px;
+          line-height: 36px;
+        }
+
+        h4 {
+          font-size: 26px;
+          line-height: 30px;
+          margin: 15px 0 16px;
+        }
+      }
+
+      .right-offer-d {
+        .comain-btn {
+          font-size: 14px;
+          padding: 8px 4px;
+        }
+      }
+    }
+  }
+
+  .hello_kate_sec {
+    .kate_card {
+      .card-body {
+        padding: 18px 10px;
+
+        .kate_left_sec {
+          .inner_data {
+            h4 {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+        }
+
+        .right_progress_sec {
+          h4 {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+  .subpage-banner {
+    &.search-home {
+      &.watchArea-section {
+        .watchItem-row {
+          .left-opt {
+            .watch-btn {
+              top: 57px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .section-title {
+    font-size: 24px !important;
+    br {
+      display: none;
+    }
+  }
+  .decision-tools {
+    .largeTitle {
+      font-size: 24px;
+    }
+  }
+  .form-section {
+    .form-wrapper {
+      .qusAsk-form {
+        width: 100%;
+      }
+    }
+  }
+  .agentV4 {
+    .sectionHead {
+      h2 {
+        font-size: 24px !important;
+      }
+    }
+  }
+  .about-rachel-section {
+    .askany-qus {
+      .card-body {
+        padding: 0;
+        .askQus-block {
+          padding: 30px 20px;
+          h3 {
+            margin-bottom: 20px;
+          }
+        }
+        .row {
+          flex-direction: column-reverse;
+          [class*="col-"] {
+            width: 100%;
+          }
+        }
+      }
+      .rightQust-imgBlock {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        img {
+          border-radius: 0 25px 0 0;
+          max-height: 300px;
+        }
+      }
+    }
+  }
+  .myDeal_sec {
+    &.invitation-dashboard {
+      .row {
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
+
+      .showDatabase {
+        justify-content: flex-start;
+      }
+    }
+  }
+
+  .cma-dashboardSec {
+    .cma-tabList {
+      padding: 40px 12px;
+
+      .cma-btn {
+        width: 100%;
+        border-right: 1px solid $skeyBlue-light;
+        margin-bottom: 30px;
+        //css for tabs slide in small size===================
+        // .nav{
+        //   flex-direction:row !important;
+        //   flex-wrap:nowrap;
+        //   overflow-x: auto;
+        //   .nav-link{
+        //     min-width:fit-content;
+        //   }
+        // }
+      }
+
+      .cma-data {
+        width: 100%;
+        padding: 25px 12px;
+      }
+    }
+  }
+
+  .home-banner {
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+
+    .left-img {
+      width: 100%;
+      height: 600px;
+      background-size: 770px;
+      background-position: center -117px;
+
+      &.HO1 {
+        background-size: 1050px;
+        background-position: center -105px;
+      }
+
+      &.HO2 {
+        background-size: 1050px;
+        background-position: center -59px;
+      }
+
+      &.HO3 {
+        background-size: 1050px;
+        background-position: center -160px;
+      }
+
+      &.HO4 {
+        background-size: 1000px;
+        background-position: center -100px;
+      }
+
+      &.HO5 {
+        background-size: 1200px;
+        background-position: center -350px;
+      }
+
+      &.HO6 {
+        background-size: 1040px;
+      }
+    }
+
+    .right-content {
+      width: 100%;
+
+      &.home-right-content {
+        background-image: unset;
+        position: absolute;
+
+        h1 {
+          max-width: 100%;
+        }
+
+        .bannerTabs {
+          li {
+            // max-width:100%;
+          }
+        }
+
+        .marketPreictor {
+          .tabdata {
+            .detechedList {
+              li {
+                max-width: 90px;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.buy-banner {
+      height: 100%;
+
+      .left-img {
+        background-position: left top;
+        min-height: 420px;
+      }
+
+      .right-content {
+        h1 {
+          max-width: 100%;
+        }
+      }
+    }
+
+    &.home_he {
+      flex-direction: column-reverse;
+
+      .left-img {
+        min-height: 545px;
+      }
+
+      .right-content {
+        background-image: linear-gradient(37deg, #d4e9ed, #ebf9fc);
+
+        h1 {
+          font-size: 45px;
+          line-height: 48px;
+          max-width: 480px;
+          margin: 0 auto 20px;
+          text-align: center;
+        }
+
+        .list_he {
+          max-width: fit-content;
+          margin: 0 auto 30px;
+        }
+
+        .home_heForm {
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  .mainHeaer {
+    padding: 34px 0;
+
+    .userName-sec {
+      display: none;
+    }
+
+    .navBar {
+      justify-content: space-between;
+
+      .menuList {
+        display: none;
+      }
+
+      .mobiLIcon {
+        display: inline-flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .searchResult {
+    .resultBox {
+      .card {
+        .card-body {
+          padding: 28px 15px 31px;
+
+          .averageTREB {
+            .percetCircle {
+              width: 100px;
+              height: 100px;
+
+              h1 {
+                font-size: 32px;
+                height: 36px;
+              }
+            }
+
+            .perDeal {
+              margin-left: 15px;
+            }
+          }
+
+          .okaRoad {
+            .headHH {
+              font-size: 40px;
+              line-height: 48px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .optimaAgent {
+    .helpBox {
+      .relative {
+        .row-text {
+          span {
+            font-size: 10px;
+            line-height: 14px;
+          }
+        }
+      }
+
+      .leftAgent {
+        left: 5%;
+
+        img {
+          max-height: 410px;
+        }
+      }
+    }
+
+    &.agentPage {
+      .helpBox {
+        .leftAgent {
+          left: 22%;
+
+          img {
+            max-height: 290px;
+          }
+        }
+      }
+    }
+  }
+
+  .ourFooter {
+    .topFooter {
+      padding: 45px 0;
+
+      .footerLogo {
+        margin: 0 0 30px 0;
+
+        .f-des {
+          // flex-direction:column;
+          p {
+            // max-width:50%;
+          }
+
+          img {
+            width: 50%;
+            height: max-content;
+          }
+        }
+      }
+    }
+
+    .midFooter {
+      overflow: hidden;
+
+      .mobileDevice {
+        position: inherit;
+        height: 250px;
+
+        .innerImg {
+          text-align: center;
+          position: inherit;
+
+          img {
+            position: relative;
+            bottom: -49px;
+            object-fit: inherit;
+          }
+        }
+      }
+    }
+  }
+
+  .dreamHome {
+    .row {
+      &.rtlRow {
+        margin: 0 0 70px 0;
+      }
+
+      &.upsizeReport {
+        .rightImg {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+
+  .optimaBox {
+    .mobileBox {
+      top: 0px;
+      padding-top: 104px;
+      z-index: 999;
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .mainHeaer {
+      z-index: 99999;
+    }
+  }
+
+  .searchHome {
+    .col-md-9 {
+      width: 100%;
+    }
+
+    .col-md-3 {
+      width: 100%;
+    }
+
+    .searchHome-area {
+      .row {
+        margin: 0 0 20px 0;
+      }
+    }
+  }
+
+  .buyingProcess {
+    .row {
+      .leftIcon {
+        .stepBox {
+          width: 180px;
+          height: 180px;
+        }
+
+        &::after {
+          top: 180px;
+          left: 45%;
+        }
+      }
+    }
+  }
+
+  .getResult-slider {
+    .sliderCard {
+      .rightData {
+        .recordList {
+          li {
+            p {
+              font-size: 36px;
+              line-height: 44px;
+
+              span {
+                font-size: 15px;
+              }
+            }
+
+            span {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .toolMarket {
+    .sectionHead {
+      h2 {
+        &::after {
+          top: 74%;
+          left: 5%;
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.mort-banner {
+      .left-img {
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+
+  .optimaAgent {
+    &.homeAgent-b {
+      .helpBox {
+        .leftAgent {
+          left: 6%;
+
+          img {
+            max-height: 420px;
+          }
+        }
+      }
+    }
+  }
+
+  .pulse-content {
+    .content-box {
+      .puls-sec-p {
+        .puls-box-b {
+          h3 {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .subpage-banner {
+    &.feed {
+      .left-opt {
+        .top-search {
+          .input-sec {
+            input {
+              min-width: inherit;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    &.search-home {
+      .content-sec {
+        .head-sec {
+          .left {
+            & > div {
+              .filter-box {
+                .dropdown {
+                  &:last-child {
+                    margin-left: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.filter {
+      .more-filter-popup {
+        .top-sec {
+          .drop-down {
+            .dropdown {
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+
+          .form-group {
+            .custom-input {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-value-section {
+    .row {
+      [class*="col-"] {
+        padding-right: 12px;
+        padding-left: 12px;
+      }
+    }
+
+    .card-homevalue {
+      padding: 26px;
+
+      .row {
+        border-bottom: 3px solid $skeyBlue-light;
+      }
+
+      .about-top {
+        [class*="col-"] {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        .left-img {
+          padding-right: 0;
+          margin: 0 0 18px 0;
+        }
+
+        .right-data {
+          .home-details {
+            margin-bottom: 0;
+
+            p {
+              margin-bottom: 0;
+            }
+          }
+
+          .home-assets-list {
+            border-bottom: 2px solid $skeyBlue-light;
+
+            li {
+              margin: 0 10px 0 0;
+            }
+          }
+        }
+      }
+
+      .about-bottom {
+        [class*="col-"] {
+          padding-right: 0;
+          padding-left: 0;
+        }
+
+        .left-graph {
+          padding-right: 0;
+          margin-bottom: 30px;
+        }
+
+        .right-g-details {
+          h5 {
+            margin-bottom: 20px;
+          }
+
+          .g-data {
+            li {
+              border-bottom: 2px solid #e1e1ee;
+            }
+          }
+        }
+      }
+
+      .about-location {
+        [class*="col-"] {
+          padding-right: 0;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  .report-section {
+    &.home-he-report {
+      .right-data {
+        p {
+          max-width: 448px;
+          margin: 0 auto 10px;
+        }
+
+        .check-list {
+          margin: 0 auto 20px;
+        }
+
+        .customSelect {
+          margin: 0 auto 20px;
+          max-width: 448px;
+        }
+
+        .form-group {
+          margin: 0 auto 20px;
+          max-width: 448px;
+        }
+
+        .callChat {
+          margin: 0 auto 20px;
+          max-width: 448px;
+        }
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-about {
+      .app-thumb {
+        max-width: 160px;
+      }
+    }
+  }
+
+  .home-banner {
+    &.agent-newbanner {
+      height: inherit;
+
+      .left-img {
+        background-position: center bottom -20px;
+      }
+    }
+  }
+
+  .connet-rachel-sec {
+    .card {
+      height: 820px;
+      overflow: hidden;
+
+      .card-body {
+        flex-direction: column;
+
+        .col-md-6 {
+          width: 100%;
+        }
+
+        .contact-box {
+          .contact-form {
+            max-width: 100%;
+          }
+        }
+
+        .right-img {
+          img {
+            bottom: 0px;
+            top: initial;
+          }
+        }
+      }
+    }
+  }
+
+  // old page css start ======================================
+  .deal_optimizer_kit {
+    .kit_box {
+      .card-body {
+        .box_sec {
+          width: calc(50% - 15px);
+        }
+      }
+    }
+  }
+
+  .agent-banner {
+    .banner-content {
+      h1 {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .property-search-sec {
+    .search-loc {
+      .search-city {
+        width: 100%;
+
+        .city-inp {
+          flex-direction: column;
+          align-items: initial;
+          width: 100%;
+
+          .city-frm {
+            margin: 0 0 20px 0;
+          }
+        }
+      }
+    }
+  }
+
+  .hello_kate_sec {
+    .kate_card {
+      .card-body {
+        .kate_left_sec {
+          justify-content: space-between;
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    &.hello_vineet {
+      .kate_card {
+        .card-body {
+          .search-data-list {
+            li {
+              margin-bottom: 15px;
+
+              p {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .instaWidget {
+    .title {
+      width: 100%;
+    }
+
+    .readingBox {
+      .left {
+        flex: 0 1 100%;
+        min-width: 100%;
+      }
+
+      .right {
+        flex: 0 1 100%;
+        min-width: 100%;
+        margin-top: 35px;
+      }
+    }
+  }
+
+  .myDeal_sec {
+    .newDeal {
+      margin-bottom: 20px;
+    }
+
+    &.myHome_sec {
+      &.new_myHome_sec {
+        .newDeal {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .printProperty-sec {
+    .print-view-box {
+      .featuretable-sec {
+        .feature-table-o {
+          .table {
+            tbody {
+              tr {
+                td {
+                  font-size: 14px;
+                  line-height: 18px;
+                }
+              }
+            }
+
+            thead {
+              tr {
+                th {
+                  font-size: 14px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // old page css end ======================================
+  .searchHack-loc {
+    .hackSearch-card {
+      .card-body {
+        .searchDoor-form {
+          .lastSold-door {
+            [class*="col-md-8"],
+            [class*="col-md-2"] {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .connet-rachel-sec {
+    &.connerWith-rachel-new {
+      .card {
+        .card-body {
+          .contact-box {
+            .withRach {
+              margin-bottom: 60px;
+            }
+          }
+
+          .qusAsk-form {
+            .form-group {
+              .form-control {
+                height: 39px;
+                padding: 8px;
+                font-size: 14px;
+              }
+            }
+
+            .aptStreet-no {
+              align-items: flex-end;
+
+              [class*="col-md-3"] {
+                width: 25%;
+              }
+
+              [class*="col-md-6"] {
+                width: 50%;
+              }
+            }
+
+            .btn {
+              &.btn-green {
+                padding: 10px 12px;
+                font-size: 14px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .hacker-opportun {
+    &.agentNew-deal {
+      .searchFilter_sec {
+        .form-row {
+          margin-bottom: 20px;
+
+          .searchFilter {
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .main_agent_sec {
+    &.listOptimiser-table {
+      .listingOPT-map {
+        .pinaddress-sec {
+          .drowMap-p {
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .my-route-box {
+        .card {
+          .card-body {
+            .recommanDate-plan {
+              margin: 40px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .searchHack-loc {
+    .hackSearch-card {
+      .card-body {
+        .searchDoor-form {
+          .form-group {
+            .homeType-list {
+              &.btm-listTY {
+                justify-content: initial;
+
+                li {
+                  width: calc(33.33% - 10px);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .dashVideo-listBox {
+    .videoTut-listRow {
+      .leftStep-list {
+        width: 30%;
+        max-width: 320px;
+      }
+      .rightVideo-BoxList {
+        width: 70%;
+        .tutList-row {
+          [class*="col-"] {
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+  // ===========story page css start==================//
+  .home-banner {
+    &.about-banner {
+      &.story-banner {
+        height: 100%;
+        .left-img {
+          background-position: center center;
+        }
+        .right-content {
+          h1 {
+            max-width: 370px;
+          }
+        }
+      }
+    }
+  }
+  .whyHomeoptima-story {
+    .about-icons {
+      .half {
+        .box {
+          width: calc(50% - 20px);
+        }
+      }
+    }
+  }
+  // ===========story page css end==================//
+
+  // ===========Team page css start==================//
+  .about-banner {
+    &.team-banner {
+      height: 100%;
+      .right-content {
+        h1 {
+          max-width: 370px;
+        }
+      }
+    }
+  }
+
+  // ===========Team page css end==================//
+
+  .subpage-banner {
+    &.search-home {
+      &.watchArea-section {
+        .watchItem-row {
+          .left-opt {
+            margin-bottom: 15px;
+            .watch-btn {
+              top: 71px;
+            }
+          }
+          .right-opt {
+            // justify-content:flex-start;
+          }
+        }
+      }
+    }
+  }
+  .reportList-modal {
+    &.watchedArea-modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .myDeal_table {
+              &.watchArea-table {
+                table {
+                  thead {
+                    tr {
+                      th {
+                        &:nth-child(1) {
+                          width: 6%;
+                        }
+                        &:last-child {
+                          width: 38%;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .editWatch-form {
+              padding: 0 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .cma-dashboardSec {
+    &.knowledge-hubHerobanner {
+      .cma-tabList {
+        .cma-btn {
+          .nav {
+            border-right: 1px solid $skeyBlue-light;
+          }
+        }
+      }
+    }
+  }
+  .knowledgeRequest-detailPage {
+    .row {
+      [class*="col-md-9"] {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      [class*="col-md-3"] {
+        width: 100%;
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .formFill-row {
+          flex-direction: column-reverse;
+          [class*="col-md-6"] {
+            width: 100%;
+            &:first-child {
+              margin-top: 50px;
+            }
+          }
+          .rightForm-data {
+            .qusAsk-form {
+              .row {
+                &.aptStreet-no {
+                  align-items: flex-end;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .teamMember-dataList {
+    .teamData-list {
+      margin-bottom: 30px;
+      .img-block {
+        width: 90px;
+        min-width: 90px;
+        height: 90px;
+        img {
+          height: 80px;
+        }
+      }
+      .team-data {
+        h5 {
+          font-size: 16px;
+          line-height: 20px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 18px;
+        }
+        a {
+          font-size: 15px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+  .teamData-list {
+    margin-bottom: 30px;
+    .img-block {
+      width: 90px;
+      min-width: 90px;
+      height: 90px;
+      img {
+        height: 80px;
+      }
+    }
+    .team-data {
+      h5 {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 18px;
+      }
+      a {
+        font-size: 15px;
+        line-height: 18px;
+      }
+    }
+  }
+  .trackingHome-section {
+    .sectionHead {
+      h2 {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+  .ourFooter {
+    .midFooter {
+      &.midOnly-contact {
+        .mail-moblist {
+          li {
+            a {
+              span {
+                font-size:18px;
+                line-height:24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .home-banner{
+    &.agent-newbanner{
+      &.agent-bannerSml{
+        height:100%;
+        .left-img{
+          background-size: 320px;
+          background-position: bottom -200px center;
+          height: 320px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #map {
+    &.fixed {
+      position: fixed !important;
+      top: 90px;
+      right: 0;
+      height: calc(100vh - 90px);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .homeSearch-slider {
+    .searchSlider {
+      .slick-slide {
+        margin: 0 7.5px;
+      }
+
+      .slick-arrow {
+        &.slick-prev {
+          &::before {
+            left: 11px;
+          }
+        }
+
+        &.slick-next {
+          &::before {
+            right: 11px;
+          }
+        }
+      }
+    }
+
+    .searchBox {
+      max-width: 320px;
+      margin: auto;
+    }
+  }
+
+  .home-banner {
+    .left-img {
+      height: 600px;
+
+      &.HO1 {
+        background-size: 850px;
+        background-position: center -59px;
+      }
+
+      &.HO2 {
+        background-size: 900px;
+        background-position: center -59px;
+      }
+
+      &.HO3 {
+        background-size: 850px;
+        background-position: center -90px;
+      }
+
+      &.HO4 {
+        background-size: 780px;
+        background-position: center -100px;
+      }
+
+      &.HO5 {
+        background-size: 900px;
+        background-position: center -190px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767.95px) {
+  .home-banner {
+    .left-img {
+      height: 532px;
+
+      &.HO6 {
+        background-position: center -105px;
+        background-size: 775px;
+      }
+    }
+
+    .right-content {
+      .buyTab {
+        .tabdata {
+          .btn-green {
+            padding: 4px 10px;
+            font-size: 10pt;
+            line-height: 12pt;
+            height: 32px;
+          }
+        }
+      }
+
+      .marketPreictor {
+        .tabdata {
+          .detechedList {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+              flex: 0 1 33%;
+
+              a {
+                font-size: 10pt;
+                line-height: 12pt;
+
+                img {
+                  width: 24px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .getPreapprove {
+        .tabdata {
+          button {
+            padding: 4px 10px;
+            font-size: 10pt;
+            line-height: 12pt;
+            height: 25px;
+          }
+        }
+      }
+
+      .homeWorth {
+        .estimateForm {
+          .row {
+            [class*="col-md-7"] {
+              width: 66.6666666667%;
+            }
+
+            [class*="col-md-5"] {
+              width: 33.33%;
+              padding-right: 15px;
+            }
+
+            .customInput {
+              padding-right: 15px;
+
+              input {
+                padding: 4px 10px;
+              }
+
+              .btn-green {
+                right: 15px;
+                padding: 4px 10px;
+                font-size: 10pt;
+                line-height: 12pt;
+                height: 32px;
+              }
+            }
+          }
+        }
+      }
+
+      h1,
+      .h1 {
+        font-size: 38px;
+        line-height: 40px;
+      }
+
+      .bannerTabs {
+        li {
+          flex: 0;
+
+          button {
+            font-size: 9pt;
+            line-height: 11pt;
+            padding-bottom: 5px;
+
+            &.active {
+
+              &::after {
+                bottom: -12px;
+              }
+            }
+
+            span {
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+
+      .tabdata p {
+        font-size: 10pt;
+      }
+    }
+  }
+
+  .optimaAgent {
+    .row {
+      flex-direction: column-reverse;
+    }
+
+    .helpBox {
+      .leftAgent {
+        position: inherit;
+      }
+
+      .searchForm {
+        .form-row {
+          textarea {
+            &.form-control {
+              height: inherit;
+            }
+          }
+        }
+      }
+    }
+
+    .agent-section .relative .btm {
+      position: relative;
+    }
+  }
+
+  .ourFooter {
+    .midFooter {
+      .mobileDevice {
+        .innerImg {
+          left: 18%;
+        }
+      }
+    }
+  }
+
+  .dreamHome {
+    .leftContent {
+      margin-top: 25px;
+      margin-left: 15px;
+
+      h3 {
+        max-width: 100%;
+        font-size: 15pt;
+        line-height: 17pt;
+      }
+
+      .seeHow {
+        font-size: 11pt;
+        line-height: 13pt;
+      }
+    }
+
+    .rightImg {
+      .bgGradient {
+        max-width: 100%;
+        margin-top: 60px;
+        margin-right: 30px;
+      }
+    }
+
+    .row {
+      flex-direction: column-reverse;
+
+      &.upsizeReport {
+        margin-bottom: 0;
+        margin-top: 70px;
+
+        .leftContent {
+          .estimateForm {
+            .row {
+              flex-direction: row;
+
+              [class*="col-md-7"] {
+                width: 66.6666666667%;
+              }
+
+              [class*="col-md-5"] {
+                width: 33.3333333333%;
+              }
+
+              .customInput .btn {
+                line-height: 12px;
+                font-size: 10pt;
+                height: 32px;
+              }
+            }
+          }
+
+          .needCall a {
+            font-size: 10pt;
+            line-height: 12pt;
+          }
+        }
+
+        .rightImg {
+          padding-left: 0;
+
+          .bgGradient {
+            margin-left: 20px;
+          }
+        }
+      }
+
+      &.rtlRow {
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+
+        .rightImg {
+          .bgGradient {
+            margin-top: 0;
+            margin-left: 30px;
+            margin-right: 0;
+          }
+        }
+
+        .leftContent {
+          margin-top: 60px;
+        }
+      }
+
+      &.mt-3 {
+        margin-top: 0 !important;
+        margin-bottom: 0;
+      }
+    }
+
+    padding-top: 0;
+
+    .sectionHead {
+      display: none;
+    }
+
+    .fix-margin {
+      margin: 0px !important;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .homeSearch-slider {
+    .searchBox {
+      .cardBox {
+        .card-header {
+          max-height: 250px;
+
+          img {
+            max-height: 250px;
+          }
+        }
+      }
+    }
+  }
+
+  .sectionHead {
+    h2 {
+      font-size: 21px;
+      line-height: 24px;
+
+      &::after {
+        bottom: 25px;
+      }
+    }
+  }
+
+  .ready-banner {
+    .banner-content {
+      h1 {
+        font-size: 32px;
+        line-height: 38px;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font-size: 21px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  .sectionHead {
+    .h2,
+    h2 {
+      span::after {
+        bottom: -16px;
+        left: 2px;
+        background: url(../../images/heaing-line.png) no-repeat left center;
+        width: 180px;
+        height: 28px;
+        background-size: 100%;
+      }
+    }
+  }
+
+  .searchResult {
+    .resultBox {
+      margin: 0 auto 40px;
+
+      .card {
+        height: calc(100% - 90px);
+
+        .card-body {
+          .averageTREB {
+            [class*="col-md-4"] {
+              flex: 0 0 auto;
+              width: 33.3333333333%;
+            }
+
+            [class*="col-md-8"] {
+              flex: 0 0 auto;
+              width: 66.6666666667%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ourFooter {
+    .topFooter {
+      .row {
+        &.midMenuRow {
+          [class*="col-"] {
+            width: auto;
+          }
+
+          .menuList {
+            .fItem {
+              a {
+                font-size: 14px;
+              }
+            }
+          }
+
+          .footerMenu {
+            .fPera {
+              margin: 12px 0 20px 0;
+            }
+          }
+        }
+      }
+
+      .footerMenu {
+        &.desktopContact {
+          display: none;
+        }
+      }
+
+      .logoCol {
+        max-width: 50%;
+      }
+
+      .mobileContact {
+        display: inline-block;
+        max-width: 50%;
+        padding-left: 30px;
+
+        .footerMenu {
+          .fPera {
+            margin: 10px 0 20px 0;
+          }
+
+          .menuList {
+            .fItem {
+              a {
+                font-size: 15px;
+                line-height: 18px;
+                word-break: break-all;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .midFooter {
+      padding: 29px 15px;
+
+      .mobileApp {
+        .appRate {
+          .downLoadHead {
+            margin-left: 12px;
+          }
+
+          .playStore {
+            margin: 0 0 0 10px;
+          }
+        }
+      }
+    }
+
+    .bottomFooter {
+      .socialLink {
+        text-align: center;
+        margin: 30px 0 0;
+      }
+    }
+  }
+
+  .homeSearch-slider {
+    .searchSlider {
+      margin: 0 15px;
+      position: relative;
+
+      .slick-arrow {
+        &.slick-prev {
+          height: 60px;
+
+          &::before {
+            left: 10px;
+          }
+        }
+
+        &.slick-next {
+          height: 60px;
+
+          &::before {
+            right: -4px;
+          }
+        }
+      }
+    }
+
+    .searchBox {
+      .searchTitle {
+        font-size: 15pt;
+        line-height: 17pt;
+      }
+
+      .customInput .btn {
+        padding: 4px 10px;
+        font-size: 10pt;
+        line-height: 18pt;
+      }
+    }
+  }
+
+  .mobileBox {
+    .mobMenu {
+      li {
+        &.aboutMenu-mob {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .searchHome {
+    .searchHome-area {
+      .row {
+        .customInput {
+          max-width: 100%;
+        }
+
+        .priceRange {
+          min-width: 100%;
+          margin: 20px 0;
+          justify-content: center;
+
+          label {
+            margin-right: 12px;
+            min-width: 100px;
+          }
+
+          .form-range {
+            max-width: 100%;
+          }
+        }
+
+        .filterSelect {
+          i {
+            right: 15px;
+          }
+        }
+      }
+    }
+
+    .ShowToggle {
+      margin: 20px 0 0;
+      padding-bottom: 20px;
+    }
+  }
+
+  .subpage-banner {
+    .banner-content {
+      margin-bottom: 27px;
+
+      .h1,
+      h1 {
+        font-size: 38px;
+        line-height: 40px;
+        font-weight: 600;
+      }
+    }
+
+    &.search-home {
+      .d-flex {
+        flex-wrap: wrap;
+        position: relative;
+      }
+
+      .left-opt {
+        .top-search {
+          flex-wrap: wrap;
+          justify-content: space-between;
+
+          .input-sec {
+            max-width: calc(100% - 107px);
+            flex: 0 1 auto;
+
+            input {
+              font-size: 10px;
+              height: 25px;
+            }
+
+            button {
+              height: 25px;
+              font-size: 12px;
+            }
+          }
+
+          .price-wrap {
+            font-size: 10pt;
+            margin-top: 25px;
+            margin-left: 0;
+
+            .slider-ui .values {
+              bottom: -20px;
+            }
+
+            & > span {
+              min-width: 90px;
+              margin-left: 0;
+            }
+
+            .form-range {
+              width: 120px;
+            }
+
+            #slider-range {
+              width: 120px !important;
+            }
+          }
+
+          .setting {
+            display: none;
+
+            &.mobile-only {
+              display: block;
+              flex: 0 1 30%;
+              margin: 0;
+              max-width: 97px;
+            }
+
+            .btn {
+              height: 25px;
+              padding: 4px 10px;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+
+      .switch-opt {
+        position: absolute;
+        right: 0;
+        bottom: 2px;
+
+        small {
+          font-size: 10pt;
+        }
+
+        .switch {
+          width: 34px;
+          height: 20px;
+
+          .slider:before {
+            height: 14px;
+            width: 14px;
+            left: 3px;
+            bottom: 3px;
+          }
+
+          input:checked + .slider:before {
+            -webkit-transform: translateX(14px);
+            -ms-transform: translateX(14px);
+            transform: translateX(14px);
+          }
+        }
+      }
+    }
+
+    &.feed {
+      .d-flex {
+        flex-wrap: wrap;
+        position: relative;
+      }
+
+      .left-opt .top-search {
+        flex-wrap: wrap;
+
+        .input-sec {
+          flex: 0 1 auto;
+
+          input {
+            font-size: 10px;
+            height: 25px;
+            min-width: inherit;
+          }
+
+          button {
+            height: 25px;
+            font-size: 12px;
+          }
+        }
+
+        .setting {
+          margin-left: 0px;
+          margin-top: 10px;
+
+          &.mobile-only {
+            display: block;
+            flex: 0 1 30%;
+            margin: 0;
+            max-width: 97px;
+          }
+
+          .btn {
+            height: 25px;
+            padding: 4px 10px;
+            font-size: 10px;
+          }
+        }
+      }
+
+      .switch-opt {
+        position: absolute;
+        right: 0;
+        bottom: 2px;
+
+        small {
+          font-size: 10pt;
+        }
+
+        .switch {
+          width: 34px;
+          height: 20px;
+
+          .slider:before {
+            height: 14px;
+            width: 14px;
+            left: 3px;
+            bottom: 3px;
+          }
+
+          input:checked + .slider:before {
+            -webkit-transform: translateX(14px);
+            -ms-transform: translateX(14px);
+            transform: translateX(14px);
+          }
+        }
+      }
+    }
+
+    &.favourite {
+      .d-flex {
+        flex-wrap: wrap;
+        position: relative;
+      }
+
+      .left-opt {
+        width: calc(100% - 140px);
+
+        .top-search {
+          flex-wrap: wrap;
+
+          .input-sec {
+            flex: 0 1 auto;
+
+            input {
+              font-size: 10px;
+              height: 25px;
+              width: 100%;
+            }
+
+            button {
+              height: 25px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .switch-opt {
+        position: absolute;
+        right: 0;
+        bottom: 2px;
+
+        small {
+          font-size: 10pt;
+        }
+
+        .switch {
+          width: 34px;
+          height: 20px;
+
+          .slider:before {
+            height: 14px;
+            width: 14px;
+            left: 3px;
+            bottom: 3px;
+          }
+
+          input:checked + .slider:before {
+            -webkit-transform: translateX(14px);
+            -ms-transform: translateX(14px);
+            transform: translateX(14px);
+          }
+        }
+      }
+    }
+  }
+
+  .homeSearch-result {
+    .row {
+      .leftData {
+        width: 100%;
+        padding: 39px 15px 14px;
+
+        .leftShowcase {
+          &.saleSold-select {
+            justify-content: flex-start;
+            margin: 12px 0 0;
+          }
+        }
+
+        .realEstate-result {
+          [class*="col-"] {
+            padding-left: 0;
+            padding-right: 0;
+          }
+        }
+      }
+
+      .rightMap {
+        width: 100%;
+      }
+    }
+  }
+
+  .buyingProcess {
+    .row {
+      align-items: flex-start;
+
+      .leftIcon {
+        .stepBox {
+          width: 125px;
+          height: 125px;
+          padding: 26px;
+        }
+
+        &::after {
+          top: 125px;
+          left: 42%;
+          min-height: 260px;
+        }
+      }
+
+      .rightData {
+        .stepHead {
+          font-size: 22px;
+          line-height: 25px;
+        }
+      }
+
+      margin: 0 auto 35px;
+    }
+  }
+
+  .getResult-slider {
+    .sliderCard {
+      .slick-track {
+        .slick-slide {
+          margin: 0 25px;
+
+          .row {
+            flex-direction: column;
+          }
+        }
+      }
+
+      .leftImg {
+        width: 100%;
+        padding-left: 0;
+      }
+
+      .rightData {
+        width: 100%;
+        border-top: none;
+        border-left: 1px solid $skyblue-light-8d;
+
+        .recordList {
+          justify-content: space-between;
+
+          li {
+            font-size: 16px;
+
+            p {
+              line-height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .toolMarket {
+    .sectionHead {
+      h2 {
+        &::after {
+          top: 57%;
+          left: 1%;
+        }
+      }
+    }
+  }
+
+  body {
+    font-size: 10pt;
+    line-height: 12pt;
+  }
+
+  section.py-68,
+  .section.py-74 {
+    padding: 48px 0;
+  }
+
+  .form-control {
+    padding: 4px 10px;
+    font-size: 10pt;
+    height: 32px;
+    line-height: 12pt;
+  }
+
+  .about-section {
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .about-icons .half .box {
+      img {
+        max-width: 32px;
+      }
+
+      span {
+        width: 100px;
+      }
+    }
+  }
+
+  #map {
+    // display: none;
+  }
+
+  .map-searc-sec {
+    .content-sec {
+      width: initial;
+
+      h3 {
+        font-size: 20.63px;
+        line-height: 24px;
+      }
+
+      .head-sec {
+        .right {
+          align-self: flex-end;
+          -webkit-align-items: flex-end;
+
+          .notify {
+            & > span {
+              white-space: nowrap;
+              font-size: 12px;
+              line-height: 14px;
+
+              img {
+                width: 12px;
+              }
+            }
+          }
+        }
+
+        .left {
+          & > div {
+            font-size: 12px;
+            line-height: 12px;
+
+            .filter-box {
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+
+              .dropdown {
+                margin-left: 5px;
+
+                .dropdown-toggle {
+                  // display: inline-block;
+                  // width:85px;
+                  // white-space: nowrap;
+                  // overflow: hidden !important;
+                  // text-overflow: ellipsis;
+                  span {
+                    // display: inline-block;
+                    // width:85px;
+                    // white-space: nowrap;
+                    // overflow: hidden !important;
+                    // text-overflow: ellipsis;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.feed {
+      .content-sec {
+        .head-sec {
+          .left {
+            & > div {
+              .filter-box {
+                .dropdown {
+                  .dropdown-toggle {
+                    .drop-text {
+                      display: inline-block;
+                      width: 80px;
+                      white-space: nowrap;
+                      overflow: hidden !important;
+                      text-overflow: ellipsis;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    .right-content {
+      padding: 50px 24px;
+
+      p {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      &.pulse {
+        .bannerTabs {
+          li {
+            margin-right: 14px;
+            flex: 1;
+            max-width: 50px;
+
+            button {
+              align-self: baseline;
+              height: initial;
+              flex-direction: column;
+
+              img {
+                height: 24px;
+              }
+
+              span {
+                font-size: 10px;
+                line-height: 12px;
+              }
+            }
+          }
+        }
+
+        .tab-content .customInput {
+          .btn-green {
+            font-size: 10pt;
+            padding: 4px 10px;
+            height: 25px;
+            line-height: 12px;
+            white-space: nowrap;
+          }
+
+          .form-control {
+            height: 25px;
+            padding: 4px 10px;
+            font-size: 10pt;
+          }
+        }
+      }
+
+      .bannerTabs {
+        border-color: rgba(255, 255, 255, .5);
+      }
+    }
+  }
+
+  .pulse-content {
+    padding: 44px 0;
+
+    .sectionHead .h6 {
+      font-size: 10pt;
+    }
+
+    .content-box {
+      h5 {
+        font-size: 12pt;
+      }
+
+      .puls-sec-p {
+        margin-left: -3px;
+        margin-top: -3px;
+
+        .puls-box-b {
+          padding: 10px;
+          width: calc(50% - 6px);
+          min-height: initial;
+          margin: 3px;
+
+          span {
+            font-size: 11pt;
+            line-height: 13pt;
+            margin-bottom: 0;
+          }
+
+          h3 {
+            font-size: 11pt;
+            line-height: 12pt;
+          }
+        }
+      }
+    }
+
+    .know-first {
+      .subscribe {
+        .h4,
+        h4 {
+          font-size: 16pt;
+          line-height: 18px;
+        }
+
+        p {
+          font-size: 11pt;
+        }
+
+        .customInput {
+          .btn {
+            font-size: 10pt;
+            line-height: 12.5pt;
+            padding: 4px 10px;
+          }
+        }
+
+        .form-control {
+          padding: 4px 10px;
+          font-size: 10pt;
+          line-height: 12pt;
+        }
+      }
+
+      .mobileDevice .innerImg {
+        position: relative;
+        left: 0;
+        text-align: center;
+      }
+    }
+  }
+
+  .btn {
+    padding: 6.5px 10px;
+    font-size: 11pt;
+  }
+
+  .optimaAgent {
+    .helpBox {
+      .searchForm {
+        h5 {
+          font-size: 10pt;
+          font-weight: bold;
+          margin-bottom: 24px;
+        }
+
+        .form-row {
+          label {
+            font-size: 10px;
+            margin-bottom: 6px;
+          }
+
+          .form-control {
+            padding: 4px 10px;
+            font-size: 10pt;
+          }
+
+          .row {
+            flex-direction: row;
+          }
+
+          .citySelect {
+            .updown-icon {
+              right: 5px;
+              top: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .userComment {
+    .sectionHead {
+      margin: 0 0 40px 0;
+
+      .h2,
+      h2 {
+        font-size: 21.25px;
+        line-height: 24px;
+        max-width: 304px;
+
+        span {
+          &::after {
+            width: 110px;
+          }
+        }
+      }
+    }
+
+    &.about {
+      padding-top: 40px;
+    }
+
+    .slick-slider {
+      margin: 0 20px;
+    }
+
+    .commentBox {
+      .card-body {
+        .userImg {
+          width: 100px;
+          height: 100px;
+        }
+
+        .commentT {
+          p {
+            &.message-tag {
+              font-size: 10pt;
+              line-height: 12pt;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .userComment {
+    .sectionHead {
+      h3 {
+        &.heading-comment {
+          font-size: 21.25px;
+          line-height: 28px;
+          max-width: 304px;
+          span {
+            &::after {
+              height: 26px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .subpage-banner {
+    &.search-home {
+      &.watchArea-section {
+        .watchItem-row {
+          position: relative;
+          .left-opt {
+            margin-bottom: 12px;
+            .top-search {
+              max-width: 100%;
+            }
+            .price-wrap {
+              display: none;
+            }
+            .switch-opt {
+              position: initial;
+            }
+            .watch-btn {
+              // position: absolute;
+              top: 37px;
+              font-size: 12px;
+              padding: 8.5px 8px;
+              img {
+                width: 12px;
+              }
+            }
+          }
+          .right-opt {
+            justify-content: flex-end;
+            .filter-btn {
+              .btn {
+                padding: 6px 12px;
+                &::after {
+                  border-top: 6px solid;
+                  border-right: 4px solid transparent;
+                  border-left: 4px solid transparent;
+                }
+              }
+            }
+            .switch-opt {
+              position: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+  .reportList-modal {
+    &.watchedArea-modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .type-address {
+              padding: 0 15px 15px;
+              .search-box {
+                .srcBtn {
+                  padding: 4px 12px;
+                  i {
+                    font-size: 15px;
+                  }
+                }
+              }
+            }
+            .mapCreate-box {
+              padding: 0 15px 15px;
+            }
+            .editWatch-form {
+              .areaUpper-row {
+                .col-4 {
+                  width: 50%;
+                  &.priceRange-col {
+                    width: 100%;
+                  }
+                }
+              }
+              .drop-down {
+                .dropdown {
+                  .dropdown-toggle,
+                  .days-on-market-main {
+                    font-size: 12px;
+                    padding: 9px 10px;
+                    i {
+                      right: 11px;
+                      top: 11px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .section-title {
+    .titleHighlighter {
+      max-width: 150px;
+    }
+  }
+
+.search-home {
+  &.agentV4 {
+   form {
+    & > .d-flex {
+      flex-direction: column;
+      .left-opt {
+        justify-content: center;
+      }
+    }
+   } 
+  }
+}
+  .decision-tools {
+    .largeTitle {
+      font-size: 20px;
+    }
+  }
+  .agent-banner {
+    &.invi-dashboard {
+      .banner-content {
+        h4 {
+          font-size: 18px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+
+  .report-list {
+    &.request-reportList {
+      .searchFilter_sec {
+        justify-content: flex-start;
+      }
+    }
+  }
+
+  .reportList-modal {
+    &.home-estimate-repoModal {
+      .or-line {
+        margin: 12px 0;
+      }
+
+      .repo-imgL {
+        img {
+          top: 6px;
+          left: 10px;
+          width: 12px;
+          height: 12px;
+        }
+      }
+
+      .cal-result {
+        height: calc(100% - 25px);
+
+        .result-box {
+          padding: 15px;
+
+          .top,
+          .bottom {
+            p {
+              font-size: 14px;
+              line-height: 18px;
+            }
+
+            span {
+              font-size: 20px;
+              line-height: 24px;
+            }
+          }
+
+          .top {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .report-list {
+    .searchFilter_sec {
+      margin-left: inherit;
+      max-width: 100%;
+
+      .searchFilter {
+        i {
+          top: 7px;
+          font-size: 16px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    .show-more {
+      margin-top: 20px;
+    }
+  }
+
+  .reportList-modal {
+    .modal-dialog {
+      .modal-content {
+        .modal-header {
+          padding: 15px;
+
+          h5 {
+            font-size: 20px;
+            line-height: 24px;
+          }
+
+          .btn-close {
+            visibility: visible;
+          }
+        }
+
+        .modal-body {
+          padding: 20px 15px;
+
+          .form-group {
+            margin-bottom: 15px;
+
+            &.input-HO {
+              .beds-inp,
+              .bathRooms-inp {
+                img {
+                  top: 3px;
+                }
+              }
+
+              .apt-unit {
+                margin-right: 0;
+              }
+            }
+          }
+
+          .msl23-tabs {
+            flex-wrap: nowrap;
+
+            .nav-item {
+              padding-bottom: 16px;
+
+              .nav-link {
+                .upArrow {
+                  .up-box {
+                    &::before {
+                      bottom: -12px;
+                    }
+
+                    &::after {
+                      bottom: -12px;
+                    }
+                  }
+                }
+
+                .form-check {
+                  .form-check-label {
+                    min-height: 48px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cma-dashboardSec {
+    .cma-label {
+      margin-bottom: 5px;
+    }
+
+    .cma-textarea {
+      height: inherit;
+    }
+
+    .cma-select {
+      padding: 4px 9px;
+    }
+  }
+
+  .my-route-box {
+    .card {
+      .card-body {
+        .address-box {
+          max-width: 100%;
+          margin-bottom: 20px;
+
+          li {
+            p {
+              text-align: left;
+
+              &.p-add {
+                max-width: 100%;
+                text-align: right;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .about-rachel-section {
+    &.about-form {
+      display: block;
+    }
+  }
+
+  .page-banner {
+    .banner-content {
+      h1 {
+        font-size: 38px;
+        line-height: 42px;
+      }
+
+      h2 {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .page-banner {
+    .banner-image {
+      img {
+        height: 520px;
+      }
+    }
+  }
+
+  .bubble-list {
+    .bubble-content {
+      display: flex;
+      align-items: center;
+      margin: 0 0 24px 0;
+
+      .image-thumb {
+        width: 40%;
+        height: inherit;
+        margin: 0;
+
+        img {
+          max-width: 106px;
+        }
+
+        span {
+          font-size: 13px;
+          line-height: 16px;
+          max-width: 85px;
+          margin: 0 10px;
+        }
+      }
+
+      .content-list {
+        margin-left: 30px;
+        width: 60%;
+      }
+    }
+  }
+
+  .mortgage-block {
+    .YN-box {
+      a {
+        margin: 0 20px;
+
+        i {
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+  }
+
+  .mortgate-content {
+    .left-block {
+      .amount-in {
+        .col-md-6 {
+          // width:50%;
+          .form-group {
+            label {
+              font-size: 10px;
+            }
+          }
+
+          &:first-child {
+            width: 60%;
+          }
+
+          &:last-child {
+            width: 40%;
+          }
+        }
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-list {
+      &.feed-l {
+        display: none;
+      }
+    }
+
+    .feedback-about {
+      max-width: 100%;
+      width: 100%;
+      display: flex;
+
+      .app-detail {
+        width: 50%;
+
+        h5 {
+          max-width: 200px;
+          margin: 0 auto 2px;
+          font-size: 19px;
+          line-height: 24px;
+        }
+
+        .stars {
+          margin-bottom: 0;
+
+          i {
+            font-size: 11px;
+            line-height: 13px;
+          }
+        }
+
+        .app-market {
+          margin: 36px 0 0 0;
+
+          a {
+            margin: 0 0 4px 0;
+
+            img {
+              height: 29px;
+            }
+
+            &:last-child {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-block {
+    padding: 60px 0;
+
+    &.white-bg {
+      .content {
+        margin-top: 30px;
+      }
+    }
+
+    &.grey-bg {
+      .content {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .story {
+    .section-title {
+      margin-bottom: 0px;
+    }
+
+    .story-content {
+      flex-direction: column;
+      overflow: hidden;
+
+      .pre,
+      .post {
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        height: 180px;
+
+        img {
+          margin-bottom: 0;
+          margin-left: 20%;
+        }
+      }
+
+      &:before {
+        background-size: contain;
+        transform: rotate(90deg) translate(0px, 90px);
+        width: calc(100% + 160px);
+      }
+
+      .text {
+        flex: 0 1 100%;
+        max-width: 45%;
+        text-align: left;
+      }
+    }
+
+    .f-text {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+
+  .optimaAgent {
+    .sectionHead {
+      h2 {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .optimaAgent {
+    &.agentPage {
+      .card {
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0;
+
+        .row {
+          flex-direction: row-reverse;
+          --bs-gutter-x: 0;
+
+          .col-md-6 {
+            background-color: $white;
+            border-radius: 0 25px 25px 25px;
+            padding: 15px 12px 0;
+            overflow: hidden;
+            position: relative;
+
+            // --bs-gutter-x:0;
+            &:first-child {
+              margin: 0 0 25px 0;
+              min-height: 240px;
+            }
+          }
+
+          .relative {
+            width: 50%;
+            max-width: 50%;
+
+            h3 {
+              font-size: 24px;
+              line-height: 28px;
+            }
+
+            .row-text {
+              margin: 0 0 10px 0;
+
+              span {
+                font-size: 11.88px;
+                line-height: 15px;
+              }
+
+              h5 {
+                display: flex;
+                align-items: center;
+
+                img {
+                  width: 12px;
+                  margin: 0 5px 0 0;
+                }
+              }
+
+              &.btm {
+                position: absolute;
+                bottom: 15px;
+                margin-bottom: 0;
+
+                span {
+                  font-size: 11.88px;
+                  line-height: 15px;
+                }
+              }
+            }
+          }
+
+          .leftAgent {
+            position: absolute;
+            right: 5%;
+            top: 15px;
+            left: inherit;
+            bottom: 0;
+            width: calc(50% - 5%);
+            max-width: calc(50% - 5%);
+
+            img {
+              height: 100%;
+            }
+          }
+
+          .searchForm {
+            padding: 0 0 14px;
+
+            h3 {
+              font-size: 24px;
+              line-height: 28px;
+            }
+
+            .form-row {
+              .col {
+                padding: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.buy-banner {
+      .left-img {
+        min-height: 350px;
+        background-position: center;
+      }
+    }
+  }
+
+  .getResult-slider {
+    .sliderCard {
+      .slick-arrow {
+        &.slick-prev {
+          left: -10px;
+        }
+
+        &.slick-next {
+          right: -6px;
+        }
+      }
+    }
+  }
+
+  section {
+    &.py-80 {
+      padding: 30px 0;
+    }
+  }
+
+  .buyingProcess {
+    .sectionHead {
+      p {
+        margin: 30px 0 0;
+      }
+    }
+  }
+
+  .tab-content {
+    .customInput {
+      input {
+        padding-right: 106px;
+      }
+    }
+  }
+
+  .home-banner {
+    &.pulse-banner {
+      .right-content {
+        &.pulse {
+          .tab-content {
+            .customInput {
+              .customSelect {
+                img {
+                  top: 6px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    .right-content {
+      .tabdata {
+        &.tabdata-o {
+          .customInput {
+            .btn-green {
+              right: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.pulse-banner {
+      .right-content {
+        &.pulse {
+          .bannerTabs {
+            li {
+              button {
+                span {
+                  white-space: inherit;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .registerMdal-box {
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          flex-direction: column-reverse;
+
+          .left-img {
+            width: 100%;
+
+            img {
+              &.desktop-img {
+                display: none;
+              }
+
+              &.mobile-img {
+                display: block;
+              }
+            }
+          }
+
+          .right-data {
+            width: 100%;
+            padding: 30px;
+
+            .registerForm {
+              .row {
+                .col-md-6 {
+                  &:first-child {
+                    margin-bottom: 11px;
+                  }
+
+                  &:last-child {
+                    padding-left: 0px;
+                  }
+                }
+
+                .form-group {
+                  .form-control {
+                    height: 29px;
+                    padding: 7px 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .paginationList {
+    display: inherit;
+  }
+
+  .map-searc-sec {
+    &.search-home {
+      .content-sec {
+        .head-sec {
+          flex-direction: column;
+
+          .left {
+            & > div {
+              .filter-box {
+                .dropdown {
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.filter {
+      .more-filter-popup {
+        width: 100%;
+
+        .top-sec {
+          [class*="col-"] {
+            width: 50%;
+
+            &:nth-child(1) {
+              width: 100%;
+
+              .drop-down {
+                width: 50%;
+                margin-bottom: 23px;
+
+                .dropdown {
+                  .dropdown-toggle {
+                    font-size: 12px;
+                    line-height: 15px;
+                    overflow: hidden;
+
+                    i {
+                      top: 10px;
+                      right: 10px;
+                      position: absolute;
+                      right: 0px;
+                      width: 28px;
+                      height: 100%;
+                      top: 9px;
+                      background-image: linear-gradient(
+                        to bottom,
+                        #fbfbfb,
+                        #e8e8e8
+                      );
+                      pointer-events: none;
+                      margin-top: -9px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    }
+                  }
+                }
+              }
+            }
+
+            &:nth-child(2) {
+              width: calc(50% - 10px);
+              margin-right: 10px;
+            }
+          }
+        }
+
+        .property-sec {
+          .block {
+            .box {
+              width: calc(16.67% - 1px);
+            }
+          }
+        }
+
+        .dropdown-sec {
+          [class*="col-"] {
+            width: 33.33%;
+
+            .drop-down {
+              label {
+                font-size: 10px;
+                line-height: 13px;
+              }
+
+              .dropdown {
+                .dropdown-toggle {
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+
+        .bottom {
+          width: 100%;
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+
+  .report-section {
+    &.home-he-report {
+      .right-data {
+        .customSelect {
+          img {
+            top: 6px;
+          }
+        }
+      }
+    }
+  }
+
+  .listing-area {
+    .property-detail {
+      .features {
+        .table-div {
+          .left {
+            .odd,
+            .even,
+            & > div {
+              width: 100%;
+            }
+          }
+        }
+
+        .add-more {
+          display: block;
+          margin: 15px 0 0;
+        }
+      }
+
+      .home-tour {
+        display: block;
+        border-radius: 0;
+
+        .block-right {
+          .btn {
+            height: 40px;
+          }
+        }
+      }
+
+      .similar-home {
+        .similar-slider {
+          .cardBox {
+            .card-body {
+              .homePrice {
+                h4 {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .comparable {
+        .compare-slider {
+          .slick-track {
+            .slick-slide {
+              // margin:0 5px;
+            }
+          }
+        }
+      }
+    }
+
+    #sidebar {
+      .home-tour {
+        display: none;
+      }
+
+      .contact-us {
+        border-radius: 0;
+      }
+    }
+  }
+
+  .map-searc-sec {
+    .inner-sec {
+      flex-direction: column;
+    }
+
+    #map {
+      width: 100%;
+      margin: 20px 0 0;
+    }
+  }
+
+  .map-searc-sec {
+    &.search-home {
+      .content-sec {
+        .head-sec {
+          position: relative;
+
+          .left {
+            margin-bottom: 7px;
+
+            & > div {
+              .filter-box {
+                position: absolute;
+                top: 27px;
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .listing-area {
+    .property-detail {
+      .payment-calculator {
+        .p-cal {
+          .middle {
+            margin: 18px 0;
+          }
+
+          .bottom {
+            & > div {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .mortgage-calculator {
+    .col {
+      flex: 1 0 100%;
+
+      .row {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 0;
+        margin: auto;
+
+        & > * {
+          width: auto;
+          padding: 5px 0;
+          max-width: 110px;
+        }
+
+        .col-form-label {
+          flex: 1 0 auto;
+          margin-right: 10px;
+        }
+
+        .col-sm-2 {
+          flex: 1 0 12%;
+          margin-right: 10px;
+
+          .form-control {
+            max-width: 55px;
+            margin-left: auto;
+          }
+        }
+
+        .col-sm-4 {
+          flex: 1 0 50%;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .listing-area {
+    .property-detail {
+      .optima-estimate {
+        .text {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+
+      .life-factors {
+        .nav-tabs {
+          flex-wrap: nowrap;
+          overflow-x: scroll;
+          padding-bottom: 0;
+
+          li {
+            margin-bottom: 0;
+            min-width: fit-content;
+
+            a {
+              font-size: 13px;
+              line-height: 15px;
+              padding: 0 10px;
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+
+      .facilityRow {
+        flex-direction: column-reverse;
+
+        .col-md-4 {
+          max-width: 41.66%;
+          margin-left: auto;
+
+          .est {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .customized-page {
+    padding: 60px 0;
+
+    .main-box {
+      .report-bg-outer {
+        padding: 15px;
+        margin: 15px;
+      }
+    }
+  }
+
+  // old page css start ===================================
+  .myDeal_table {
+    .table {
+      thead {
+        tr {
+          th {
+            &.stkTbl {
+              position: static;
+            }
+
+            &.stkTbl2 {
+              position: static;
+            }
+
+            &.stkTbl3 {
+              position: static;
+            }
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          th {
+            &.stkTbl {
+              position: static;
+            }
+          }
+
+          td {
+            &.stkTbl3,
+            &.stkTbl2 {
+              position: static;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .property-search-sec {
+    .search-loc {
+      flex-direction: column;
+
+      .search-city {
+        border-right: transparent;
+        border-bottom: 1px solid #a5e3f1;
+        padding: 20px 15px;
+
+        .city-inp {
+          .city-frm {
+            .custom-s {
+              i {
+                top: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .search-criteria-sec {
+    .search-criteria-r {
+      padding: 20px 15px;
+    }
+  }
+
+  .search-criteria-sec {
+    .search-criteria-r {
+      .hometype-s {
+        .homeType {
+          margin: 0 0 12px 0;
+        }
+      }
+    }
+  }
+
+  .form-row {
+    .form-group {
+      width: 100%;
+    }
+  }
+
+  .instaWidget {
+    padding: 30px 15px !important;
+
+    .title {
+      font-size: 38px;
+      line-height: 42px;
+    }
+  }
+
+  .instaWidget {
+    .readingBox {
+      .right {
+        .progress-sec {
+          .peak-point {
+            right: 30px;
+            top: 72px;
+          }
+        }
+      }
+    }
+  }
+
+  .agent-banner {
+    .banner-content {
+      h1 {
+        font-size: 26px;
+        line-height: 30px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .myDeal_sec {
+    &.myHome_sec {
+      .myDeal_table {
+        display: none;
+        position: static;
+
+        .table {
+          thead {
+            tr {
+              th {
+                position: static;
+
+                &.addres {
+                  &.stkTbl3 {
+                    position: static !important;
+                  }
+                }
+              }
+            }
+          }
+
+          tbody {
+            tr {
+              th {
+                &.stkTbl-11 {
+                  position: static;
+                }
+              }
+
+              td {
+                &.addres {
+                  &.stkTbl3 {
+                    position: static !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .myDeal_table_mobile {
+        display: block;
+
+        .table {
+          thead {
+            tr {
+              th {
+                font-size: 13px;
+                line-height: 15px;
+                position: initial;
+              }
+            }
+          }
+
+          tbody {
+            tr {
+              th {
+                .customCheckbox {
+                  width: 24px;
+                  height: 24px;
+
+                  &:checked {
+                    &::after {
+                      width: 24px;
+                      height: 24px;
+                    }
+                  }
+                }
+
+                &.stkTbl-11 {
+                  .SqlNo {
+                    padding: 3.5px 6px;
+                    max-width: 35px;
+                    font-size: 12px;
+                    line-height: 15px;
+                  }
+                }
+              }
+
+              td {
+                min-width: 50px;
+                font-size: 13px;
+                line-height: 15px;
+
+                &.fstTd {
+                  min-width: 200px;
+
+                  .mst-c {
+                  }
+
+                  .mst-add {
+                    font-weight: $fw-400;
+                  }
+                }
+
+                &.info-data {
+                  .aa-innerBox {
+                    .info-a {
+                      border: 1px solid #a5e3f1;
+                      padding: 4px 8px;
+                      color: #00b5da;
+                      background-color: #fff;
+                      font-weight: 300;
+                      text-decoration: none;
+                      border-radius: 3px;
+                      display: inline-block;
+
+                      &:hover {
+                        background-color: $blue-two;
+                        border: 1px solid $blue-two;
+                        color: $white;
+                      }
+                    }
+
+                    .dropdown-menu {
+                      padding: 12px;
+                      min-width: 280px;
+                      border: 1px solid $skeyBlue-light;
+                      box-shadow: 0 0 6px rgba(83, 111, 137, 0.35);
+                      z-index: 101;
+
+                      .info-containt {
+                        padding: 0px;
+                        margin: 0;
+
+                        li {
+                          list-style-type: none;
+                          display: flex;
+                          justify-content: space-between;
+                          margin-bottom: 10px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.new_myHome_sec {
+        .newDeal {
+          .newDealbtn {
+            margin: 0 15px 15px 0;
+          }
+        }
+      }
+    }
+
+    &.client_sec_table {
+      .clientTable {
+        display: none;
+      }
+
+      .clientTable-mobile {
+        max-height: 100%;
+        display: block;
+
+        .table {
+          thead {
+            tr {
+              th {
+                font-size: 14px;
+                line-height: 16px;
+              }
+            }
+          }
+
+          tbody {
+            tr {
+              th {
+                .customCheckbox {
+                  width: 24px;
+                  height: 24px;
+                }
+              }
+
+              td {
+                font-size: 14px;
+                line-height: 16px;
+
+                &.u-link {
+                  min-width: 50px;
+
+                  a {
+                    padding: 2px 5.5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .printProperty-sec {
+    .print-view-box {
+      padding: 20px 15px;
+
+      .left-ellen {
+        .assets-list {
+          margin: 0 0 20px 0;
+        }
+      }
+    }
+  }
+
+  .printProperty-sec {
+    .print-view-box {
+      .right-offer-d {
+        .offer-parent {
+          padding: 0 6px;
+        }
+      }
+
+      .gallery-row {
+        flex-direction: column;
+        max-height: 100%;
+
+        .left-g {
+          width: calc(100% - 0px);
+          min-width: 100%;
+          margin: 0 0 15px 0;
+        }
+
+        .right-g {
+          width: calc(100% - 0px);
+
+          img {
+            height: auto;
+          }
+        }
+      }
+
+      .featuretable-sec {
+        .feature-table-o {
+          .table {
+            margin: 0 0 20px 0;
+          }
+        }
+
+        .quality-factore-list {
+          li {
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .text-lr {
+    text-align: left;
+  }
+
+  // old page css end ===================================
+
+  .map-searc-sec {
+    &.filter {
+      .more-filter-popup {
+        .property-sec {
+          .block {
+            .box {
+              img {
+                max-height: 40px;
+                min-height: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .searchResult {
+    .resultBox {
+      .card {
+        .card-body {
+          .okaRoad {
+            p {
+              font-size: 11px;
+              line-height: 13px;
+            }
+
+            .offerH {
+              font-size: 19px;
+              line-height: 21px;
+            }
+
+            .headHH {
+              font-size: 34px;
+              line-height: 38px;
+            }
+          }
+
+          .averageTREB {
+            .perDeal {
+              p {
+                font-size: 13px;
+                line-height: 15px;
+              }
+            }
+          }
+        }
+      }
+
+      h4 {
+        font-size: 15px;
+        line-height: 18px;
+      }
+    }
+  }
+
+  .ourFooter {
+    .bottomFooter {
+      .row {
+        align-items: center;
+
+        .col-md-6 {
+          &:first-child {
+            width: 60%;
+          }
+
+          &:last-child {
+            width: 40%;
+          }
+        }
+      }
+
+      .socialLink {
+        margin: 0;
+        text-align: right;
+      }
+    }
+  }
+
+  .optimaAgent {
+    .helpBox {
+      padding: 13px 14px 0;
+    }
+  }
+
+  .form-row {
+    margin-right: 0px;
+    margin-left: 0px;
+
+    & > .col,
+    [class*="col-"] {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    .form-group {
+      margin-bottom: 0rem;
+    }
+  }
+
+  .userComment {
+    .commentBox {
+      .card-body {
+        .commentT {
+          .message-tag {
+            min-height: 80px;
+          }
+        }
+      }
+    }
+  }
+
+  .about-section {
+    .about-icons {
+      .half {
+        .box {
+          span {
+            width: 75px;
+          }
+        }
+
+        .box {
+          &:last-child {
+            margin-left: 30px;
+            justify-content: flex-end;
+          }
+        }
+      }
+    }
+  }
+
+  .dreamHome {
+    .rightImg {
+      &.saving-img {
+        .bgGradient {
+          margin-right: 0;
+          margin-left: 30px;
+
+          img {
+            margin-left: -30px;
+            margin-top: -30px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .ready-banner {
+    .banner-image {
+      background-image: url(../../images/f_banner.png);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: cover;
+      max-height: 480px;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-about {
+      .app-thumb {
+        max-height: 354px;
+        margin: 0 0 0 15px;
+      }
+
+      .app-detail > img {
+        max-width: 69px;
+        margin: 30px 0 13px 0;
+      }
+    }
+  }
+
+  .about-rachel-section {
+    padding-bottom: 0;
+
+    .about-card-r {
+      display: none;
+    }
+  }
+
+  .connet-rachel-sec {
+    .card {
+      height: 750px;
+      background-size: 350px;
+
+      .contact-box {
+        .contact-form {
+          [class*="col-"] {
+            padding-left: 12px;
+            padding-right: 12px;
+          }
+
+          .row {
+            margin-bottom: 6px;
+
+            & > * {
+              width: initial;
+            }
+
+            &:first-child {
+              .col-md-5 {
+                padding-right: 3px;
+                width: 40%;
+              }
+
+              .col-md-7 {
+                padding-left: 3px;
+                width: 60%;
+              }
+            }
+
+            &:nth-child(2) {
+              .col-md-6 {
+                width: 50%;
+              }
+            }
+
+            &:last-child {
+              .col-md-5 {
+                padding-left: 3px;
+                width: 40%;
+
+                .btn {
+                  font-size: 10px;
+                  padding: 9px;
+                  line-height: 8px;
+                }
+              }
+
+              .col-md-7 {
+                padding-right: 3px;
+                width: 60%;
+              }
+            }
+          }
+        }
+      }
+
+      .right-img {
+        img {
+          width: 460px;
+        }
+      }
+    }
+  }
+
+  .about-rachel-section {
+    &.about-form {
+      padding-top: 0;
+
+      .about-card-r {
+        display: block;
+      }
+    }
+  }
+
+  .searchHack-loc {
+    .hackSearch-card {
+      .card-body {
+        padding: 30px 15px;
+
+        .searchDoor-form {
+          .form-group {
+            margin-bottom: 20px;
+
+            label {
+              margin-bottom: 4px;
+            }
+
+            .custom-select-c {
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .myDeal_sec {
+    &.hacker-opportun {
+      .newDeal {
+        .btn {
+          font-size: 12px;
+          line-height: 15px;
+
+          img {
+            width: 15px;
+            height: 15px;
+          }
+
+          i {
+            font-size: 16px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .main_agent_sec {
+    &.listOptimiser-table {
+      .myDeal_sec {
+        &.client_sec_table {
+          .myDeal_table {
+            display: inherit;
+          }
+        }
+      }
+    }
+  }
+
+  .searchHack-loc {
+    .hackSearch-card {
+      .card-body {
+        .searchDoor-form {
+          .form-group {
+            .homeType-list {
+              &.btm-listTY {
+                li {
+                  width: calc(50% - 10px);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .buyHero-upperBox {
+    .inner-Buy {
+      h4 {
+        font-size: 12px;
+        line-height: 15px;
+      }
+      .btn-close {
+        width: 16px;
+        height: 16px;
+        background-size: 9px;
+        display: none;
+      }
+      .inpt-btnBx {
+        .form-control {
+          padding: 4px 10px 4px 30px;
+        }
+        .searchIcon-area {
+          display: inline-block;
+        }
+        .btn {
+          padding: 5.5px 10px;
+          font-size: 14px;
+          line-height: 14px;
+        }
+      }
+
+      .outer-card {
+        .location-card {
+          .card-header {
+            padding: 7px;
+            h5 {
+              font-size: 12px;
+              line-height: 15px;
+              font-weight: $fw-700;
+            }
+          }
+          .card-body {
+            .location-list {
+              li {
+                padding: 8px 15px;
+                .btnTags {
+                  font-size: 12px;
+                  line-height: 15px;
+                }
+                .seeMore-link {
+                  font-size: 10px;
+                  font-weight: $fw-700;
+                }
+              }
+            }
+          }
+          &.listing-card {
+            .card-body {
+              .location-list {
+                li {
+                  align-items: flex-start;
+                  .left-list {
+                    width: 60%;
+                    .signIn-required {
+                      display: none;
+                    }
+                  }
+                  .right-list {
+                    width: 40%;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    // justify-content: space-between;
+                    height: 100%;
+                    .salePrice-p {
+                      font-size: 16px;
+                      line-height: 18px;
+                    }
+                    .forbtn {
+                      font-size: 12px;
+                      font-weight: $fw-500;
+                      margin: 10px 0 0 0;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .isHero-active .buyHero-upperBox {
+    top: 0;
+  }
+  .dashVideo-listBox {
+    .videoSearch-input {
+      .customInput {
+        .form-control {
+          padding: 9px 40px 9px 9px;
+        }
+        .btn-green {
+          padding: 4.5px 12px;
+          line-height: initial;
+          i {
+            font-size: 10px;
+            line-height: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  //======= team page css start ================//
+  .teamMain-person {
+    .ashish-sectionData {
+      flex-direction: column;
+      height: 240px;
+      .ashish-data {
+        width: calc(100% - 160px);
+        margin-left: auto;
+      }
+    }
+  }
+  .meetOver-team {
+    .row {
+      & > * {
+        width: 50%;
+        max-width: 50%;
+      }
+    }
+  }
+  //======= team page css end ================//
+  .reportList-modal {
+    &.watchedArea-modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .editWatch-form {
+              padding: 0 12px;
+              .switch-opt {
+                .switch {
+                  margin: 0 5px;
+                  width: 40px;
+                  height: 22px;
+                  input {
+                    &:checked {
+                      & + .slider {
+                        &:before {
+                          -webkit-transform: translateX(17px);
+                          -ms-transform: translateX(17px);
+                          transform: translateX(17px);
+                        }
+                      }
+                    }
+                  }
+                  .slider {
+                    &:before {
+                      height: 14px;
+                      width: 14px;
+                    }
+                  }
+                }
+              }
+              .dropdown-sec {
+                .row {
+                  .col-4 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    &:nth-child(3n + 1) {
+                      padding-right: 6px;
+                    }
+                    &:nth-child(3n + 2) {
+                      padding: 0 6px;
+                    }
+                    &:nth-child(3n + 3) {
+                      padding-left: 6px;
+                    }
+                    .drop-down {
+                      label {
+                        font-size: 10px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .property-sec {
+              .block {
+                .box {
+                  padding: 10px 2px;
+                  img {
+                    width: 22px;
+                  }
+                  span {
+                    font-size: 10px;
+                  }
+                }
+              }
+            }
+          }
+          .modal-footer {
+            padding: 12px 0;
+            .btn {
+              padding: 9px 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .videoSearch-input {
+    .customInput {
+      .form-control {
+        padding: 9px 40px 9px 9px;
+      }
+      .btn-green {
+        padding: 4.5px 12px;
+        line-height: initial;
+        i {
+          font-size: 10px;
+          line-height: 12px;
+        }
+      }
+    }
+  }
+  .cma-dashboardSec {
+    &.knowledge-hubHerobanner {
+      .cma-tabList {
+        .cma-data {
+          .bolgKnowledge-row {
+            [class*="col-"] {
+              &:last-child {
+                .knowlege-BlogBox {
+                  height: 100%;
+                }
+              }
+            }
+            .knowlege-BlogBox {
+              .blog-img {
+                img {
+                  height: 220px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .knowledge-latestNews {
+    .card-body {
+      .form-group {
+        button {
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .formFill-row {
+          .rightForm-data {
+            .qusAsk-form {
+              .form-group {
+                .form-control {
+                  height: 39px;
+                }
+                .custom-select-c {
+                  .upDown-arrow {
+                    top: 13px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .ourFooter {
+    .midFooter {
+      &.midOnly-contact {
+        .left-title {
+          text-align:center;
+          margin-bottom:30px;
+        }
+        .mail-moblist {
+          li {
+            a {
+              span {
+                font-size:18px;
+                line-height:24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .decision-tools {
+    .heading {
+      .section-title {
+        .titleHighlighter {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+  }
+  .about-author {
+    .description {
+      .section-title {
+        .titleHighlighter {
+          left: 40px;
+        }
+      }
+    }
+  }
+  .section-title {
+    font-size: 22px !important;
+  }
+  .decision-tools {
+    .heading {
+      .section-title {
+        text-align: center;
+      }
+    }
+  }
+  .about-rachel-section {
+    .askany-qus {
+      .card-body {
+        .askQus-block {
+          padding: 20px 15px;
+          h3 {
+            font-size: 16px;
+            line-height: 20px;
+          }
+          .qusRow-block {
+            .check-list-c {
+              padding: 0 0 0 18px;
+              li {
+                font-size: 11px;
+                line-height: 13px;
+                &::before {
+                  background-size: 12px;
+                  width: 12px;
+                  height: 12px;
+                  left: -20px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .rightQust-imgBlock {
+        img {
+          object-fit: initial;
+        }
+      }
+    }
+  }
+  .myDeal_sec {
+    &.invitation-dashboard {
+      .newDeal {
+        .newDealbtn {
+          font-size: 14px;
+          line-height: 18px;
+          padding: 8px 15px;
+        }
+
+        .deleteBtn {
+          margin-left: 5px;
+
+          i {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .showDatabase {
+        flex-wrap: wrap;
+
+        .btn {
+          min-width: calc(100% - 0px);
+          margin-bottom: 10px;
+          margin-right: 0;
+        }
+
+        .searchFilter_sec {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .about-rachel-section {
+    &.about-form {
+      padding-top: 0;
+
+      .about-card-r {
+        .card-body {
+          padding: 19px 18px;
+
+          h4 {
+            font-size: 13px;
+            line-height: 16px;
+          }
+
+          .form-group {
+            margin-bottom: 11px;
+
+            label {
+              font-size: 10px;
+              line-height: 13px;
+              margin-bottom: 5px;
+            }
+          }
+
+          .form-check {
+            .form-check-input {
+              width: 15px;
+              height: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .toolMarket {
+    .slick-prev {
+      left: 0px;
+      z-index: 9;
+
+      &::before {
+        font-size: 25px;
+      }
+    }
+
+    .slick-next {
+      right: 0;
+      z-index: 9;
+
+      &::before {
+        font-size: 25px;
+      }
+    }
+
+    .dailyBasis {
+      .slick-prev {
+        top: 35%;
+      }
+
+      .slick-next {
+        top: 35%;
+      }
+    }
+  }
+
+  .home-banner {
+    &.mort-banner {
+      .left-img {
+        height: 340px;
+      }
+
+      .right-content {
+        p {
+          font-size: 12px;
+          line-height: 15px;
+        }
+
+        .btn {
+          font-size: 10px;
+          line-height: 14px;
+          padding: 9px 21px;
+        }
+      }
+    }
+
+    .left-img {
+      &.HO1,
+      &.HO2,
+      &.HO3 {
+        background-size: 800px;
+      }
+
+      &.HO4 {
+        background-size: 720px;
+      }
+
+      &.HO5 {
+        background-size: 820px;
+        background-position: center -170px;
+      }
+    }
+  }
+
+  .userComment {
+    &.preApproval {
+      .mortgage-block {
+        .box {
+          h3 {
+            font-size: 15px;
+            line-height: 18px;
+            font-weight: $fw-600;
+          }
+
+          p {
+            font-size: 11px;
+            line-height: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .team-optima {
+    .sectionHead {
+      h2 {
+        font-size: 21px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-list {
+      .slick-prev {
+        left: 0;
+        z-index: 9;
+
+        &::before {
+          font-size: 40px;
+        }
+      }
+
+      .slick-next {
+        right: 0;
+
+        &::before {
+          font-size: 40px;
+        }
+      }
+
+      .slick-slide {
+        padding: 0 30px;
+      }
+    }
+  }
+
+  // old page css ======================================
+  .deal_optimizer_kit {
+    .kit_box {
+      .card-body {
+        .box_sec {
+          width: calc(100% - 15px);
+        }
+      }
+    }
+  }
+
+  .hello_kate_sec {
+    .kate_card {
+      .card-body {
+        .kate_left_sec {
+          flex-wrap: wrap;
+
+          .inner_data {
+            width: 100%;
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    &.filter {
+      .more-filter-popup {
+        .dropdown-sec {
+          [class*="col-"] {
+            padding-left: 3.5px;
+            padding-right: 3.5px;
+
+            .drop-down {
+              .dropdown {
+                .dropdown-toggle {
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+        }
+
+        .property-sec {
+          .block {
+            .box {
+              img {
+                max-height: 35px;
+                min-height: 35px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.agent-newbanner {
+      .right-content {
+        p {
+          font-size: 12px;
+          line-height: 16px;
+        }
+
+        .agent-rcl-list {
+          li {
+            padding: 12px;
+
+            a {
+              font-size: 12px;
+              line-height: 16px;
+
+              img {
+                width: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .about-rachel-section {
+    .left-sec {
+      h3 {
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+
+  .connet-rachel-sec {
+    .card {
+      height: 650px;
+      background-size: 316px;
+
+      .card-body {
+        padding: 18px 15px;
+
+        .contact-box {
+          h3 {
+            font-size: 16.25px;
+            line-height: 20px;
+            margin-bottom: 11px;
+          }
+
+          p {
+            font-size: 11px;
+            line-height: 14px;
+          }
+
+          .check-list-c {
+            li {
+              font-size: 11px;
+              line-height: 14px;
+
+              &::before {
+                width: 9px;
+                height: 9px;
+                background-size: 9px;
+              }
+            }
+          }
+        }
+
+        .right-img {
+          img {
+            width: 380px;
+          }
+        }
+      }
+    }
+  }
+
+  .searchHack-loc {
+    .hackSearch-card {
+      .card-body {
+        .searchDoor-form {
+          .form-group {
+            .homeType-list {
+              li {
+                width: calc(50% - 12px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .dashVideo-listBox {
+    .videoTut-listRow {
+      .leftStep-list {
+        width: 100%;
+        max-width: 100%;
+      }
+      .rightVideo-BoxList {
+        width: 100%;
+        .tutList-row {
+          [class*="col-"] {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .google-map-section {
+    .googleMap-section {
+      .mapLocation-dataCard {
+        left: auto;
+        width: 100%;
+        max-width: 100%;
+        .card-body {
+          flex-direction: column;
+          .left-imgData {
+            width: 100%;
+            margin-bottom: 15px;
+          }
+          .rightMap-innerData {
+            width: 100%;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+  .whyHomeoptima-story {
+    .about-icons {
+      .half {
+        .box {
+          img {
+            max-width: 54px;
+          }
+        }
+      }
+    }
+  }
+  //==============Story page css start ==============//
+  .team-basicData {
+    .whether-title {
+      font-size: 16px;
+      line-height: 22px;
+      padding-left: 22px;
+    }
+  }
+  //==============Story page css start ==============//
+
+  //==============Team page css start ==============//
+  .meetOver-team {
+    .ourTeam-block {
+      .team-circle {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+  //==============Team page css end ==============//
+  .reportList-modal {
+    &.watchedArea-modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .myDeal_table {
+              &.watchArea-table {
+                table {
+                  thead {
+                    tr {
+                      th {
+                        &:last-child {
+                          width: 40%;
+                        }
+                      }
+                    }
+                  }
+                  tbody {
+                    tr {
+                      td {
+                        &.allList-Tb {
+                          .number-ratio {
+                            min-width: 40px;
+                          }
+                          .btn-green {
+                            padding: 10px 12px;
+                            span {
+                              display: inline-block;
+                              overflow: hidden;
+                              white-space: nowrap;
+                              width: 33px;
+                              font-size: 12px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .timeMarket-sec {
+            .timeMarket-list {
+              li {
+                width: 100%;
+                margin-bottom: 8px;
+              }
+            }
+          }
+          .leftGTA-data {
+            width: 100%;
+            margin-bottom: 20px;
+            .appImg-linkList {
+              li {
+                width: 50%;
+              }
+            }
+          }
+          .rightGTA-img {
+            width: 100%;
+          }
+        }
+        .rightForm-data {
+          h5 {
+            br {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .appartment-sec {
+            .aprt-data {
+              .fact-list {
+                max-width: 100%;
+              }
+            }
+            .forcast-img {
+              h5 {
+                font-size: 18px;
+                line-height: 22px;
+                br {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .buyHero-upperBox {
+    .inner-Buy {
+      .outer-card {
+        .location-card {
+          .card-body {
+            .location-list {
+              li {
+                p {
+                  font-size: 10px;
+                  line-height: 12px;
+                  font-weight: $fw-700;
+                }
+                .btnTags {
+                  font-size: 10px;
+                  line-height: 12px;
+                }
+              }
+            }
+          }
+          &.listing-card {
+            .card-body {
+              .location-list {
+                li {
+                  .left-list {
+                    .innerData-left {
+                      p {
+                        font-size: 10px;
+                        line-height: 12px;
+                        font-weight: $fw-700;
+                      }
+                      span {
+                        font-size: 10px;
+                        line-height: 12px;
+                        font-weight: $fw-500;
+                        color: $black;
+                      }
+                    }
+                  }
+                  .right-list {
+                    .salePrice-p {
+                      font-size: 15px;
+                      line-height: 18px;
+                    }
+                    .forbtn {
+                      font-size: 9px;
+                      margin: 10px 0 0 0;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .feedback {
+    .feedback-about {
+      .app-thumb {
+        max-width: 180px;
+        // margin:0 15px 0 0;
+      }
+    }
+  }
+
+  .story {
+    .story-content {
+      .pre {
+        img {
+          margin-left: 12%;
+          max-width: 80px;
+        }
+      }
+
+      .post {
+        img {
+          margin-left: 10%;
+          max-width: 80px;
+        }
+      }
+    }
+  }
+
+  .ready-banner {
+    .banner-content {
+      h1 {
+        max-width: 210px;
+        margin: 0 auto;
+      }
+
+      h2 {
+        max-width: 280px;
+        margin: 0 auto 10px;
+      }
+    }
+  }
+
+  .optimaAgent {
+    &.agentPage {
+      .card {
+        .row {
+          .relative {
+            h3 {
+              font-size: 15px;
+              line-height: 18px;
+            }
+
+            .row-text {
+              h5 {
+                font-size: 15px;
+                line-height: 18px;
+              }
+            }
+          }
+
+          .searchForm {
+            h3 {
+              font-size: 15px;
+              line-height: 18px;
+              max-width: 205px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .buyingProcess {
+    .row {
+      .leftIcon {
+        width: 35%;
+
+        &::after {
+          left: 33%;
+          top: 105px;
+          min-height: 200px;
+        }
+
+        .stepBox {
+          width: 105px;
+          height: 105px;
+        }
+      }
+
+      .rightData {
+        width: 65%;
+
+        .stepHead {
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.buy-banner {
+      .left-img {
+        min-height: 240px;
+      }
+    }
+  }
+
+  .map-searc-sec {
+    .content-sec {
+      .top-head {
+        .left {
+          width: auto;
+
+          h3 {
+            font-size: 20px;
+            line-height: 26px;
+          }
+        }
+
+        .right {
+          width: auto;
+
+          .notify {
+            .showme {
+              font-size: 12px;
+              line-height: 15px;
+
+              img {
+                width: 12px;
+              }
+            }
+
+            .pop-box {
+              min-width: 300px;
+            }
+          }
+        }
+      }
+    }
+
+    &.search-home {
+      .content-sec {
+        .head-sec {
+          .left {
+            & > div {
+              .filter-box {
+                .dropdown {
+                  &:last-child {
+                  }
+                }
+              }
+            }
+          }
+
+          .right {
+            .notify {
+              & > span {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .listShare-box {
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          padding: 24px 16px;
+
+          .or-mid {
+            padding: 25px 0 0;
+
+            &::before {
+              top: 34px;
+              width: 46%;
+            }
+
+            &::after {
+              top: 34px;
+              width: 46%;
+            }
+          }
+
+          .shopping-s {
+            .right {
+              p {
+                font-size: 16px;
+                line-height: 20px;
+              }
+
+              a {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+
+          .imgList {
+            li {
+              margin: 0 10px;
+
+              img {
+                max-height: 65px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .listing-area {
+    .property-detail {
+      h2 {
+        font-size: 26px;
+        line-height: 32px;
+      }
+
+      ul {
+        &.facility {
+          margin: 20px 0 0;
+        }
+      }
+    }
+  }
+
+  .listing-area {
+    .property-detail {
+      h5,
+      h3 {
+        &.head {
+          font-size: 15px;
+          line-height: 18px;
+        }
+      }
+      h3 {
+        &.headtitle {
+          font-size: 15px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+
+  // old page css start ==================================
+  .property-search-sec {
+    .pinaddress-sec {
+      .drowMap-p {
+        &.pin-b {
+          margin: 0 10px 10px 0;
+        }
+      }
+    }
+
+    .search-f {
+      .btn {
+        margin: 0 10px 10px 0 !important;
+      }
+    }
+  }
+
+  .printProperty-sec {
+    .print-view-box {
+      .left-ellen {
+        .assets-list {
+          width: 100%;
+          display: block;
+
+          li {
+            width: 100%;
+            margin: 0 0 10px 0;
+          }
+        }
+      }
+    }
+  }
+
+  .instaWidget {
+    padding: 30px 0px !important;
+
+    .title {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  }
+
+  .form-control {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .btn {
+    &.btn-green,
+    &.btn-grey {
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+
+  .home-banner {
+    .right-content {
+      .buyTab {
+        .tabdata {
+          .btn-green {
+            font-size: 12px;
+            line-height: 14px;
+          }
+        }
+      }
+
+      .homeWorth {
+        .estimateForm {
+          .row {
+            .customInput {
+              .btn-green {
+                font-size: 12px;
+                line-height: 14px;
+                padding: 3px 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .homeSearch-slider {
+    .searchBox {
+      .customInput {
+        input {
+          font-size: 12px;
+          line-height: 14px;
+        }
+
+        .btn {
+          font-size: 12px;
+          line-height: 14px;
+          padding: 5px 20px;
+        }
+      }
+    }
+  }
+
+  .dreamHome {
+    .row {
+      &.upsizeReport {
+        .leftContent {
+          .estimateForm {
+            .row {
+              .customInput {
+                .btn {
+                  font-size: 12px;
+                  line-height: 14px;
+                  padding: 5px 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .optimaAgent {
+    .helpBox {
+      .searchForm {
+        .form-row {
+          .form-control {
+            font-size: 12px;
+            line-height: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .ourFooter {
+    .topFooter {
+      padding: 38px 0 23px 0;
+
+      .footerLogo {
+        .f-des {
+          p {
+            font-size: 10px;
+            line-height: 14px;
+          }
+
+          img {
+            max-width: 59px;
+          }
+        }
+      }
+
+      .mobileContact {
+        padding-left: 20px;
+
+        .footerMenu {
+          .fPera {
+            font-size: 12px;
+            line-height: 15px;
+            margin: 10px 0 25px 0;
+          }
+
+          .menuList {
+            .fItem {
+              line-height: initial;
+
+              &:first-child {
+                a {
+                  font-size: 15px;
+                  line-height: 18px;
+                }
+              }
+
+              a {
+                font-size: 11px;
+                line-height: 13px;
+              }
+            }
+          }
+        }
+      }
+
+      .row {
+        &.midMenuRow {
+          width: 100%;
+          justify-content: space-between;
+
+          .footerMenu {
+            .fPera {
+              margin: 2px 0 20px 0;
+            }
+
+            .menuList {
+              .fItem {
+                margin: 0 0 10px 0;
+
+                a {
+                  font-size: 11px;
+                  line-height: 13px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .midFooter {
+      margin: 0 0 33px 0;
+
+      .mobileApp {
+        h4 {
+          font-size: 16.25px;
+          line-height: 20px;
+        }
+
+        .appRate {
+          .appHomeIMG {
+            max-height: 42px;
+          }
+
+          .downLoadHead {
+            p {
+              font-size: 11px;
+              line-height: 13px;
+            }
+
+            .stareRate {
+              li {
+                i {
+                  font-size: 12px;
+                  line-height: 14px;
+                }
+              }
+            }
+          }
+
+          .playStore {
+            max-width: 62px;
+          }
+        }
+      }
+
+      .mobileDevice {
+        height: initial;
+
+        .innerImg {
+          img {
+            height: 158px;
+            bottom: -29px;
+          }
+        }
+      }
+    }
+
+    .bottomFooter {
+      .partnerImg {
+        max-width: 246px;
+        margin: 0 auto 33px;
+      }
+
+      .ftrNote {
+        font-size: 9px;
+        line-height: 11px;
+      }
+
+      .termCondition {
+        p {
+          font-size: 9px;
+          line-height: 11px;
+        }
+      }
+
+      .socialLink {
+        li {
+          a {
+            width: 20px;
+            height: 20px;
+
+            i {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .subpage-banner {
+    &.feed {
+      .left-opt {
+        .top-search {
+          .input-sec {
+            button {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+
+      .switch-opt {
+        small {
+          font-size: 10px;
+        }
+
+        .switch {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-list {
+      .slick-list {
+        max-width: 300px;
+        margin: auto;
+      }
+
+      .list-item {
+        .strong {
+          font-size: 12px;
+          line-height: 14px;
+        }
+
+        .review {
+          font-size: 12px;
+          line-height: 14px;
+
+          span {
+            i {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+
+        p {
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+
+  .dreamHome {
+    .leftContent {
+      p {
+        a {
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+
+  .main_agent_sec {
+    &.listOptimiser-table {
+      .my-route-box {
+        .card {
+          .card-body {
+            padding: 20px 15px;
+
+            .address-box {
+              li {
+                justify-content: space-between;
+
+                p {
+                  &:first-child {
+                    min-width: initial;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .stateStatus {
+        .content-box {
+          .puls-sec-p {
+            margin-left: 0;
+            margin-top: 0;
+
+            .puls-box-b {
+              width: 100%;
+              margin: 0 0 10px 0;
+              max-width: 100%;
+            }
+          }
+        }
+
+        &.dailySnapshort {
+          .snap-graph {
+            padding: 20px 15px;
+          }
+        }
+      }
+    }
+  }
+  .buyHero-upperBox .inner-Buy .inpt-btnBx .btn {
+    font-size: 12px;
+  }
+  .dashVideo-listBox {
+    .videoSearch-input {
+      .customInput {
+        .btn-green {
+          padding: 6.5px 12px;
+        }
+      }
+    }
+  }
+  //======= team page css start ================//
+  .teamMain-person {
+    h5 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .ashish-sectionData {
+      height: 200px;
+      .ashish-data {
+        width: calc(100% - 140px);
+        margin-left: auto;
+      }
+      .ashish-imgData {
+        width: 140px;
+      }
+    }
+  }
+  //======= team page css end ================//
+  .agent-teamHero-slider {
+    .agentTeam-rowSlider {
+      .slick-slide {
+        .agentTeam-image {
+          img {
+            width: 180px;
+            height: 180px;
+          }
+        }
+      }
+    }
+  }
+  .heroTeam-memberName {
+    .heroTeam-basicDataSlide {
+      .member-Basicdata {
+        .memberProfile {
+          font-size: 10px;
+          line-height: 12px;
+        }
+        .memberExp {
+          font-size: 10px;
+          line-height: 12px;
+        }
+        .contact-optionsList {
+          padding: 12px 6px;
+          li {
+            a {
+              img {
+                width: 11px;
+                margin-right: 4px;
+              }
+              span {
+                font-size: 11px;
+                line-height: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .teamLine-data {
+      .slick-dots {
+        li {
+          button {
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+  .videoSearch-input {
+    .customInput {
+      .btn-green {
+        i {
+          line-height: 16px;
+        }
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        padding: 20px 16px;
+        .leftMob-img {
+          .mobile-AreaBox {
+            width: 50%;
+            img {
+              width: 120px;
+            }
+            .mobOverlay-box {
+              top: 40%;
+              h6 {
+                font-size: 13px;
+                line-height: 16px;
+              }
+            }
+          }
+          .GTA-reviewBox {
+            width: 50%;
+            .app-detail {
+              width: 100%;
+              & > img {
+                width: 70px;
+              }
+              h5 {
+                font-size: 15px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .detached-tableRD {
+            table {
+              thead {
+                tr {
+                  th {
+                    .detachedImg-bx {
+                      max-width: 100px;
+                      max-height: 55px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .ourFooter{
+    .midFooter{
+      &.midOnly-contact{
+        .mail-moblist{
+          flex-wrap:wrap;
+          li{
+            width:100%;
+            margin:0 0 15px 0;
+            &:last-child{
+              margin-bottom:0;
+            }
+          }
+        } 
+      } 
+    }
+  } 
+}
+
+@media only screen and (max-width: 425px) {
+  .cma-dashboardSec {
+    .cma-heading {
+      .cma-assetsList {
+        li {
+          margin-right: 12px;
+
+          img {
+            width: 16px;
+          }
+
+          span {
+            font-size: 13px;
+            line-height: 15px;
+            margin-left: 3px;
+          }
+        }
+      }
+    }
+
+    .cma-tabList {
+      .cma-data {
+        .cma-pulseCity {
+          .baseline-row {
+            .range-box {
+              h3 {
+                font-size: 20px;
+                line-height: 24px;
+              }
+
+              p {
+                font-size: 14px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+
+        .comparable-cma {
+          .compable-row {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .connet-rachel-sec {
+    .card {
+      height: 610px;
+
+      .card-body {
+        .right-img {
+          img {
+            width: 350px;
+          }
+        }
+      }
+    }
+  }
+
+  .buyingProcess {
+    .row {
+      .leftIcon {
+        &::after {
+          left: 38%;
+          top: 105px;
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.home_he {
+      .right-content {
+        h1 {
+          font-size: 32px;
+          line-height: 36px;
+        }
+
+        .list_he {
+          li {
+            font-size: 14px;
+            line-height: 18px;
+
+            &::before {
+              width: 13px;
+              height: 14px;
+              top: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-value-section {
+    h2 {
+      font-size: 22px;
+      line-height: 26px;
+    }
+
+    .card-homevalue {
+      .about-top {
+        .right-data {
+          .price-t {
+            h4 {
+              font-size: 17px;
+              line-height: 22px;
+            }
+
+            .soldtag {
+              font-size: 11px;
+              line-height: 14px;
+            }
+          }
+
+          .h-address {
+            font-size: 12px;
+            line-height: 15px;
+          }
+
+          .home-details {
+            h5 {
+              font-size: 14px;
+              line-height: 18px;
+            }
+
+            p {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+
+          .home-assets-list {
+            li {
+              margin: 0 7px 0 0;
+
+              span {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+
+      .about-bottom {
+        .left-graph {
+          h5 {
+            font-size: 14px;
+            line-height: 18px;
+            margin-bottom: 13px;
+          }
+
+          .g-detailblock {
+            padding: 11px 10px;
+
+            h4 {
+              font-size: 17px;
+              line-height: 22px;
+            }
+
+            p {
+              font-size: 12px;
+              line-height: 17px;
+
+              i {
+                font-size: 16px;
+                line-height: 16px;
+              }
+            }
+          }
+        }
+
+        .right-g-details {
+          h5 {
+            font-size: 15px;
+            line-height: 18px;
+          }
+
+          .g-data {
+            li {
+              p {
+                font-size: 12px;
+                line-height: 17px;
+              }
+            }
+          }
+        }
+      }
+
+      .about-location {
+        h5 {
+          font-size: 14px;
+          line-height: 18px;
+        }
+
+        .loc-add {
+          .left {
+            p {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+
+          .right {
+            a {
+              font-size: 12px;
+              line-height: 16px;
+
+              i {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .card-homevalue {
+      .custom-homeaccordian {
+        .accordion-item {
+          .accordion-header {
+            padding: 20px 0;
+
+            .accordion-button {
+              font-size: 14px;
+              line-height: 18px;
+
+              &::after {
+                width: 14px;
+                height: 14px;
+                background-size: 14px;
+              }
+            }
+          }
+
+          .accordion-collapse {
+            .accordion-body {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .report-section {
+    &.home-he-report {
+      padding: 44px 0;
+
+      .sub-section {
+        h2 {
+          font-size: 22px;
+          line-height: 26px;
+        }
+      }
+
+      .img-wrap {
+        img {
+          max-width: 215px;
+        }
+      }
+
+      .right-data {
+        p {
+          font-size: 14px;
+          line-height: 18px;
+        }
+
+        .check-list {
+          li {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+
+        .callChat {
+          font-size: 14px;
+          line-height: 18px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    &.filter {
+      .more-filter-popup {
+        .property-sec {
+          .block {
+            .box {
+              width: calc(16.67% - 0px);
+              padding: 4px 2px;
+
+              img {
+                max-height: 30px;
+                // max-width:44px;
+                min-height: 30px;
+              }
+
+              span {
+                font-size: 12px;
+                line-height: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .listing-area {
+    .property-detail {
+      .rooms {
+        table {
+          tr {
+            th {
+              font-size: 13px;
+              line-height: 16px;
+            }
+
+            td {
+              font-size: 12px;
+              line-height: 15px;
+              padding: 3px 5px;
+            }
+          }
+        }
+      }
+
+      .features {
+        .table-div {
+          .left {
+            .odd,
+            .even {
+              font-size: 12px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+
+      .top-right {
+        .data-box {
+          font-size: 10px;
+          line-height: 14px;
+          h3 {
+            font-size: 10px;
+            line-height: 14px;
+          }
+          strong {
+            font-size: 12px;
+            line-height: 15px;
+          }
+        }
+      }
+
+      .facilityRow {
+        .col-md-4 {
+          .est {
+            font-size: 10px;
+            line-height: 14px;
+
+            span {
+              font-size: 12px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+
+      ul {
+        &.facility {
+          li {
+            &:last-child {
+              margin-left: inherit;
+            }
+          }
+        }
+      }
+
+      .history {
+        table {
+          tr {
+            td {
+              font-size: 12px;
+              line-height: 15px;
+              padding: 3px 5px;
+            }
+          }
+        }
+      }
+
+      .desc {
+        p {
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+
+      .location {
+        .top {
+          p {
+            font-size: 12px;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .homeSearch-slider {
+    .searchSlider {
+      .slick-slide {
+        margin: 0 15px;
+      }
+    }
+  }
+
+  .toolMarket {
+    .dailyBasis {
+      h3 {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .brandTool-section {
+    .brandCard {
+      .card-body {
+        .toolItem-list {
+          min-height: inherit;
+
+          li {
+            width: 100%;
+            margin: 0 0 15px 0;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .reportList-modal {
+    &.watchedArea-modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .myDeal_table {
+              &.watchArea-table {
+                table {
+                  thead {
+                    tr {
+                      th {
+                        &:last-child {
+                          width: 45%;
+                        }
+                      }
+                    }
+                  }
+                  tbody {
+                    tr {
+                      td {
+                        &.allList-Tb {
+                          .btn-green {
+                            padding: 6px 8px;
+                            i {
+                              margin-right: 2px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .appartment-sec {
+            .aprt-data {
+              .fact-list {
+                max-width: 90%;
+                li {
+                  width: calc(50% - 15px);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .connet-rachel-sec {
+    .card {
+      height: 570px;
+
+      .card-body {
+        .right-img {
+          img {
+            width: 320px;
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    .left-img {
+      background-size: 787px;
+      height: 400px;
+      background-position: -168px -92px;
+
+      &.HO1,
+      &.HO2 {
+        background-size: 550px;
+        background-position: center -50px;
+      }
+
+      &.HO3 {
+        background-size: 550px;
+        background-position: center -60px;
+      }
+
+      &.HO4 {
+        background-size: 525px;
+        background-position: center -75px;
+      }
+
+      &.HO5 {
+        background-size: 710px;
+        background-position: center -205px;
+      }
+
+      &.HO6 {
+        background-size: 550px;
+      }
+    }
+
+    .right-content {
+      .bannerTabs {
+        li {
+          // max-width:80px;
+        }
+      }
+    }
+  }
+
+  .homeSearch-slider {
+    .searchBox {
+      .cardBox {
+        .card-body {
+          padding: 20px 10px;
+
+          .assetsList {
+            li {
+              margin: 0 3px 0 0;
+
+              span {
+                font-size: 13px;
+                line-height: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .dreamHome {
+    .rightImg {
+      .bgGradient {
+      }
+    }
+
+    .row {
+      &.upsizeReport {
+        .rightImg {
+          .bgGradient {
+            img {
+              margin-left: -20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .userComment {
+    .sectionHead {
+      h2 {
+        &::after {
+          left: 35%;
+        }
+      }
+    }
+  }
+
+  .homeSearch-slider {
+    .searchSlider {
+      .slick-arrow {
+        &.slick-prev {
+          &::before {
+            // position: relative;
+          }
+        }
+
+        &.slick-next {
+          &::before {
+            // position: relative;
+          }
+        }
+      }
+    }
+
+    .sectionHead {
+      h2 {
+        &::after {
+          left: 48%;
+        }
+      }
+    }
+  }
+
+  .team-optima {
+    .team-item {
+      .team-text {
+        max-width: 250px;
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-about {
+      .app-thumb {
+        max-width: 160px;
+        // margin:0 10px 0 0;
+      }
+    }
+  }
+
+  .home-banner {
+    &.buy-banner {
+      .left-img {
+        min-height: 260px;
+      }
+    }
+  }
+
+  .buyingProcess {
+    .row {
+      .leftIcon {
+        &::after {
+          left: 42%;
+        }
+      }
+    }
+  }
+
+  .listShare-box {
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          .imgList {
+            li {
+              margin: 0 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .form-control {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .btn {
+    &.btn-green,
+    &.btn-grey {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+
+  .home-banner {
+    .right-content {
+      .buyTab {
+        .tabdata {
+          .btn-green {
+            font-size: 10px;
+            line-height: 12px;
+          }
+        }
+      }
+
+      .homeWorth {
+        .estimateForm {
+          .row {
+            .customInput {
+              .btn-green {
+                font-size: 10px;
+                line-height: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .homeSearch-slider {
+    .searchBox {
+      .customInput {
+        input {
+          font-size: 10px;
+          line-height: 12px;
+        }
+
+        .btn {
+          font-size: 10px;
+          line-height: 12px;
+          padding: 6px 20px;
+        }
+      }
+    }
+  }
+
+  .dreamHome {
+    .row {
+      &.upsizeReport {
+        .leftContent {
+          .estimateForm {
+            .row {
+              .customInput {
+                .btn {
+                  font-size: 10px;
+                  line-height: 12px;
+                  padding: 5px 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .optimaAgent {
+    .helpBox {
+      .searchForm {
+        .form-row {
+          .form-control {
+            font-size: 10px;
+            line-height: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .printProperty-sec {
+    .print-view-box {
+      .right-offer-d {
+        .comain-btn {
+          font-size: 10px;
+          line-height: 12px;
+        }
+      }
+
+      .gallery-row {
+        .left-g {
+          .overBtn {
+            .btn {
+              font-size: 10px;
+              line-height: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-list {
+      .slick-list {
+        max-width: 220px;
+        margin: auto;
+
+        .slick-slide {
+          padding: 0 5px;
+        }
+      }
+
+      .list-item {
+        .strong {
+          font-size: 10px;
+          line-height: 12px;
+        }
+
+        .review {
+          font-size: 10px;
+          line-height: 12px;
+
+          span {
+            i {
+              font-size: 10px;
+              line-height: 12px;
+            }
+          }
+        }
+
+        p {
+          font-size: 10px;
+          line-height: 12px;
+        }
+      }
+    }
+  }
+
+  .searchHack-loc {
+    .hackSearch-card {
+      .card-body {
+        .searchDoor-form {
+          .form-group {
+            .homeType-list {
+              li {
+                width: 100%;
+                margin-right: 0;
+              }
+
+              &.btm-listTY {
+                li {
+                  width: 100%;
+                  margin-right: 0;
+
+                  img {
+                    margin-left: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .buyHero-upperBox {
+    .inner-Buy {
+      .inpt-btnBx {
+        .btn {
+          padding: 6.5px 10px;
+        }
+      }
+    }
+  }
+  .subpage-banner {
+    &.search-home {
+      &.watchArea-section {
+        .watchItem-row {
+          .right-opt {
+            .filter-btn {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .registerMdal-box {
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          .right-data {
+            h5 {
+              font-size: 30px;
+              line-height: 38px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 374px) {
+  .heroTeam-memberName {
+    .heroTeam-basicDataSlide {
+      .member-Basicdata {
+        .mamberName {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 370px) {
+  .subpage-banner {
+    &.search-home {
+      &.watchArea-section {
+        .watchItem-row {
+          .left-opt {
+            .watch-btn {
+              padding: 6px 8px;
+              img {
+                margin-right: 4px;
+              }
+            }
+          }
+          .right-opt {
+            .filter-btn {
+              margin-right: 0;
+              .btn {
+                padding: 5px 6px;
+                font-size: 12px;
+              }
+            }
+            .switch-opt {
+              margin-left: 6px;
+              small {
+                font-size: 10px;
+                overflow: hidden;
+                width: 29px;
+                white-space: nowrap;
+              }
+              .switch {
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .homeTable-sec {
+            h5 {
+              font-size: 18px;
+              line-height: 22px;
+            }
+          }
+          .detached-tableRD {
+            table {
+              thead {
+                tr {
+                  th {
+                    .detachedImg-bx {
+                      max-width: 76px;
+                      max-height: 55px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .rightForm-data {
+          h5 {
+            font-size: 18px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .trackingHome-section {
+    .trakingFill-dataForm {
+      .card-body {
+        .leftMob-img {
+          .appartment-sec {
+            .aprt-data {
+              .ast-list {
+                max-width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .connet-rachel-sec {
+    .card {
+      height: 530px;
+
+      .card-body {
+        .right-img {
+          img {
+            width: 260px;
+          }
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    &.agent-newbanner {
+      .right-content {
+        .agent-rcl-list {
+          li {
+            padding: 12px 9px;
+
+            a {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .feedback {
+    .feedback-about {
+      .app-thumb {
+        max-width: 150px;
+      }
+
+      .app-detail {
+        & > img {
+          max-width: 60px;
+        }
+
+        h5 {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  .buyingProcess {
+    .row {
+      .leftIcon {
+        width: 38%;
+
+        &::after {
+          top: 90px;
+          left: 35%;
+          min-height: 280px;
+        }
+
+        .stepBox {
+          width: 90px;
+          height: 90px;
+          padding: 18px;
+        }
+      }
+
+      .rightData {
+        width: 62%;
+      }
+    }
+  }
+
+  .subpage-banner {
+    &.search-home {
+      .left-opt {
+        .top-search {
+          .price-wrap {
+            & > span {
+              min-width: 40px;
+              max-width: 40px;
+              white-space: break-spaces;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+
+      .switch-opt {
+        small {
+          max-width: 40px;
+        }
+      }
+    }
+  }
+
+  .listing-area {
+    .property-detail {
+      h1 {
+        font-size: 22px;
+        line-height: 26px;
+
+        i {
+          font-size: 18px;
+          line-height: 20px;
+        }
+      }
+
+      h3 {
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: $fw-400;
+      }
+
+      .top-right {
+        .data-box {
+          strong {
+            font-size: 15px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    &.search-home {
+      .content-sec {
+        padding: 20px 12px;
+
+        .head-sec {
+          .left {
+            & > div {
+              .filter-box {
+                .dropdown {
+                  margin-left: 5px;
+
+                  .dropdown-toggle {
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .searchResult {
+    .resultBox {
+      .card {
+        .card-body {
+          .averageTREB {
+            .percetCircle {
+              width: 85px;
+              height: 85px;
+
+              h1 {
+                font-size: 24px;
+                line-height: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    .content-sec {
+      .head-sec {
+        .left {
+          & > div {
+            font-size: 10px;
+            line-height: 10px;
+          }
+        }
+
+        .right {
+          .notify {
+            & > span {
+              font-size: 10px;
+              line-height: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .reportList-modal {
+    &.watchedArea-modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-footer {
+            .btn {
+              padding: 9px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .reportList-modal {
+    &.watchedArea-modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            .myDeal_table {
+              &.watchArea-table {
+                table {
+                  tbody {
+                    tr {
+                      td {
+                        &.area-Tb {
+                          span {
+                            font-size: 12px;
+                          }
+                          a {
+                            img {
+                              width: 12px;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .cma-dashboardSec {
+    .cma-heading {
+      .cma-assetsList {
+        li {
+          margin-right: 10px;
+
+          img {
+            width: 14px;
+          }
+
+          span {
+            font-size: 11px;
+            line-height: 13px;
+            margin-left: 3px;
+          }
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    &.filter {
+      .more-filter-popup {
+        .property-sec {
+          .block {
+            .box {
+              padding: 4px 1px;
+
+              img {
+                max-height: 24px;
+                min-height: 24px;
+              }
+
+              span {
+                font-size: 10px;
+                line-height: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ourFooter {
+    .topFooter {
+      .mobileContact {
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .map-searc-sec {
+    &.feed {
+      .content-sec {
+        .head-sec {
+          .left {
+            & > div {
+              .filter-box {
+                .dropdown {
+                  .dropdown-toggle {
+                    .drop-text {
+                      width: 60px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .listing-area {
+    .property-detail {
+      h2 {
+        font-size: 24px;
+        line-height: 28px;
+        i {
+          font-size: 25px;
+          line-height: 30px;
+        }
+      }
+      h1 {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+  .buyingProcess {
+    .row {
+      .leftIcon {
+        &::after {
+          left: 40%;
+        }
+      }
+    }
+  }
+
+  .home-banner {
+    .right-content {
+      .bannerTabs {
+        li {
+          margin: 0 8px 7px 0;
+        }
+      }
+    }
+  }
+
+  .map-searc-sec {
+    .content-sec {
+      .top-head {
+        .left {
+          h3 {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}

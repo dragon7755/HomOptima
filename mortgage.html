@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | HomeOptima</title>
+    <link rel="stylesheet" href="assets/style/css/frontpage.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.cdnfonts.com/css/centrale-sans-regular"
+      rel="stylesheet"
+    />
+    <link href="assets/lib/slick/slick.css" rel="stylesheet" />
+    <link href="assets/lib/slick/slick-theme.css" rel="stylesheet" />
+  </head>
+  <body class="">
+    <header class="mainHeaer">
+      <div class="container navBar">
+        <a href="#" class="logo">
+          <img class="img-fluid" src="assets/images/logo.png" alt="" />
+        </a>
+        <ul class="menuList">
+          <li class="menuItem"><a href="javascript:void(0)">Buy</a></li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >My Home<span class="innerItem">(3)</span></a
+            >
+          </li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >Feed<span class="innerItem">(101)</span></a
+            >
+          </li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >Favorites<span class="innerItem">(25)</span></a
+            >
+          </li>
+          <li class="menuItem"><a href="javascript:void(0)">Mortgage</a></li>
+          <li class="menuItem"><a href="javascript:void(0)">About</a></li>
+          <li class="menuItem loginBtn">
+            <a href="javascript:void(0)">Log in</a>
+          </li>
+        </ul>
+        <div class="mobiLIcon">
+          <div class="mobileMenu">
+            <span class="lineH lineOne"></span>
+            <span class="lineH lineTwo"></span>
+            <span class="lineH lineThree"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+    <section class="home-banner mort-banner">
+      <div class="left-img"></div>
+      <div class="right-content">
+        <h1>some big title text text text text</h1>
+        <p>
+          We have partnered with one of Canada’s top mortgage broker to help
+          with your mortgage situation and get you the best rates!
+        </p>
+        <button class="btn btn-green">Ge Started</button>
+      </div>
+    </section>
+    <!-- banner section end -->
+    <section class="section userComment py-68 preApproval section-light-skyblue">
+      <div class="container">
+        <div class="sectionHead">
+          <h2><span>start</span> your pre-approval now!</h2>
+        </div>
+        <div class="mortgage-block">
+          <div class="box box-1" style="display: block">
+            <h3>Are you a first-time home buyer?</h3>
+            <p>
+              Some of our loan options are available only for qualified
+              first-time buyers.
+            </p>
+            <div class="YN-box">
+              <a href="javascript:void(0);" onclick="mortgage.firstTime('Yes')"
+                ><i class="fa fa-check"></i><span>Yes</span></a
+              >
+              <a href="javascript:void(0);" onclick="mortgage.firstTime('No')"
+              ><i class="fa fa-close"></i><span>No</span></a
+            >
+            </div>
+          </div>
+
+          <div class="box box-2" style="display: none">
+            <h3>How will you use your new home?</h3>
+            <p>It'll affect your home loan options.</p>
+            <div class="box-sec">
+              <button
+                class="Button"
+                onclick="mortgage.howUseNewHome('Primary residence')"
+              >
+                Primary residence
+              </button>
+              <button
+                class="Button"
+                onclick="mortgage.howUseNewHome('Investment property')"
+              >
+                Investment property
+              </button>
+            </div>
+          </div>
+
+          <div class="box box-3" style="display: none">
+            <h3>How much do you have for a <span>down payment?</span></h3>
+            <p>
+              Your down payment amount effects your monthly mortgage payment.
+            </p>
+            <div class="box-sec">
+              <div class="d-flex mb-2">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">$</div>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="DownPayment"
+                    placeholder="Down payment"
+                  />
+                </div>
+              </div>
+              <button class="btn btn-primary" onclick="mortgage.downpayment()">
+                Next
+              </button>
+            </div>
+          </div>
+
+          <div class="box box-4" style="display: none">
+            <h3>What's your annual income before taxes?</h3>
+            <p>This help determine the amount you qualify for.</p>
+            <div class="box-sec">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">$</div>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="IncomeBeforeTax"
+                  placeholder="Annual income before taxes"
+                />
+              </div>
+              <button
+                class="btn btn-primary"
+                onclick="mortgage.incomeBeforeTax()"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+
+          <div class="box box-5" style="display: none">
+            <h3>Do you know your <span>credit score</span></h3>
+            <p>It's ok to estimate.</p>
+            <div class="box-sec">
+              <button class="Button" onclick="mortgage.creditScore('720+')">
+                720 and above
+              </button>
+              <button class="Button" onclick="mortgage.creditScore('680-719')">
+                680-719
+              </button>
+              <button class="Button" onclick="mortgage.creditScore('640-679')">
+                640-679
+              </button>
+              <button class="Button" onclick="mortgage.creditScore('580-639')">
+                580-639
+              </button>
+              <button class="Button" onclick="mortgage.creditScore('579+')">
+                579 or below
+              </button>
+              <button
+                class="Button"
+                onclick="mortgage.creditScore('I don\'t know')"
+              >
+                I don't know
+              </button>
+            </div>
+          </div>
+
+          <div class="box box-6" style="display: none">
+            <h3>What number should we call to reach you?</h3>
+            <p>We'd like to know your preferred phone number.</p>
+            <div class="box-sec">
+              <div class="form-group">
+                <label>Phone number <em>*</em></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="PhoneMortgage"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <button
+                class="btn btn-primary"
+                onclick="mortgage.submitRequest()"
+              >
+                Next
+              </button>
+            </div>
+            <pre>                Your information is protected by TLS encryption. <br> By clicking "Submit" I authorize Homeoptima Home Loans to deliver or cause to be 
+                  delivered to me at the phone number I provided, telemarketing calls which may use an automatic telephone dialing system, an artificial 
+                  or prerecorded voice or text message via telephone, mobile device (including SMS and MMS â€“ charges may apply) and/or email, even if my 
+                  telephone number is registered with any state, federal, national, or private Do Not Call (DNC) list. I understand that I am not required 
+                  to provide this consent and authorization and it is not a condition to qualify for a loan or receive any good or service. I also agree to 
+                  our <a href="/TermsOfUse" target="_blank">Terms of Use</a>.
+                </pre>
+          </div>
+
+          <div class="box box-7" style="display: none">
+            <h3>Thanks for letting us help you with your loan.</h3>
+            <p>
+              One of our loan officers will be in touch soon to discuss your
+              options and answer any questions you have.
+            </p>
+            <a href="/" class="btn btn-primary">Search Homes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section mortgate-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-block">
+              <h4>Current Promo Rate</h4>
+              <h2>0.99<span>%</span></h2>
+              <h5>Apply For Your Best Rates In Minutes</h5>
+              <div class="row mb-3 amount-in">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Mortgage Amount</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder=""
+                      name=""
+                    />
+                  </div>
+                  
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group saving">
+                    <label>Your monthly saving</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder=""
+                      name=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3 mortgage-range">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="range" class="form-range" id="customRange1" />
+                    </div>
+                  </div>
+              </div>
+              <p>
+                <small>
+                  *0.99% promotion is only for purchases with less than 20% down
+                  payment on a maximum purchase price of 1,000,000.00. Monthly
+                  savings calculation is based on the difference between feature
+                  rate and the lowest equivalent rate from ratehub.ca under best
+                  broker mortgage rates. Savings are only estimated. Standard
+                  conditions apply and subject to qualification and mortgage
+                  approval by financial institution. Joe Purewal reserves the
+                  right to amend feature rate as and when the promotion begins
+                  and ends.</small
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-block">
+              <h4>Rates</h4>
+              <p>
+                All rates available for pre-approvals and firm deals OAC *Rates
+                are subject to change without notice | Rates are only for AAA
+                deals closing within 60 days | Certain conditions apply.
+              </p>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>1 Year Fixed</td>
+                    <td>1.64%</td>
+                  </tr>
+                  <tr>
+                    <td>2 Year Fixed</td>
+                    <td>1.39%</td>
+                  </tr>
+                  <tr>
+                    <td>3 Year Fixed</td>
+                    <td>1.44%</td>
+                  </tr>
+                  <tr>
+                    <td>4 Year Fixed</td>
+                    <td>1.59%</td>
+                  </tr>
+                  <tr>
+                    <td>5 Year Fixed</td>
+                    <td>1.68%</td>
+                  </tr>
+                  <tr>
+                    <td>Variable</td>
+                    <td>0.99%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-block">
+          <div class="top">
+            <div class="left">
+              Joe Purewal <br />
+              Mortgage Agent <br />
+              Lic # M08007946
+            </div>
+            <div class="right">
+              <img src="assets/images/mort-logo.png" alt="" />
+            </div>
+          </div>
+          <p>
+            <small>
+              All claims, terms, and product offerings are subject to
+              qualification and review by either bank or financial institution
+              whichever may apply. We reserve the right to refuse an application
+              if mortgage qualifying criteria are not met upon our or the
+              lender's discretion. For more information please contact us
+              directly.s</small
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section userComment clientSatis section-light-skyblue ">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Client’s satisfaction is our <span> top priority</span>,
+            and see what they say about us</h2>
+        </div>
+        <div class="row userComment-slid">
+          <div class="col-md-4">
+            <div class="card commentBox">
+              <div class="card-body">
+                <div class="commentT">
+                  <p>
+                    “IIt’s functionality and useability is far above the
+                    official Realtor app. Particularly useful “extras” are the
+                    listing history and comparative prices. A tab for
+                    “favourites” lets you track properties you are interested
+                    in. New features keep getting added from time to time. Take
+                    pricing estimates with a grain of salt, especially in
+                    country areas (too many variables make it hard to compare..
+                  </p>
+                </div>
+                <div class="userImg">
+                  <img class="img-fluid" src="assets/images/img07.jpg" alt="" />
+                </div>
+                <div class="user-NM">
+                  <p class="userName">James Peto</p>
+                  <p class="commentDate">December 4, 2020</p>
+                </div>
+                <div class="starRating">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/google-logo.png"
+                    alt=""
+                  />
+                  <ul class="fiveStar">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card commentBox">
+              <div class="card-body">
+                <div class="commentT">
+                  <p>
+                    I ve been using Home Optima app for about 4 years now. If I
+                    have to describe the app, I would say 1. Very user friendly,
+                    2. Very comprehensive in terms of qlm the relevant
+                    information for the buyers 3. Great responsive back office
+                    team. 4. Most importantly they do not pressure you into any
+                    sales or buying. I have recommended this app to alteast 20
+                    of my friends and family ...
+                  </p>
+                </div>
+                <div class="userImg">
+                  <img class="img-fluid" src="assets/images/img08.jpg" alt="" />
+                </div>
+                <div class="user-NM">
+                  <p class="userName">Elango Rajasekaran</p>
+                  <p class="commentDate">January 28, 2021</p>
+                </div>
+                <div class="starRating">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/google-logo.png"
+                    alt=""
+                  />
+                  <ul class="fiveStar">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card commentBox">
+              <div class="card-body">
+                <div class="commentT">
+                  <p>
+                    “HomeOptima” is fantastic app. It has all the features you
+                    need for your house hunt. What I like most about this app
+                    is, it uses real-time data. The people behind this app are
+                    highly educated and tech savvy. That is the main reason why
+                    this app is so useful. I would highly recommend this app.
+                    You will not only get your dream home but you will win a
+                    friend for life.
+                  </p>
+                </div>
+                <div class="userImg">
+                  <img class="img-fluid" src="assets/images/img09.jpg" alt="" />
+                </div>
+                <div class="user-NM">
+                  <p class="userName">Amit C</p>
+                  <p class="commentDate">December 9, 2020</p>
+                </div>
+                <div class="starRating">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/google-logo.png"
+                    alt=""
+                  />
+                  <ul class="fiveStar">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star-half-alt"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card commentBox">
+              <div class="card-body">
+                <div class="userImg">
+                  <img class="img-fluid" src="assets/images/img07.jpg" alt="" />
+                </div>
+                <div class="commentT">
+                  <p class="cTitle">New Sold Price Record</p>
+                  <p>
+                    “IIt’s functionality and useability is far above the
+                    official Realtor app. Particularly useful “extras” are the
+                    listing history and comparative prices. A tab for
+                    “favourites” lets you track properties you are interested
+                    in. New features keep getting added from time to time. Take
+                    pricing estimates with a grain of salt, especially in
+                    country areas (too many variables make it hard to compare..
+                  </p>
+                  <p class="userName">James Peto</p>
+                  <p class="commentDate">December 4, 2020</p>
+                </div>
+                <div class="starRating">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/google-logo.png"
+                    alt=""
+                  />
+                  <ul class="fiveStar">
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ourFooter">
+      <div class="container">
+        <div class="topFooter">
+          <div class="row">
+            <div class="col-lg-3 col-md-12 logoCol">
+              <div class="footerLogo">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/footer-logo.png"
+                    alt=""
+                  />
+                </a>
+                <div class="f-des">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <img
+                    class="img-fluid"
+                    src="assets/images/VC-img.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 mobileContact">
+              <div class="footerMenu">
+                <p class="fPera">Contact us</p>
+                <ul class="menuList">
+                  <li class="fItem mobileItem">
+                    <a href="javascript:void(0)">905.749.8000</a>
+                  </li>
+                  <li class="fItem">
+                    <a href="javascript:void(0)">info@homeoptima.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="row midMenuRow">
+                <div class="col-lg-5 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">Get Started</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Buy first, sell later</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Browse Homes</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Get Home Estimate</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">Learn</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">FAQ</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">About</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Who we are</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Careers</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <div class="footerMenu desktopContact">
+                <p class="fPera">Contact us</p>
+                <ul class="menuList">
+                  <li class="fItem mobileItem">
+                    <a href="javascript:void(0)">905.749.8000</a>
+                  </li>
+                  <li class="fItem">
+                    <a href="javascript:void(0)">info@homeoptima.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- top footer end -->
+        <div class="midFooter">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="mobileApp">
+                <h4>Looking to buy or sell?</h4>
+                <div class="appRate">
+                  <img
+                    class="img-fluid appHomeIMG"
+                    src="assets/images/app-home.png"
+                    alt=""
+                  />
+                  <div class="downLoadHead">
+                    <p>Download our Top Rated Home Search App now!</p>
+                    <ul class="stareRate">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                  </div>
+                  <div class="playStore">
+                    <a href="#">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/iphone-store.png"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/android-store.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="mobileDevice">
+                <div class="innerImg">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/mobile-img.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mid footer end -->
+        <div class="bottomFooter">
+          <img
+            class="img-fluid partnerImg"
+            src="assets/images/partner-img.png"
+            alt=""
+          />
+          <p class="ftrNote">
+            Not intended to solicit parties under an exclusive contract with a
+            brokerage. MLS®, REALTOR® and the associated logos are trademarks of
+            the Canadian Real Estate Association. Ashish Saxena, Broker,
+            HomeOptima Inc., Brokerage is a member of TREB® & CREA® The listing
+            data is provided under copyright by the Toronto Real Estate Board -
+            TREB®. The listing data is deemed reliable but is not guaranteed
+            accurate by the Toronto Real Estate Board. Canadian and US patents
+            pending.
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="termCondition">
+                <p>
+                  © 2015-2021 HomeOptima Inc., Brokerage All Rights Reserved
+                  HomeOptima Inc. Updated February 2018: By searching you agree
+                  to the <a href="#"> Terms of Use </a> and
+                  <a href="#">Privacy Polic</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <ul class="socialLink">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <div class="mobileBox">
+      <div class="container">
+        <ul class="mobMenu">
+          <li><a href="javascript:void(0)">Buy</a></li>
+          <li>
+            <a href="javascript:void(0)" class="">My Home<span>(3)</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="">Feed<span>(101)</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="">Favorites<span>(25)</span></a>
+          </li>
+          <li><a href="javascript:void(0)" class="">Mortgage</a></li>
+          <li class="aboutMenu-mob">
+            <a href="javascript:void(0)" class="">About</a>
+          </li>
+          <li><a href="javascript:void(0)" class="btn btn-green">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/lib/bs5/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome js start -->
+    <script src="assets/lib/fw/fontawesome.js"></script>
+    <!-- slick js start -->
+    <script src="assets/lib/slick/slick.js"></script>
+
+    <script src="assets/js/layout.js"></script>
+    <script src="assets/js/homepage.js"></script>
+  </body>
+</html>

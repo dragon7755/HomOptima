@@ -1,0 +1,3072 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | HomeOptima</title>
+    <link rel="stylesheet" href="assets/style/css/frontpage.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.cdnfonts.com/css/centrale-sans-regular"
+      rel="stylesheet"
+    />
+    <link href="assets/lib/slick/slick.css" rel="stylesheet" />
+    <link href="assets/lib/slick/slick-theme.css" rel="stylesheet" />
+  </head>
+  <body class="">
+    <header class="mainHeaer">
+      <div class="container navBar">
+        <a href="#" class="logo">
+          <img class="img-fluid" src="assets/images/logo.png" alt="" />
+        </a>
+        <ul class="menuList">
+          <li class="menuItem"><a href="javascript:void(0)">Buy</a></li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >My Home<span class="innerItem">(3)</span></a
+            >
+          </li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >Feed<span class="innerItem">(101)</span></a
+            >
+          </li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >Favorites<span class="innerItem">(25)</span></a
+            >
+          </li>
+          <li class="menuItem"><a href="javascript:void(0)">Mortgage</a></li>
+          <li class="menuItem">
+            <a
+              href="javascript:void(0)"
+              class="dropdown-toggle"
+              id="navbarDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Agent hub</a
+            >
+
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdown"
+            >
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="menuItem"><a href="javascript:void(0)">About</a></li>
+          <li class="menuItem loginBtn">
+            <a href="javascript:void(0)">Log in</a>
+          </li>
+        </ul>
+        <div class="mobiLIcon">
+          <div class="mobileMenu">
+            <span class="lineH lineOne"></span>
+            <span class="lineH lineTwo"></span>
+            <span class="lineH lineThree"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+    <div class="subpage-banner search-home watchArea-section">
+      <div class="container-fluid">
+        <div class="banner-content">
+          <h1>Search Homes</h1>
+        </div>
+        <div class="row watchItem-row">
+          <div class="col-lg-9 col-md-12 left-opt">
+            <div class="top-search">
+              <div class="input-sec">
+                <input
+                  class="form-control pac-target-input"
+                  type="text"
+                  placeholder="Type an address"
+                />
+
+                <button class="btn btn-primary" id="rate-your-home">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+            <div class="price-wrap">
+              <span>Price range</span>
+              <div class="slider-ui">
+                  <span class="amount-2 amount"></span>
+                  <div id="slider-range" style="width: 150px;"></div>
+                  <span class="amount-1 amount"></span>
+              </div>
+          </div>
+            <div class="switch-opt">
+              <small>Sold</small>
+              <label class="switch">
+                <input type="checkbox" checked />
+                <span class="slider round"></span>
+              </label>
+              <small>Active</small>
+            </div>
+            <button
+              class="btn btn-green watch-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#watchedArea-modal"
+            >
+              <img
+                class="img-fluid"
+                src="assets/images/telescope-img.png"
+                alt=""
+              />
+              <span> Watched Area</span>
+            </button>
+          </div>
+          <!-- col end -->
+          <div class="col-lg-3 col-md-12 right-opt">
+            <div class="dropdown filter-btn">
+              <a
+                class="dropdown-toggle btn btn-outline-light"
+                href="#"
+                role="button"
+                id="feed-setting"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Filters
+              </a>
+              <div class="dropdown-menu" aria-labelledby="feed-setting">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="switch-opt">
+              <small>Show Map</small>
+              <label class="switch">
+                <input type="checkbox" checked />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <!-- col end -->
+        </div>
+      </div>
+    </div>
+    <section class="section map-searc-sec search-home">
+      <div class="inner-sec">
+        <div class="content-sec">
+          <h3>Homes near <strong>3575 Ellen gate Dr, Mississauga</strong></h3>
+          <div class="head-sec">
+            <div class="left">
+              <div>
+                Showing <strong> 1-11 </strong> of <strong> 105 </strong>
+                <div class="filter-box">
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="drop-sort"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Sort
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="drop-sort">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="drop-sort"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Sale
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="drop-sort">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      href="#"
+                      role="button"
+                      id="drop-sort"
+                      data-bs-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Sold
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="drop-sort">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="notify dropdown">
+                <span
+                  class="showme"
+                  id="drop-notification"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Recently Viewed <img src="assets/images/icon/view.png" />
+                </span>
+
+                <div
+                  class="pop-box dropdown-menu dropdown-menu-end"
+                  aria-labelledby="drop-notification"
+                >
+                  <div class="d-flex">
+                    <div class="custom-control custom-checkbox">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="customCheck1"
+                      />
+                      <label class="custom-control-label" for="customCheck1"
+                        >Email</label
+                      >
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="customCheck2"
+                      />
+                      <label class="custom-control-label" for="customCheck2"
+                        >SMS</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="mt-3">
+                    This changes how you would like to receive
+                    <ul>
+                      <li>Community watch email</li>
+                      <li>Property sold watch emails/SMS</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fav-list">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card cardBox">
+                  <div class="card-header">
+                    <img
+                      class="img-fluid"
+                      src="assets/images/img01.jpg"
+                      alt=""
+                    />
+                    <span class="pinText">School score: 9/10</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="homePrice">
+                      <h4>$1,625,000</h4>
+                      <span class="saleTag">For sale</span>
+                    </div>
+                    <div class="fav-icon icon">
+                      <img src="assets/images/icon/favourite.png" />
+                    </div>
+                    <span class="ListedText">Listed 7 days Ago</span>
+                    <p class="assetAddress">616 North Service Rd, Grimsby</p>
+                    <ul class="assetsList">
+                      <li>
+                        <img
+                          class="imgfluid"
+                          src="assets/images/bed-icon.png"
+                          alt=""
+                        />
+                        <span>4 Beds</span>
+                      </li>
+                      <li>
+                        <img
+                          class="imgfluid"
+                          src="assets/images/bath-icon.png"
+                          alt=""
+                        />
+                        <span>3 baths</span>
+                      </li>
+                      <li>
+                        <img
+                          class="imgfluid"
+                          src="assets/images/home-icon.png"
+                          alt=""
+                        />
+                        <span>Detached</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="registerBox">
+                  <div class="card cardBox">
+                    <div class="card-header">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/img01.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="homePrice">
+                        <h4>$1,799,000</h4>
+                        <span class="saleTag">For sale</span>
+                      </div>
+                      <span class="ListedText">Listed 17 days Ago</span>
+                      <p class="assetAddress">783 Sombrero Way, Mississauga</p>
+                      <ul class="assetsList">
+                        <li>
+                          <img
+                            class="imgfluid"
+                            src="assets/images/bed-icon.png"
+                            alt=""
+                          />
+                          <span>4 Beds</span>
+                        </li>
+                        <li>
+                          <img
+                            class="imgfluid"
+                            src="/assets/images/bath-icon.png"
+                            alt=""
+                          />
+                          <span>5 baths</span>
+                        </li>
+                        <li>
+                          <img
+                            class="imgfluid"
+                            src="/assets/images/home-icon.png"
+                            alt=""
+                          />
+                          <span>Detached</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card registerOverlay">
+                    <div class="card-body">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/register-log-icon.png"
+                        alt=""
+                      />
+                      <p>
+                        Real Estate Board Rules require you to Register or Login
+                        to view full listing information.
+                      </p>
+                      <button
+                        class="btn btn-green"
+                        onclick="general.bindRegisterNew()"
+                      >
+                        Register / Log in
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <a style="text-decoration: none" href="/estimate">
+                  <div class="card cardBox aboutSale">
+                    <div class="card-body">
+                      <h3>Thinking about selling?</h3>
+                      <img
+                        class="img-fluid"
+                        src="assets/images/about-book.png"
+                        alt=""
+                      />
+                      <p>
+                        Sell for more than the home next door with HomeOptima
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card cardBox">
+                  <div class="card-header">
+                    <img
+                      class="img-fluid"
+                      src="assets/images/img01.jpg"
+                      alt=""
+                    />
+                    <span class="pinText">School score: 9/10</span>
+                  </div>
+                  <div class="card-body">
+                    <div class="homePrice">
+                      <h4>$1,625,000</h4>
+                      <span class="saleTag">For sale</span>
+                    </div>
+                    <div class="fav-icon icon">
+                      <img src="assets/images/icon/favourite.png" />
+                    </div>
+                    <span class="ListedText">Listed 7 days Ago</span>
+                    <p class="assetAddress">616 North Service Rd, Grimsby</p>
+                    <ul class="assetsList">
+                      <li>
+                        <img
+                          class="imgfluid"
+                          src="assets/images/bed-icon.png"
+                          alt=""
+                        />
+                        <span>4 Beds</span>
+                      </li>
+                      <li>
+                        <img
+                          class="imgfluid"
+                          src="assets/images/bath-icon.png"
+                          alt=""
+                        />
+                        <span>3 baths</span>
+                      </li>
+                      <li>
+                        <img
+                          class="imgfluid"
+                          src="assets/images/home-icon.png"
+                          alt=""
+                        />
+                        <span>Detached</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more-filter-popup" style="display: none">
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap pr-3"
+          >
+            <h3 class="mr-2" style="display: block">
+              560 Amarone Ct, Mississauga
+            </h3>
+            <span class="show-result-homes-display" style="font-weight: bold"
+              >1021 results</span
+            >
+          </div>
+          <div class="top">
+            <div class="left">
+              <label>Price</label>
+              <div class="drop-down">
+                <div class="dropdown">
+                  <a
+                    class="dropdown-toggle min-price-main"
+                    type="button"
+                    id="dropdownMenuButton2"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >$1,000,000<i class="fa fa-angle-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-menu min-price-drp price-drp"
+                    aria-labelledby="dropdownMenuButton2"
+                  >
+                    <a class="dropdown-item" value="" href="javascript:void(0);"
+                      >Any</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      value="25000"
+                      href="javascript:void(0);"
+                      >$25,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="100000"
+                      href="javascript:void(0);"
+                      >$100,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="125000"
+                      href="javascript:void(0);"
+                      >$125,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="150000"
+                      href="javascript:void(0);"
+                      >$150,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="175000"
+                      href="javascript:void(0);"
+                      >$175,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="200000"
+                      href="javascript:void(0);"
+                      >$200,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="225000"
+                      href="javascript:void(0);"
+                      >$225,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="250000"
+                      href="javascript:void(0);"
+                      >$250,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="275000"
+                      href="javascript:void(0);"
+                      >$275,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="300000"
+                      href="javascript:void(0);"
+                      >$300,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="325000"
+                      href="javascript:void(0);"
+                      >$325,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="350000"
+                      href="javascript:void(0);"
+                      >$350,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="375000"
+                      href="javascript:void(0);"
+                      >$375,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="400000"
+                      href="javascript:void(0);"
+                      >$400,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="425000"
+                      href="javascript:void(0);"
+                      >$425,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="450000"
+                      href="javascript:void(0);"
+                      >$450,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="475000"
+                      href="javascript:void(0);"
+                      >$475,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="500000"
+                      href="javascript:void(0);"
+                      >$500,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="525000"
+                      href="javascript:void(0);"
+                      >$525,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="550000"
+                      href="javascript:void(0);"
+                      >$550,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="575000"
+                      href="javascript:void(0);"
+                      >$575,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="600000"
+                      href="javascript:void(0);"
+                      >$600,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="625000"
+                      href="javascript:void(0);"
+                      >$625,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="650000"
+                      href="javascript:void(0);"
+                      >$650,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="675000"
+                      href="javascript:void(0);"
+                      >$675,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="700000"
+                      href="javascript:void(0);"
+                      >$700,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="725000"
+                      href="javascript:void(0);"
+                      >$725,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="750000"
+                      href="javascript:void(0);"
+                      >$750,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="775000"
+                      href="javascript:void(0);"
+                      >$775,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="800000"
+                      href="javascript:void(0);"
+                      >$800,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="825000"
+                      href="javascript:void(0);"
+                      >$825,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="850000"
+                      href="javascript:void(0);"
+                      >$850,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="875000"
+                      href="javascript:void(0);"
+                      >$875,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="900000"
+                      href="javascript:void(0);"
+                      >$900,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="925000"
+                      href="javascript:void(0);"
+                      >$925,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="950000"
+                      href="javascript:void(0);"
+                      >$950,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="975000"
+                      href="javascript:void(0);"
+                      >$975,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1000000"
+                      href="javascript:void(0);"
+                      >$1,000,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1100000"
+                      href="javascript:void(0);"
+                      >$1,100,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1200000"
+                      href="javascript:void(0);"
+                      >$1,200,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1300000"
+                      href="javascript:void(0);"
+                      >$1,300,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1400000"
+                      href="javascript:void(0);"
+                      >$1,400,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1500000"
+                      href="javascript:void(0);"
+                      >$1,500,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1600000"
+                      href="javascript:void(0);"
+                      >$1,600,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1700000"
+                      href="javascript:void(0);"
+                      >$1,700,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1800000"
+                      href="javascript:void(0);"
+                      >$1,800,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1900000"
+                      href="javascript:void(0);"
+                      >$1,900,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2000000"
+                      href="javascript:void(0);"
+                      >$2,000,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2100000"
+                      href="javascript:void(0);"
+                      >$2,100,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2200000"
+                      href="javascript:void(0);"
+                      >$2,200,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2300000"
+                      href="javascript:void(0);"
+                      >$2,300,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2400000"
+                      href="javascript:void(0);"
+                      >$2,400,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2500000"
+                      href="javascript:void(0);"
+                      >$2,500,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2600000"
+                      href="javascript:void(0);"
+                      >$2,600,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2700000"
+                      href="javascript:void(0);"
+                      >$2,700,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2800000"
+                      href="javascript:void(0);"
+                      >$2,800,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2900000"
+                      href="javascript:void(0);"
+                      >$2,900,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3000000"
+                      href="javascript:void(0);"
+                      >$3,000,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3100000"
+                      href="javascript:void(0);"
+                      >$3,100,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3200000"
+                      href="javascript:void(0);"
+                      >$3,200,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3300000"
+                      href="javascript:void(0);"
+                      >$3,300,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3400000"
+                      href="javascript:void(0);"
+                      >$3,400,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3500000"
+                      href="javascript:void(0);"
+                      >$3,500,000+</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <span>to</span>
+              <div class="drop-down">
+                <div class="dropdown">
+                  <a
+                    class="dropdown-toggle max-price-main"
+                    type="button"
+                    id="dropdownMenuButton3"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >$1,500,000<i class="fa fa-angle-down"></i
+                  ></a>
+                  <div
+                    class="dropdown-menu max-price-drp price-drp"
+                    aria-labelledby="dropdownMenuButton3"
+                  >
+                    <a class="dropdown-item" value="" href="javascript:void(0);"
+                      >Any</a
+                    >
+
+                    <a
+                      class="dropdown-item"
+                      value="25000"
+                      href="javascript:void(0);"
+                      >$25,000+</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="100000"
+                      href="javascript:void(0);"
+                      >$100,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="125000"
+                      href="javascript:void(0);"
+                      >$125,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="150000"
+                      href="javascript:void(0);"
+                      >$150,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="175000"
+                      href="javascript:void(0);"
+                      >$175,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="200000"
+                      href="javascript:void(0);"
+                      >$200,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="225000"
+                      href="javascript:void(0);"
+                      >$225,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="250000"
+                      href="javascript:void(0);"
+                      >$250,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="275000"
+                      href="javascript:void(0);"
+                      >$275,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="300000"
+                      href="javascript:void(0);"
+                      >$300,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="325000"
+                      href="javascript:void(0);"
+                      >$325,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="350000"
+                      href="javascript:void(0);"
+                      >$350,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="375000"
+                      href="javascript:void(0);"
+                      >$375,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="400000"
+                      href="javascript:void(0);"
+                      >$400,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="425000"
+                      href="javascript:void(0);"
+                      >$425,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="450000"
+                      href="javascript:void(0);"
+                      >$450,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="475000"
+                      href="javascript:void(0);"
+                      >$475,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="500000"
+                      href="javascript:void(0);"
+                      >$500,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="525000"
+                      href="javascript:void(0);"
+                      >$525,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="550000"
+                      href="javascript:void(0);"
+                      >$550,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="575000"
+                      href="javascript:void(0);"
+                      >$575,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="600000"
+                      href="javascript:void(0);"
+                      >$600,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="625000"
+                      href="javascript:void(0);"
+                      >$625,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="650000"
+                      href="javascript:void(0);"
+                      >$650,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="675000"
+                      href="javascript:void(0);"
+                      >$675,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="700000"
+                      href="javascript:void(0);"
+                      >$700,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="725000"
+                      href="javascript:void(0);"
+                      >$725,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="750000"
+                      href="javascript:void(0);"
+                      >$750,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="775000"
+                      href="javascript:void(0);"
+                      >$775,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="800000"
+                      href="javascript:void(0);"
+                      >$800,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="825000"
+                      href="javascript:void(0);"
+                      >$825,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="850000"
+                      href="javascript:void(0);"
+                      >$850,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="875000"
+                      href="javascript:void(0);"
+                      >$875,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="900000"
+                      href="javascript:void(0);"
+                      >$900,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="925000"
+                      href="javascript:void(0);"
+                      >$925,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="950000"
+                      href="javascript:void(0);"
+                      >$950,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="975000"
+                      href="javascript:void(0);"
+                      >$975,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1000000"
+                      href="javascript:void(0);"
+                      >$1,000,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1100000"
+                      href="javascript:void(0);"
+                      >$1,100,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1200000"
+                      href="javascript:void(0);"
+                      >$1,200,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1300000"
+                      href="javascript:void(0);"
+                      >$1,300,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1400000"
+                      href="javascript:void(0);"
+                      >$1,400,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1500000"
+                      href="javascript:void(0);"
+                      >$1,500,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1600000"
+                      href="javascript:void(0);"
+                      >$1,600,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1700000"
+                      href="javascript:void(0);"
+                      >$1,700,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1800000"
+                      href="javascript:void(0);"
+                      >$1,800,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="1900000"
+                      href="javascript:void(0);"
+                      >$1,900,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2000000"
+                      href="javascript:void(0);"
+                      >$2,000,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2100000"
+                      href="javascript:void(0);"
+                      >$2,100,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2200000"
+                      href="javascript:void(0);"
+                      >$2,200,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2300000"
+                      href="javascript:void(0);"
+                      >$2,300,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2400000"
+                      href="javascript:void(0);"
+                      >$2,400,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2500000"
+                      href="javascript:void(0);"
+                      >$2,500,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2600000"
+                      href="javascript:void(0);"
+                      >$2,600,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2700000"
+                      href="javascript:void(0);"
+                      >$2,700,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2800000"
+                      href="javascript:void(0);"
+                      >$2,800,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="2900000"
+                      href="javascript:void(0);"
+                      >$2,900,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3000000"
+                      href="javascript:void(0);"
+                      >$3,000,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3100000"
+                      href="javascript:void(0);"
+                      >$3,100,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3200000"
+                      href="javascript:void(0);"
+                      >$3,200,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3300000"
+                      href="javascript:void(0);"
+                      >$3,300,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3400000"
+                      href="javascript:void(0);"
+                      >$3,400,000</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      value="3500000"
+                      href="javascript:void(0);"
+                      >$3,500,000</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="javascript:void(0)" class="more-filters"
+              >Hide Filters <i class="fa fa-angle-down"></i
+            ></a>
+          </div>
+          <div class="top-sec">
+            <div class="form-group">
+              <label>Beds</label>
+              <div class="custom-input beds-input">
+                <span class="minus"><i class="fa fa-minus"></i></span>
+                <span class="number">Any</span>
+                <span class="plus"><i class="fa fa-plus"></i></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Bath</label>
+              <div class="custom-input baths-input">
+                <span class="minus"><i class="fa fa-minus"></i></span>
+                <span class="number">Any</span>
+                <span class="plus"><i class="fa fa-plus"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="property-sec home-type-section">
+            <label>Property Type</label>
+            <div class="block">
+              <div class="box any-box active" type="Any">
+                <img src="/optima/img/icon-Semi deta@2x.png" alt="" />
+                <span>Any</span>
+              </div>
+              <div class="box Detached-box" type="Detached">
+                <img src="/optima/img/icon-detached@2x.png" alt="" />
+                <span>Detached</span>
+              </div>
+              <div class="box Semi-Detached-box" type="Semi-Detached">
+                <img src="/optima/img/icon-Semi deta@2x.png" alt="" />
+                <span>Semi-Detached</span>
+              </div>
+              <div class="box Att-box" type="Att/Row/Twnhouse">
+                <img src="/optima/img/icon-row@2x.png" alt="" />
+                <span>Att/Row/Twnhouse</span>
+              </div>
+              <div class="box Townhouse-box" type="Condo Townhouse">
+                <img src="/optima/img/icon-Condo town@2x.png" alt="" />
+                <span>Condo Townhouse</span>
+              </div>
+              <div class="box Apt-box" type="Condo Apt">
+                <img src="/optima/img/icon-Apt@2x.png" alt="" />
+                <span>Condo Apt</span>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-sec">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Max Days on Market</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle days-on-market-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >Any <i class="fa fa-angle-down"></i
+                    ></a>
+                    <div
+                      class="dropdown-menu max-days-on-market"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        days=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        days="0-7"
+                        >Less than 7 days</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        days="0-14"
+                        >Less than 14 days</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        days="0-30"
+                        >Less than 30 days</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        days="30"
+                        >Greater than 30 days</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        days="60"
+                        >Greater than 60 days</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Max Maintenance Fee</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle maintenance-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >Any <i class="fa fa-angle-down"></i
+                    ></a>
+                    <div
+                      class="dropdown-menu maintenance-drp price-drp-new"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="50"
+                        >Less than $50</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="100"
+                        >Less than $100</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="150"
+                        >Less than $150</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="200"
+                        >Less than $200</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="250"
+                        >Less than $250</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="300"
+                        >Less than $300</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="350"
+                        >Less than $350</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="400"
+                        >Less than $400</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="450"
+                        >Less than $450</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="500"
+                        >Less than $500</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="550"
+                        >Less than $550</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="600"
+                        >Less than $600</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="650"
+                        >Less than $650</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="700"
+                        >Less than $700</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="750"
+                        >Less than $750</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="800"
+                        >Less than $800</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="850"
+                        >Less than $850</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="900"
+                        >Less than $900</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="950"
+                        >Less than $950</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        fees="1000"
+                        >Less than $1000</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Style</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle style-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Any <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div
+                      class="dropdown-menu style-drp"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2-Storey"
+                        >2-Storey</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3-Storey"
+                        >3-Storey</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Bungalow"
+                        >Bungalow</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3-Storey"
+                        >Other</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Basement</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle basement-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Any <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div
+                      class="dropdown-menu basement-drp"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Apartment"
+                        >Apartment</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Unfinished"
+                        >Unfinished</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Finished"
+                        >Finished</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Sep Entrance"
+                        >Sep Entrance</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="W/O"
+                        >W/O</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Other"
+                        >Other</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Approx Square Footage</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle square-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Any <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div
+                      class="dropdown-menu price-drp-new square-drp"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="0-499"
+                        >0-499</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="500-599"
+                        >500-599</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="600-699"
+                        >600-699</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="700-799"
+                        >700-799</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="800-899"
+                        >800-899</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="900-999"
+                        >900-999</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1000-1199"
+                        >1000-1199</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1100-1299"
+                        >1100-1299</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1100-1500"
+                        >1100-1500</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1200-1399"
+                        >1200-1399</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1400-1599"
+                        >1400-1599</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1500-2000"
+                        >1500-2000</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1600-1799"
+                        >1600-1799</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1800-1999"
+                        >1800-1999</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2000-2249"
+                        >2000-2249</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2000-2500"
+                        >2000-2500</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2250-2499"
+                        >2250-2499</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2500-2749"
+                        >2500-2749</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2500-3000"
+                        >2500-3000</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2750-2999"
+                        >2750-2999</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3000-3249"
+                        >3000-3249</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3000-3500"
+                        >3000-3500</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3250-3499"
+                        >3250-3499</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3500-3749"
+                        >3500-3749</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3500-5000"
+                        >3500-5000</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="4000-4249"
+                        >4000-4249</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="4250-4499"
+                        >4250-4499</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="5000+"
+                        >5000+</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Approx Age</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle age-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Any <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div
+                      class="dropdown-menu age-drp"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="New"
+                        >New</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="0-5"
+                        >0-5</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="6-15"
+                        >6-15</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="16-30"
+                        >16-30</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="31-50"
+                        >31-50</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="51-99"
+                        >51-99</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="100"
+                        >100+</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Parking Spaces</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle parking-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Any <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div
+                      class="dropdown-menu parking-drp"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="0"
+                        >0</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1"
+                        >1+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2"
+                        >2+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3"
+                        >3+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="4"
+                        >4+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="5"
+                        >5+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="6"
+                        >6+</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Garage Spaces</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle garage-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Any <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div
+                      class="dropdown-menu garage-drp"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="0"
+                        >0</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="1"
+                        >1+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="2"
+                        >2+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="3"
+                        >3+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="4"
+                        >4+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="5"
+                        >5+</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="6"
+                        >6+</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="drop-down">
+                  <label>Pool</label>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle pool-main"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Any <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div
+                      class="dropdown-menu pool-drp"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value=""
+                        >Any</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Indoor"
+                        >Indoor</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Inground"
+                        >Inground</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="Abv Grnd"
+                        >Abv Grnd</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="javascript:void(0);"
+                        value="None"
+                        >None</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bottom">
+            <div class="left">
+              <a
+                href="javascript:void(0);"
+                id="resetData"
+                style="color: white"
+                class="btn btn-secondary"
+                >Reset</a
+              >
+            </div>
+            <div class="right">
+              <button class="btn btn-primary" id="applyFilter">
+                Apply Filters
+              </button>
+              <button class="btn btn-secondary" id="cancelFilter">
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="map"></div>
+      </div>
+    </section>
+
+    <footer class="ourFooter">
+      <div class="container">
+        <div class="topFooter">
+          <div class="row">
+            <div class="col-lg-3 col-md-12 logoCol">
+              <div class="footerLogo">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/footer-logo.png"
+                    alt=""
+                  />
+                </a>
+                <div class="f-des">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <img
+                    class="img-fluid"
+                    src="assets/images/VC-img.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 mobileContact">
+              <div class="footerMenu">
+                <p class="fPera">Contact us</p>
+                <ul class="menuList">
+                  <li class="fItem mobileItem">
+                    <a href="javascript:void(0)">905.749.8000</a>
+                  </li>
+                  <li class="fItem">
+                    <a href="javascript:void(0)">info@homeoptima.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="row midMenuRow">
+                <div class="col-lg-5 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">Get Started</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Buy first, sell later</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Browse Homes</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Get Home Estimate</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">Learn</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">FAQ</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">About</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Who we are</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Careers</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <div class="footerMenu desktopContact">
+                <p class="fPera">Contact us</p>
+                <ul class="menuList">
+                  <li class="fItem mobileItem">
+                    <a href="javascript:void(0)">905.749.8000</a>
+                  </li>
+                  <li class="fItem">
+                    <a href="javascript:void(0)">info@homeoptima.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- top footer end -->
+        <div class="midFooter">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="mobileApp">
+                <h4>Looking to buy or sell?</h4>
+                <div class="appRate">
+                  <img
+                    class="img-fluid appHomeIMG"
+                    src="assets/images/app-home.png"
+                    alt=""
+                  />
+                  <div class="downLoadHead">
+                    <p>Download our Top Rated Home Search App now!</p>
+                    <ul class="stareRate">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                  </div>
+                  <div class="playStore">
+                    <a href="#">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/iphone-store.png"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/android-store.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="mobileDevice">
+                <div class="innerImg">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/mobile-img.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mid footer end -->
+        <div class="bottomFooter">
+          <img
+            class="img-fluid partnerImg"
+            src="assets/images/partner-img.png"
+            alt=""
+          />
+          <p class="ftrNote">
+            Not intended to solicit parties under an exclusive contract with a
+            brokerage. MLS®, REALTOR® and the associated logos are trademarks of
+            the Canadian Real Estate Association. Ashish Saxena, Broker,
+            HomeOptima Inc., Brokerage is a member of TREB® & CREA® The listing
+            data is provided under copyright by the Toronto Real Estate Board -
+            TREB®. The listing data is deemed reliable but is not guaranteed
+            accurate by the Toronto Real Estate Board. Canadian and US patents
+            pending.
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="termCondition">
+                <p>
+                  © 2015-2021 HomeOptima Inc., Brokerage All Rights Reserved
+                  HomeOptima Inc. Updated February 2018: By searching you agree
+                  to the <a href="#"> Terms of Use </a> and
+                  <a href="#">Privacy Polic</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <ul class="socialLink">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <div class="mobileBox">
+      <div class="container">
+        <ul class="mobMenu">
+          <li><a href="javascript:void(0)">Buy</a></li>
+          <li>
+            <a href="javascript:void(0)" class="">My Home<span>(3)</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="">Feed<span>(101)</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="">Favorites<span>(25)</span></a>
+          </li>
+          <li><a href="javascript:void(0)" class="">Mortgage</a></li>
+          <li class="aboutMenu-mob">
+            <a href="javascript:void(0)" class="">About</a>
+          </li>
+          <li><a href="javascript:void(0)" class="btn btn-green">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Watch area table Modal start-->
+    <div
+      class="modal fade reportList-modal watchedArea-modal"
+      id="watchedArea-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Watched Area</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pb-0">
+            <div class="creatArea-delete">
+              <button
+                class="btn btn-green"
+                data-bs-toggle="modal"
+                data-bs-target="#edit-watchedArea-modal2"
+                data-bs-dismiss="modal"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/images/telescope-img.png"
+                  alt=""
+                />
+                <span>Create Watched Area</span>
+              </button>
+              <button class="btn deleteBtn">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="table-responsive myDeal_table watchArea-table">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th class="" scope="col"></th>
+                    <th class="" scope="col">Area</th>
+                    <th class="" scope="col">All / Today's listings</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="" scope="row">
+                      <input
+                        type="checkbox"
+                        class="form-fontrol customCheckbox"
+                        value="13"
+                      />
+                    </th>
+                    <td class="area-Tb">
+                      <span>Area test #1</span>
+                      <a
+                        href="javascript:void(0)"
+                        data-bs-toggle="modal"
+                        data-bs-target="#edit-watchedArea-modal"
+                        data-bs-dismiss="modal"
+                      >
+                        <img
+                          class="img-fluid"
+                          src="assets/images/pen-img.png"
+                          alt=""
+                        />
+                      </a>
+                    </td>
+                    <td class="allList-Tb">
+                      <span class="number-ratio"> 7/2 </span>
+                      <button
+                        class="btn btn-green"
+                        data-bs-toggle="modal"
+                        data-bs-target="#watchedArea-modal"
+                      >
+                        <i class="fas fa-search"></i> <span>View Listings</span>
+                      </button>
+                    </td>
+                  </tr>
+                  <!-- row end -->
+                  <tr>
+                    <th class="" scope="row">
+                      <input
+                        type="checkbox"
+                        class="form-fontrol customCheckbox"
+                        value="13"
+                      />
+                    </th>
+                    <td class="area-Tb">
+                      <span>Area test #2</span>
+                      <a href="#">
+                        <img
+                          class="img-fluid"
+                          src="assets/images/pen-img.png"
+                          alt=""
+                        />
+                      </a>
+                    </td>
+                    <td class="allList-Tb">
+                      <span class="number-ratio"> 34/5 </span>
+                      <button
+                        class="btn btn-green"
+                        data-bs-toggle="modal"
+                        data-bs-target="#watchedArea-modal"
+                      >
+                        <i class="fas fa-search"></i> <span>View Listings</span>
+                      </button>
+                    </td>
+                  </tr>
+                  <!-- row end -->
+                  <tr>
+                    <th class="" scope="row">
+                      <input
+                        type="checkbox"
+                        class="form-fontrol customCheckbox"
+                        value="13"
+                      />
+                    </th>
+                    <td class="area-Tb">
+                      <span>Area test #3</span>
+                      <a href="#">
+                        <img
+                          class="img-fluid"
+                          src="assets/images/pen-img.png"
+                          alt=""
+                        />
+                      </a>
+                    </td>
+                    <td class="allList-Tb">
+                      <span class="number-ratio"> 40/10 </span>
+                      <button
+                        class="btn btn-green"
+                        data-bs-toggle="modal"
+                        data-bs-target="#watchedArea-modal"
+                      >
+                        <i class="fas fa-search"></i> <span>View Listings</span>
+                      </button>
+                    </td>
+                  </tr>
+                  <!-- row end -->
+                </tbody>
+              </table>
+            </div>
+            <!-- table end -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-grey" data-bs-dismiss="modal">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Watch area table Modal end-->
+    <!--Edit Watch area Map Modal start 1-->
+    <div
+      class="modal fade reportList-modal watchedArea-modal"
+      id="edit-watchedArea-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Edit Watched Area
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pb-0">
+            <div class="type-address">
+              <div class="search-box">
+                <input
+                  type="search"
+                  class="form-control"
+                  name="search-filter"
+                  placeholder="Type an address"
+                />
+                <button class="btn btn-green srcBtn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+            <!-- search box end -->
+            <div class="mapCreate-box">
+              <img
+                class="img-fluid"
+                src="assets/images/watch-area-map-img.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="row w-100">
+              <div class="col-7">
+                <button
+                  type="button"
+                  class="btn btn-grey"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-grey">Re-Drow</button>
+              </div>
+              <div class="col-5 text-end">
+                <button type="button" class="btn btn-green">
+                  Confirm Area
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Edit Watch area Map Modal end 1-->
+
+    <!--Edit Watch area Map Modal start 2-->
+    <div
+      class="modal fade reportList-modal watchedArea-modal"
+      id="edit-watchedArea-modal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Edit Watched Area
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </h5>
+          </div>
+          <div class="modal-body pb-0">
+            <div class="editWatch-form">
+              <div class="row align-items-center areaUpper-row">
+                <div class="form-group col-6">
+                  <label>Area Name</label>
+                  <input
+                    type="text"
+                    class="form-control watchArea-input"
+                    placeholder="Watch area test #1"
+                    name=""
+                  />
+                </div>
+                <div class="form-group col-6">
+                  <label>Notifications (daily)</label>
+                  <div class="switch-opt">
+                    <small>Once</small>
+                    <label class="switch">
+                      <input type="checkbox" checked="" />
+                      <span class="slider round"></span>
+                    </label>
+                    <small>Multiple Times</small>
+                  </div>
+                </div>
+                <div class="form-group col-4 priceRange-col">
+                  <label>Price Range</label>
+                  <div class="drop-down">
+                    <div class="dropdown">
+                      <a class="dropdown-toggle days-on-market-main" type="button" id="dropdownMenuButton-min" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">No min <i class="fa fa-angle-down"></i></a>
+                      <div class="dropdown-menu max-days-on-market" aria-labelledby="dropdownMenuButton-min">
+                        <a class="dropdown-item" href="javascript:void(0);" days="">Any</a>
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                      <a class="dropdown-toggle days-on-market-main" type="button" id="dropdownMenuButton-max" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">No max <i class="fa fa-angle-down"></i></a>
+                      <div class="dropdown-menu max-days-on-market" aria-labelledby="dropdownMenuButton-max">
+                        <a class="dropdown-item" href="javascript:void(0);" days="">Any</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-4">
+                  <label>Beds</label>
+                  <div class="plusMinus-custom-input beds-input">
+                    <span class="minus"><i class="fa fa-minus"></i></span>
+                    <span class="number">Any</span>
+                    <span class="plus"><i class="fa fa-plus"></i></span>
+                  </div>
+                </div>
+                <div class="form-group col-4">
+                  <label>Baths</label>
+                  <div class="plusMinus-custom-input baths-input">
+                    <span class="minus"><i class="fa fa-minus"></i></span>
+                    <span class="number">Any</span>
+                    <span class="plus"><i class="fa fa-plus"></i></span>
+                  </div>
+                </div>
+              </div>
+              <!-- row end -->
+              <div class="property-sec home-type-section">
+                <label>Property Type</label>
+                <div class="block">
+                  <div class="box any-box active" type="Any">
+                    <img src="assets/images/any-icon.png" alt="">
+                    <span>Any</span>
+                  </div>
+                  <div class="box Detached-box" type="Detached">
+                    <img src="assets/images/icon-detached@2x.png" alt="">
+                    <span>Detached</span>
+                  </div>
+                  <div class="box Semi-Detached-box" type="Semi-Detached">
+                    <img src="assets/images/icon-Semi deta@2x.png" alt="">
+                    <span>Semi-Detached</span>
+                  </div>
+                  <div class="box Att-box" type="Att/Row/Twnhouse">
+                    <img src="assets/images/icon-row@2x.png" alt="">
+                    <span>Att/Row/Twnhouse</span>
+                  </div>
+                  <div class="box Townhouse-box" type="Condo Townhouse">
+                    <img src="assets/images/icon-Condo town@2x.png" alt="">
+                    <span>Condo Townhouse</span>
+                  </div>
+                  <div class="box Apt-box" type="Condo Apt">
+                    <img src="assets/images/icon-con-apt@2x.png" alt="">
+                    <span>Condo Apt</span>
+                  </div>
+                </div>
+              </div>
+              <!-- property section end -->
+              <div class="dropdown-sec">
+                <label>Other</label>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Max Days on Market</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle days-on-market-main" type="button" id="dropdownMenuButton-mmm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Any <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu max-days-on-market" aria-labelledby="dropdownMenuButton-mmm">
+                          <a class="dropdown-item" href="javascript:void(0);" days="">Any</a>
+                          <a class="dropdown-item" href="javascript:void(0);" days="0-7">Less than 7 days</a>
+                          <a class="dropdown-item" href="javascript:void(0);" days="0-14">Less than 14 days</a>
+                          <a class="dropdown-item" href="javascript:void(0);" days="0-30">Less than 30 days</a>
+                          <a class="dropdown-item" href="javascript:void(0);" days="30">Greater than 30 days</a>
+                          <a class="dropdown-item" href="javascript:void(0);" days="60">Greater than 60 days</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Max Maintenance Fee</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle maintenance-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Any <i class="fa fa-angle-down"></i></a>
+                        <div class="dropdown-menu maintenance-drp price-drp-new" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="javascript:void(0);" fees="">Any</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="50">Less than $50</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="100">Less than $100</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="150">Less than $150</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="200">Less than $200</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="250">Less than $250</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="300">Less than $300</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="350">Less than $350</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="400">Less than $400</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="450">Less than $450</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="500">Less than $500</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="550">Less than $550</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="600">Less than $600</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="650">Less than $650</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="700">Less than $700</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="750">Less than $750</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="800">Less than $800</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="850">Less than $850</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="900">Less than $900</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="950">Less than $950</a>
+                                  <a class="dropdown-item" href="javascript:void(0);" fees="1000">Less than $1000</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Style</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle style-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Any <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu style-drp" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="javascript:void(0);" value="">Any</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="2-Storey">2-Storey</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="3-Storey">3-Storey</a>
+                           <a class="dropdown-item" href="javascript:void(0);" value="Bungalow">Bungalow</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="3-Storey">Other</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Basement</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle basement-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Any <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu basement-drp" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="javascript:void(0);" value="">Any</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="Apartment">Apartment</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="Unfinished">Unfinished</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="Finished">Finished</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="Sep Entrance">Sep Entrance</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="W/O">W/O</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="Other">Other</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Approx Square Footage</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle square-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Any <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu price-drp-new square-drp" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="javascript:void(0);" value="">Any</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="0-499">0-499</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="500-599">500-599</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="600-699">600-699</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="700-799">700-799</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="800-899">800-899</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="900-999">900-999</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="1000-1199">1000-1199</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="1100-1299">1100-1299</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="1100-1500">1100-1500</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="1200-1399">1200-1399</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="1400-1599">1400-1599</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="1500-2000">1500-2000</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="1600-1799">1600-1799</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="1800-1999">1800-1999</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="2000-2249">2000-2249</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="2000-2500">2000-2500</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="2250-2499">2250-2499</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="2500-2749">2500-2749</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="2500-3000">2500-3000</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="2750-2999">2750-2999</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="3000-3249">3000-3249</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="3000-3500">3000-3500</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="3250-3499">3250-3499</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="3500-3749">3500-3749</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="3500-5000">3500-5000</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="4000-4249">4000-4249</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="4250-4499">4250-4499</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="5000+">5000+</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Approx Age</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle age-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Any <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu age-drp" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="javascript:void(0);" value="">Any</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="New">New</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="0-5">0-5</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="6-15">6-15</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="16-30">16-30</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="31-50">31-50</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="51-99">51-99</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="100">100+</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Parking Spaces</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle parking-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Any <i class="fa fa-angle-down"></i>
+                        </a>
+                         <div class="dropdown-menu parking-drp" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="javascript:void(0);" value="">Any</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="0">0</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="1">1+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="2">2+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="3">3+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="4">4+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="5">5+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="6">6+</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Garage Spaces</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle garage-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Any <i class="fa fa-angle-down"></i>
+                        </a>
+                         <div class="dropdown-menu garage-drp" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="javascript:void(0);" value="">Any</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="0">0</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="1">1+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="2">2+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="3">3+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="4">4+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="5">5+</a>
+                            <a class="dropdown-item" href="javascript:void(0);" value="6">6+</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="drop-down">
+                      <label>Pool</label>
+                      <div class="dropdown">
+                        <a class="dropdown-toggle pool-main" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Any <i class="fa fa-angle-down"></i>
+                        </a>
+                         <div class="dropdown-menu pool-drp" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="javascript:void(0);" value="">Any</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="Indoor">Indoor</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="Inground">Inground</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="Abv Grnd">Abv Grnd</a>
+                          <a class="dropdown-item" href="javascript:void(0);" value="None">None</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="row w-100">
+              <div class="col-7">
+                <button
+                  type="button"
+                  class="btn btn-grey"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-grey">
+                  Reset Filters
+                </button>
+              </div>
+              <div class="col-5 text-end">
+                <button type="button" class="btn btn-green">
+                  Confirm Area
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Edit Watch area Map Modal end 2-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/lib/bs5/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome js start -->
+    <script src="assets/lib/fw/fontawesome.js"></script>
+    <!-- slick js start -->
+    <script src="assets/lib/slick/slick.js"></script>
+
+    <script src="assets/js/layout.js"></script>
+    <script src="assets/js/homepage.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdnQwnup53tHsqTpdtbzNh6rZzygGujFU&amp;libraries=places"
+      type="text/javascript"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var mapOptions = {
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+        };
+        map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        map.setCenter(new google.maps.LatLng(43.629658, -79.710535));
+
+        $("#slider-range").slider({
+          range: true,
+          min: 25000,
+          max: 3500000,
+          values: [25000, 3500000],
+          slide: function (event, ui) {
+            $(".amount-1").html("$" + ui.values[0]);
+            $(".amount-2").html("$" + ui.values[1]);
+          },
+        });
+
+        $(".imgSlider").slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          prevArrow: false,
+          nextArrow: false,
+          responsive: [
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+          ],
+        });
+
+        $(".homeownerSlider").slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          prevArrow:
+            '<img class="img-fluid left_arrow  " src="assets/images/left_arrow1.png" alt="" >',
+          nextArrow:
+            '<img class="img-fluid right_arrow " src="assets/images/right_arrow1.png" alt="" >',
+          responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+
+        $(".recent-one").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2500,
+          // prevArrow: false,
+          // nextArrow: false
+        });
+
+        $(".recent-two").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2500,
+          // prevArrow: false,
+          // nextArrow: false
+        });
+
+        $(".allDashboard").click(function () {
+          $(".dashboardInner-box").toggleClass("showDash");
+          if ($(".dashboardInner-box").hasClass("showDash")) {
+            $("#show-d").text("Hide Dashboard");
+            $(".allDashboard i")
+              .removeClass("fa-angle-down")
+              .addClass("fa-angle-up");
+            $(".unclaimBtn").fadeIn();
+          } else {
+            $("#show-d").text("Show Dashboard");
+            $(".allDashboard i")
+              .addClass("fa-angle-down")
+              .removeClass("fa-angle-up");
+            $(".unclaimBtn").fadeOut();
+          }
+        });
+        $(".showme").click({});
+        $(".comment-icon").click(function () {
+          var data = $(this)
+            .closest(".comment-wrap")
+            .find(".comment-data")
+            .html();
+          var pos = $(this).offset();
+          console.log(pos, this);
+          $("body").append(
+            "<div class='comment-pop' style='transform:translate(" +
+              pos.left +
+              "px," +
+              pos.top +
+              "px)'>" +
+              data +
+              "</div>"
+          );
+        });
+
+        var stickyTop = $(".map-searc-sec").offset().top - 88;
+        var ch = $(".map-searc-sec").height();
+        $(window).scroll(function () {
+          var windowTop = $(window).scrollTop();
+
+          if (stickyTop < windowTop) {
+            $("#map").addClass("fixed").css("max-height", ch);
+          } else {
+            $("#map").removeClass("fixed");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+
+// scss-docs-start import-stack
+// Configuration
+
+@import "../../lib/bs5/scss/functions";
+@import "variables";
+@import "../../lib/bs5/scss/variables";
+
+@import "../../lib/bs5/scss/mixins";
+@import "../../lib/bs5/scss/utilities";
+
+// Layout & components
+@import "../../lib/bs5/scss/root";
+@import "../../lib/bs5/scss/reboot";
+@import "../../lib/bs5/scss/type";
+@import "../../lib/bs5/scss/images";
+@import "../../lib/bs5/scss/containers";
+@import "../../lib/bs5/scss/grid";
+@import "../../lib/bs5/scss/tables";
+@import "../../lib/bs5/scss/forms";
+@import "../../lib/bs5/scss/buttons";
+@import "../../lib/bs5/scss/transitions";
+@import "../../lib/bs5/scss/dropdown";
+@import "../../lib/bs5/scss/button-group";
+@import "../../lib/bs5/scss/nav";
+@import "../../lib/bs5/scss/navbar";
+@import "../../lib/bs5/scss/card";
+@import "../../lib/bs5/scss/accordion";
+@import "../../lib/bs5/scss/breadcrumb";
+@import "../../lib/bs5/scss/pagination";
+@import "../../lib/bs5/scss/badge";
+@import "../../lib/bs5/scss/alert";
+@import "../../lib/bs5/scss/progress";
+@import "../../lib/bs5/scss/list-group";
+@import "../../lib/bs5/scss/close";
+@import "../../lib/bs5/scss/toasts";
+@import "../../lib/bs5/scss/modal";
+@import "../../lib/bs5/scss/tooltip";
+@import "../../lib/bs5/scss/popover";
+@import "../../lib/bs5/scss/carousel";
+@import "../../lib/bs5/scss/spinners";
+@import "../../lib/bs5/scss/offcanvas";
+
+// Helpers
+@import "../../lib/bs5/scss/helpers";
+
+// Utilities
+@import "../../lib/bs5/scss/utilities/api";
+// scss-docs-end import-stack

@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | HomeOptima</title>
+    <link rel="stylesheet" href="assets/style/css/frontpage.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.cdnfonts.com/css/centrale-sans-regular"
+      rel="stylesheet"
+    />
+    <link href="assets/lib/slick/slick.css" rel="stylesheet" />
+    <link href="assets/lib/slick/slick-theme.css" rel="stylesheet" />
+  </head>
+  <body class="">
+    <header class="mainHeaer">
+      <div class="container navBar">
+        <a href="#" class="logo">
+          <img class="img-fluid" src="assets/images/logo.png" alt="" />
+        </a>
+        <ul class="menuList">
+          <li class="menuItem"><a href="javascript:void(0)">Buy</a></li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >My Home<span class="innerItem">(3)</span></a
+            >
+          </li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >Feed<span class="innerItem">(101)</span></a
+            >
+          </li>
+          <li class="menuItem">
+            <a href="javascript:void(0)"
+              >Favorites<span class="innerItem">(25)</span></a
+            >
+          </li>
+          <li class="menuItem"><a href="javascript:void(0)">Mortgage</a></li>
+          <li class="menuItem">
+            <a
+              href="javascript:void(0)"
+              class="dropdown-toggle"
+              id="navbarDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Agent hub</a
+            >
+
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdown"
+            >
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="menuItem"><a href="javascript:void(0)">About</a></li>
+          <li class="menuItem loginBtn">
+            <a href="javascript:void(0)">Log in</a>
+          </li>
+        </ul>
+        <div class="mobiLIcon">
+          <div class="mobileMenu">
+            <span class="lineH lineOne"></span>
+            <span class="lineH lineTwo"></span>
+            <span class="lineH lineThree"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+    <div class="subpage-banner favourite">
+      <div class="container">
+        <div class="banner-content">
+          <h1>Favourite</h1>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="left-opt">
+            <div class="top-search">
+              <div class="input-sec">
+                <input
+                  class="form-control pac-target-input"
+                  type="text"
+                  placeholder="Type an address"
+                />
+
+                <button class="btn btn-primary" id="rate-your-home">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="switch-opt">
+            <small>Show Map</small>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section map-searc-sec">
+      <div class="inner-sec">
+        <div class="content-sec">
+          <div class="top-head">
+            <div class="left"> <h3>Ashish’s Favourites</h3></div>
+            <div class="right">
+              <div class="notify dropdown">
+                <span
+                  class="showme"
+                  id="drop-notification"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Notifications 
+                  <!-- <i class="fa fa-bell"></i> -->
+                  <img class="img-fluid" src="assets/images/notification-icon.png" alt=""/>
+                </span>
+
+                <div
+                  class="pop-box dropdown-menu dropdown-menu-end"
+                  aria-labelledby="drop-notification"
+                >
+                  <div class="d-flex list-es">
+                    <div class="custom-control custom-checkbox">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="customCheck1" checked
+                      />
+                      <label class="custom-control-label" for="customCheck1"
+                        >Email</label
+                      >
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="customCheck2"
+                      />
+                      <label class="custom-control-label" for="customCheck2"
+                        >SMS</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="list-dd">
+                    <p>This changes how you would like to receive</p>
+                    <ul>
+                      <li>Community watch email</li>
+                      <li>Property sold watch emails/SMS</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="head-sec">
+            <div class="left">
+              
+              <div>
+                Showing <strong> 1-11 </strong> of <strong> 105 </strong>
+                <div class="filter-box">
+                <div class="dropdown">
+                  <a class="dropdown-toggle" href="#" role="button" id="drop-sort" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Filter
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="drop-sort">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                  <a class="dropdown-toggle" href="#" role="button" id="drop-sort" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sort
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="drop-sort">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+
+                
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="fav-list">
+            <div class="row">
+              <div class=" col-md-6">
+                <div class="block">
+                  <a href="javascript:void(0)">
+                    <div class="img-block">
+                      <img
+                        src="https://homeoptimaimages.s3.amazonaws.com/PhotoE4911748-1"
+                        alt=""
+                      />
+                      <span class="delete-icon">
+                        <i class="fa fa-trash"></i>
+                      </span>
+                    </div>
+                    <div class="detail">
+                      <div class="left">
+                        <h4>$ 1,625,00</h4>
+                        <small class="status">SOLD $1,750,000</small>
+                        <h5>616 North Service Rd, Grimsbyg</h5>
+                        <ul class="assetsList">
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/bed-icon.png"
+                              alt=""
+                            />
+                            <span>4 Beds</span>
+                          </li>
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/bath-icon.png"
+                              alt=""
+                            />
+                            <span>3 baths</span>
+                          </li>
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/home-icon.png"
+                              alt=""
+                            />
+                            <span>Detached</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="right comment-wrap">
+                        <div class="comment-icon">
+                          <img src="assets/images/icon/comment.png" />
+                        </div>
+                        <div class="comment-data" style="display: none">
+                          <h5>add comment</h5>
+                          <div class="form-group">
+                            <textarea class="form control"></textarea>
+                          </div>
+                          <div class="form-group btnGroup">
+                            <button class="btn btn-green">Add</button>
+                            <button class="btn btn-secondary">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class=" col-md-6">
+                <div class="block">
+                  <a href="javascript:void(0)">
+                    <div class="img-block">
+                      <img
+                        src="https://homeoptimaimages.s3.amazonaws.com/PhotoE4911748-1"
+                        alt=""
+                      />
+                      <span class="delete-icon">
+                        <i class="fa fa-trash"></i>
+                      </span>
+                    </div>
+                    <div class="detail">
+                      <div class="left">
+                        <h4>$ 1,625,00</h4>
+                        <small class="status">Active</small>
+                        <h5>616 North Service Rd, Grimsby</h5>
+                        <ul class="assetsList">
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/bed-icon.png"
+                              alt=""
+                            />
+                            <span>4 Beds</span>
+                          </li>
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/bath-icon.png"
+                              alt=""
+                            />
+                            <span>3 baths</span>
+                          </li>
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/home-icon.png"
+                              alt=""
+                            />
+                            <span>Detached</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="right comment-wrap">
+                        <div class="comment-icon">
+                          <img src="assets/images/icon/comment.png" />
+                        </div>
+                        <div class="comment-data" style="display: none">
+                          <h5>add comment</h5>
+                          <div class="form-group">
+                            <textarea class="form control"></textarea>
+                          </div>
+                          <div class="form-group btnGroup">
+                            <button class="btn btn-green">Add</button>
+                            <button class="btn btn-secondary">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class=" col-md-6">
+                <div class="block">
+                  <a href="javascript:void(0)">
+                    <div class="img-block">
+                      <img
+                        src="https://homeoptimaimages.s3.amazonaws.com/PhotoE4911748-1"
+                        alt=""
+                      />
+                      <span class="delete-icon">
+                        <i class="fa fa-trash"></i>
+                      </span>
+                    </div>
+                    <div class="detail">
+                      <div class="left">
+                        <h4>$ 1,625,00</h4>
+                        <small class="status">Expired</small>
+                        <h5>616 North Service Rd, Grimsby</h5>
+                        <ul class="assetsList">
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/bed-icon.png"
+                              alt=""
+                            />
+                            <span>4 Beds</span>
+                          </li>
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/bath-icon.png"
+                              alt=""
+                            />
+                            <span>3 baths</span>
+                          </li>
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/home-icon.png"
+                              alt=""
+                            />
+                            <span>Detached</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="right comment-wrap">
+                        <div class="comment-icon">
+                          <img src="assets/images/icon/comment.png" />
+                        </div>
+                        <div class="comment-data" style="display: none">
+                          <h5>add comment</h5>
+                          <div class="form-group">
+                            <textarea class="form control"></textarea>
+                          </div>
+                          <div class="form-group btnGroup">
+                            <button class="btn btn-green">Add</button>
+                            <button class="btn btn-secondary">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class=" col-md-6">
+                <div class="block">
+                  <a href="javascript:void(0)">
+                    <div class="img-block">
+                      <img
+                        src="https://homeoptimaimages.s3.amazonaws.com/PhotoE4911748-1"
+                        alt=""
+                      />
+                      <span class="delete-icon">
+                        <i class="fa fa-trash"></i>
+                      </span>
+                    </div>
+                    <div class="detail">
+                      <div class="left">
+                        <h4>$ 1,625,00</h4>
+                        <small class="status">suspended</small>
+                        <h5>616 North Service Rd, Grimsby</h5>
+                        <ul class="assetsList">
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/bed-icon.png"
+                              alt=""
+                            />
+                            <span>4 Beds</span>
+                          </li>
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/bath-icon.png"
+                              alt=""
+                            />
+                            <span>3 baths</span>
+                          </li>
+                          <li>
+                            <img
+                              class="imgfluid"
+                              src="assets/images/home-icon.png"
+                              alt=""
+                            />
+                            <span>Detached</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="right comment-wrap">
+                        <div class="comment-icon">
+                          <img src="assets/images/icon/comment.png" />
+                        </div>
+                        <div class="comment-data" style="display: none">
+                          <h5>add comment</h5>
+                          <div class="form-group">
+                            <textarea class="form control"></textarea>
+                          </div>
+                          <div class="form-group btnGroup">
+                            <button class="btn btn-green">Add</button>
+                            <button class="btn btn-secondary">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul class="paginationList">
+              <li><a href="#"><i class="fas fa-chevron-left" aria-hidden="true"></i></a></li>
+              <li><a href="#"><span>1</span></a></li>
+              <li class="active"><a href="#"><span>2</span></a></li>
+              <li><a class="#"><i class="fas fa-chevron-right" aria-hidden="true"></i></a></li>
+          </ul>
+          </div>
+        </div>
+        <div id="map">map</div>
+      </div>
+    </section>
+    <footer class="ourFooter">
+      <div class="container">
+        <div class="topFooter">
+          <div class="row">
+            <div class="col-lg-3 col-md-12 logoCol">
+              <div class="footerLogo">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/footer-logo.png"
+                    alt=""
+                  />
+                </a>
+                <div class="f-des">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                  <img
+                    class="img-fluid"
+                    src="assets/images/VC-img.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 mobileContact">
+              <div class="footerMenu">
+                <p class="fPera">Contact us</p>
+                <ul class="menuList">
+                  <li class="fItem mobileItem">
+                    <a href="javascript:void(0)">905.749.8000</a>
+                  </li>
+                  <li class="fItem">
+                    <a href="javascript:void(0)">info@homeoptima.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="row midMenuRow">
+                <div class="col-lg-5 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">Get Started</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Buy first, sell later</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Browse Homes</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Get Home Estimate</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">Learn</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">FAQ</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="footerMenu">
+                    <p class="fPera">About</p>
+                    <ul class="menuList">
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Who we are</a>
+                      </li>
+                      <li class="fItem">
+                        <a href="javascript:void(0)">Careers</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <div class="footerMenu desktopContact">
+                <p class="fPera">Contact us</p>
+                <ul class="menuList">
+                  <li class="fItem mobileItem">
+                    <a href="javascript:void(0)">905.749.8000</a>
+                  </li>
+                  <li class="fItem">
+                    <a href="javascript:void(0)">info@homeoptima.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- top footer end -->
+        <div class="midFooter">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="mobileApp">
+                <h4>Looking to buy or sell?</h4>
+                <div class="appRate">
+                  <img
+                    class="img-fluid appHomeIMG"
+                    src="assets/images/app-home.png"
+                    alt=""
+                  />
+                  <div class="downLoadHead">
+                    <p>Download our Top Rated Home Search App now!</p>
+                    <ul class="stareRate">
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star-half-alt"></i></li>
+                    </ul>
+                  </div>
+                  <div class="playStore">
+                    <a href="#">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/iphone-store.png"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/android-store.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="mobileDevice">
+                <div class="innerImg">
+                  <img
+                    class="img-fluid"
+                    src="assets/images/mobile-img.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mid footer end -->
+        <div class="bottomFooter">
+          <img
+            class="img-fluid partnerImg"
+            src="assets/images/partner-img.png"
+            alt=""
+          />
+          <p class="ftrNote">
+            Not intended to solicit parties under an exclusive contract with a
+            brokerage. MLS®, REALTOR® and the associated logos are trademarks of
+            the Canadian Real Estate Association. Ashish Saxena, Broker,
+            HomeOptima Inc., Brokerage is a member of TREB® & CREA® The listing
+            data is provided under copyright by the Toronto Real Estate Board -
+            TREB®. The listing data is deemed reliable but is not guaranteed
+            accurate by the Toronto Real Estate Board. Canadian and US patents
+            pending.
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="termCondition">
+                <p>
+                  © 2015-2021 HomeOptima Inc., Brokerage All Rights Reserved
+                  HomeOptima Inc. Updated February 2018: By searching you agree
+                  to the <a href="#"> Terms of Use </a> and
+                  <a href="#">Privacy Polic</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <ul class="socialLink">
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+    <div class="mobileBox">
+      <div class="container">
+        <ul class="mobMenu">
+          <li><a href="javascript:void(0)">Buy</a></li>
+          <li>
+            <a href="javascript:void(0)" class="">My Home<span>(3)</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="">Feed<span>(101)</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="">Favorites<span>(25)</span></a>
+          </li>
+          <li><a href="javascript:void(0)" class="">Mortgage</a></li>
+          <li class="aboutMenu-mob">
+            <a href="javascript:void(0)" class="">About</a>
+          </li>
+          <li><a href="javascript:void(0)" class="btn btn-green">Log in</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/lib/bs5/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome js start -->
+    <script src="assets/lib/fw/fontawesome.js"></script>
+    <!-- slick js start -->
+    <script src="assets/lib/slick/slick.js"></script>
+
+    <script src="assets/js/layout.js"></script>
+    <script src="assets/js/homepage.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdnQwnup53tHsqTpdtbzNh6rZzygGujFU&amp;libraries=places"
+      type="text/javascript"
+    ></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var mapOptions = {
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+        };
+        map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        map.setCenter(new google.maps.LatLng(43.629658, -79.710535));
+
+        $(".imgSlider").slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          prevArrow: false,
+          nextArrow: false,
+          responsive: [
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+          ],
+        });
+
+        $(".homeownerSlider").slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2500,
+          prevArrow:
+            '<img class="img-fluid left_arrow  " src="assets/images/left_arrow1.png" alt="" >',
+          nextArrow:
+            '<img class="img-fluid right_arrow " src="assets/images/right_arrow1.png" alt="" >',
+          responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+
+        $(".recent-one").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2500,
+          // prevArrow: false,
+          // nextArrow: false
+        });
+
+        $(".recent-two").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2500,
+          // prevArrow: false,
+          // nextArrow: false
+        });
+
+        $(".allDashboard").click(function () {
+          $(".dashboardInner-box").toggleClass("showDash");
+          if ($(".dashboardInner-box").hasClass("showDash")) {
+            $("#show-d").text("Hide Dashboard");
+            $(".allDashboard i")
+              .removeClass("fa-angle-down")
+              .addClass("fa-angle-up");
+            $(".unclaimBtn").fadeIn();
+          } else {
+            $("#show-d").text("Show Dashboard");
+            $(".allDashboard i")
+              .addClass("fa-angle-down")
+              .removeClass("fa-angle-up");
+            $(".unclaimBtn").fadeOut();
+          }
+        });
+        $(".showme").click({});
+        $(".comment-icon").click(function () {
+          var data = $(this)
+            .closest(".comment-wrap")
+            .find(".comment-data")
+            .html();
+          var pos = $(this).offset();
+          console.log(pos, this);
+          $("body").append(
+            "<div class='comment-pop' style='transform:translate(" +
+              pos.left +
+              "px," +
+              pos.top +
+              "px)'>" +
+              data +
+              "</div>"
+          );
+        });
+        // sticky map
+        var stickyTop = $('.map-searc-sec').offset().top-88;
+        var ch = $('.map-searc-sec').height();
+        $(window).scroll(function() {
+          var windowTop = $(window).scrollTop();
+
+          if (stickyTop < windowTop) {
+            $('#map').addClass('fixed').css('max-height',ch);
+          } else {
+            $('#map').removeClass('fixed');
+          }
+        });
+
+      });
+    </script>
+  </body>
+</html>

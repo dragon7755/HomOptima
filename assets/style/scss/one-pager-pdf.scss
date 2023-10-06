@@ -1,0 +1,1574 @@
+@import "include";
+@import "global";
+
+.p-4560 {
+  padding: 45px 60px;
+}
+
+.p-60 {
+  padding: 0 60px;
+}
+
+.row-y {
+  align-items: center;
+}
+
+.assetS-list {
+  margin: 40px 0 60px;
+  display: flex;
+  align-items: center;
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+
+    p {
+      margin: 0 0 0 5px;
+      font-size: 15px;
+      line-height: 15px;
+    }
+  }
+}
+
+.onePager {
+  background-color: #2b59ae;
+  text-align: center;
+
+  h1 {
+    font-size: 45px;
+    line-height: 48px;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: $fw-700;
+    margin-bottom: 0;
+  }
+
+  p {
+    color: #fff;
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+}
+
+.hero-bannerSec {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d6ecf8;
+  padding: 30px 60px;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+
+  .leftBanner {
+    width: 50%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      max-height: 600px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: $dark-blue;
+      font-weight: $fw-700;
+      margin-bottom: 0;
+    }
+  }
+
+  .rightHero {
+    background-color: #d6ecf8;
+    padding: 0px 22px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      text-transform: uppercase;
+      color: $skey-blue;
+      font-weight: $fw-700;
+    }
+
+    h3 {
+      color: $dark-blue;
+      font-weight: $fw-700;
+    }
+
+    .assetS-list {
+      margin: 40px 0 60px;
+      display: flex;
+      align-items: center;
+
+      li {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 30px;
+
+        p {
+          margin: 0 0 0 5px;
+          font-size: 15px;
+          line-height: 15px;
+        }
+      }
+    }
+
+    .BoutPrice {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 30px;
+      }
+
+      span {
+        font-weight: $fw-700;
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+
+    .estHome {
+      margin-bottom: 7px;
+    }
+
+    .priceRange {
+      color: #2e2e2e;
+      margin-bottom: 0;
+      font-size: 28px;
+      line-height: 32px;
+    }
+  }
+}
+
+.findQR-code {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  .findText {
+    background-color: #81cc2a;
+    padding: 26px;
+    color: $white;
+    margin-right: 15px;
+    position: relative;
+    width: calc(80% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 160px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      // right: -43px;
+      // top: 30px;
+      // width: 100px;
+      // height: 30px;
+      // background-color: #fff;
+      // transform: rotate(70deg);
+      width: 0;
+      height: 0;
+      border-left: 80px solid transparent;
+      border-right: 80px solid transparent;
+      border-top: 50px solid #81cc2a;
+      right: -104px;
+      transform: rotate(-90deg);
+      top: 55px;
+    }
+
+    &::after {
+      // content:"";
+      // position:absolute;
+      // right: -43px;
+      // bottom: 30px;
+      // width: 100px;
+      // height: 30px;
+      // background-color: #fff;
+      // transform: rotate(110deg);
+    }
+
+    h3 {
+      font-weight: $fw-700;
+      font-size: 32px;
+      line-height: 36px;
+      margin-bottom: 8px;
+      color: $white;
+    }
+
+    p {
+      font-size: 28px;
+      line-height: 32px;
+      font-weight: $fw-500;
+      color: $white;
+      margin-bottom: 0;
+    }
+  }
+
+  .imgQR {
+    width: 20%;
+    text-align: right;
+
+    img {
+      width: 160px;
+      min-width: 160px;
+      height: 160px;
+    }
+  }
+}
+
+.marketDir {
+  background-color: $white;
+
+  .marKH {
+    color: $dark-blue;
+    font-weight: $fw-700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .marketGraph {
+    border: 1px solid $skeyBlue-light;
+    border-radius: 0 0 25px 0;
+    padding: 25px;
+    min-height: calc(100% - 50px);
+
+    .LastChange {
+      margin-bottom: 5px;
+    }
+
+    .mrtPrice {
+      font-weight: $fw-700;
+      margin-bottom: 20px;
+
+      img {
+        width: 25px;
+      }
+    }
+
+    .GraphSec {
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .lastSoldhome {
+    border: 1px solid $skeyBlue-light;
+    border-radius: 0 0 25px 0;
+    min-height: calc(100% - 50px);
+
+    .topData {
+      max-height: 400px;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        min-height: 100%;
+        max-height: 400px;
+      }
+    }
+
+    .btmData {
+      padding: 20px;
+
+      .soldPrice-b {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        h4 {
+          font-weight: $fw-700;
+          margin-bottom: 0;
+        }
+
+        p {
+          margin-bottom: 0;
+          font-size: 15px;
+          text-transform: uppercase;
+          line-height: 16px;
+        }
+      }
+
+      .addressP {
+        margin-bottom: 30px;
+      }
+
+      .assetS-list {
+        margin: 0;
+      }
+    }
+  }
+
+  .preAshish-row {
+    padding: 0px 0 40px;
+
+    .preAshish {
+      display: flex;
+      align-items: center;
+
+      .leftImg-c {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+
+      .rightDataA {
+        p {
+          font-size: 14px;
+          line-height: 16px;
+          margin-bottom: 4px;
+
+          a {
+            color: $skey-blue;
+          }
+        }
+      }
+    }
+
+    .homeLogo {
+      text-align: right;
+    }
+  }
+}
+
+.onePager-footer {
+  background-color: $dark-blue;
+
+  .getData {
+    color: $white;
+
+    p {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 0;
+
+      img {
+        width: 30px;
+        margin-left: 27px;
+      }
+    }
+  }
+
+  .barCode-img {
+    text-align: right;
+
+    img {
+      width: 85px;
+      height: 85px;
+      object-fit: cover;
+    }
+  }
+}
+
+// Fwd Door hack error report tracker ============================
+.Fw-tracker {
+  text-align: center;
+  background-color: $dark-blue;
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: $fw-700;
+    color: $white;
+    font-size: 38px;
+    line-height: 42px;
+  }
+
+  p {
+    color: $white;
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+}
+
+.trackReport-table {
+  .trackBox {
+    margin-bottom: 50px;
+
+    p {
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: $fw-700;
+      color: $dark-blue;
+      margin-bottom: 8px;
+    }
+
+    .trackScan-table {
+      .border-info {
+        border-color: $skeyBlue-light !important;
+
+        tbody {
+          th,
+          td {
+            padding: 6px;
+          }
+
+          tr {
+            th {
+              &:first-child {
+                width: 75px;
+                font-weight: $fw-400;
+                color: $black-54;
+                background-color: #d6ecf8;
+              }
+
+              &.notesTd {
+                span {
+                  min-height: 48px;
+                  display: inline-block;
+                }
+              }
+            }
+
+            td {
+              &.barCode-img {
+                width: 130px;
+                vertical-align: middle;
+                text-align: center;
+
+                img {
+                  width: 110px;
+                  height: 110px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.marketDir {
+  &.marketDir-Fw {
+    .preAshish-row {
+      .preAshish {
+        .rightDataA {
+          p {
+            b {
+              color: $black-54;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.time-market {
+  .time-headDR {
+    margin-bottom: 40px;
+
+    h1 {
+      font-weight: $fw-700;
+      text-align: center;
+      color: $dark-blue;
+      position: relative;
+
+      span {
+        display: inline-block;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          right: 0;
+          bottom: -25px;
+          background-image: url(../../images/green-line-register.png);
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 18px;
+        }
+      }
+    }
+  }
+
+  .time-row {
+    .left-grp {
+      .market-grp {
+        border: 2px solid $skeyBlue-light;
+        border-radius: 0 0 45px 0;
+        margin-bottom: 25px;
+
+        img {
+          border-radius: 0 0 45px 0;
+        }
+      }
+
+      h3 {
+        color: $dark-blue;
+      }
+    }
+
+    .right-couple {
+      h4 {
+        color: $dark-blue;
+        font-weight: $fw-700;
+        margin-bottom: 8px;
+      }
+
+      .couple-row {
+        display: flex;
+        align-items: center;
+
+        p {
+          font-size: 20px;
+          line-height: 24px;
+          margin-right: 10px;
+        }
+
+        .cpl-img {
+          img {
+            width: 100px;
+            height: 100px;
+            min-width: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+// App pdf page css start =====================
+.appPage-header {
+  h1 {
+    color: $dark-blue;
+    font-weight: $fw-700;
+    position: relative;
+
+    span {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: -15px;
+        background-image: url(../../images/heaing-line.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20px;
+        background-position: center;
+        background-size: 100%;
+      }
+    }
+  }
+
+  h3 {
+    color: $dark-blue;
+    font-weight: $fw-600;
+  }
+}
+
+.appReview-section {
+  .leftImg {
+    margin-right: 50px;
+    img {
+      height: 725px;
+    }
+  }
+  .rightReview-data {
+    h3 {
+      color: $dark-blue;
+      font-weight: $fw-500;
+      margin-bottom: 25px;
+      line-height: 34px;
+    }
+
+    .userReview-list {
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: block;
+        margin-bottom: 25px;
+        .revTitle-tl {
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: $fw-700;
+          margin-bottom: 4px;
+        }
+
+        .reviewDate-row {
+          display: flex;
+          align-items: center;
+
+          .rateStr-list {
+            display: flex;
+            padding: 0;
+            margin: 0 0 4px 0;
+
+            li {
+              display: inline-block;
+              margin: 0 5px 0 0;
+
+              &:last-child {
+                margin-right: 0;
+              }
+
+              i {
+                color: #fbaa19;
+                font-size: 15px;
+              }
+            }
+          }
+
+          .ratedate {
+            font-size: 15px;
+            line-height: 18px;
+            margin-bottom: 0;
+            margin-left: 6px;
+          }
+        }
+
+        .userRev-txt {
+          font-size: 15px;
+          line-height: 18px;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .appRate {
+      display: flex;
+      align-items: center;
+      .appHomeIMG {
+        max-height: 75px;
+      }
+
+      .downLoadHead {
+        margin-left: 15px;
+
+        h4 {
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: $fw-700;
+          max-width: 226px;
+          color: $dark-blue;
+          margin: 0 0 5px 0;
+        }
+
+        .stareRate {
+          padding: 0;
+          margin: 0;
+
+          li {
+            display: inline-block;
+
+            i {
+              color: $white;
+              color: $dark-yellow;
+            }
+          }
+        }
+      }
+
+      .playStore {
+        margin: 0 0 0 25px;
+        display: flex;
+
+        a {
+          display: inline-block;
+          margin: 0 5px 0 0;
+        }
+      }
+    }
+  }
+}
+.findQR-code {
+  &.appCode {
+    .findText {
+      background-color: #8dc640;
+      &::before {
+        border-top: 50px solid #8dc640;
+      }
+    }
+  }
+}
+.realmarket-header {
+  text-align: center;
+  padding-bottom: 0;
+  h1 {
+    color: $dark-blue;
+    max-width: 900px;
+    margin: auto;
+    font-size: 45px;
+    line-height:60px;
+    span {
+      position: relative;
+      display: inline-block;
+      &::after {
+        content: url(../../images/heaing-line.png);
+        position: absolute;
+        right: -70px;
+        bottom: -24px;
+      }
+    }
+  }
+  p {
+    color: $black;
+    font-weight: $fw-500;
+    max-width: 513px;
+    margin:10px auto 0;
+  }
+}
+.market-analysis {
+  padding: 20px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  .left-analysisBox {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    .analysis-mainArea {
+      display: flex;
+      .assets-analysis {
+        background-color: $dark-blue;
+        padding: 15px;
+        width: calc(50% - 5px);
+        margin-right: 5px;
+        &:last-child {
+          margin-right: 0;
+        }
+        .detch-row {
+          display: flex;
+          align-items: center;
+          margin-bottom: 15px;
+          img {
+            filter: brightness(0) invert(1);
+            margin-right: 7px;
+          }
+          span {
+            color: $white;
+            display: inline-block;
+            line-height: initial;
+          }
+        }
+        .sales-row {
+          margin-bottom: 10px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          p {
+            color: $white;
+            margin-bottom: 0;
+            font-size: 14px;
+            line-height: 20px;
+            &.pera-price {
+              color: $skey-blue;
+              font-size: 24px;
+              line-height: 28px;
+              font-weight: $fw-500;
+              span {
+                &.month-pd {
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .real-insight {
+      margin: 30px 0;
+      h4 {
+        color: $dark-blue;
+      }
+      p {
+        font-weight: $fw-500;
+        color: $black;
+      }
+      .mrk-dir{
+        border:1px solid $skeyBlue-light;
+        border-top-color:#f2f2f2;
+        border-radius:0 0 25px 0;
+        width:100%;
+      }
+      .insight-lst {
+        display: flex;
+        li {
+          display: inline-flex;
+          align-items: center;
+          width: 50%;
+          img {
+            margin-right: 10px;
+          }
+          span {
+            font-weight: $fw-500;
+          }
+        }
+      }
+    }
+  }
+  .right-analysisBox {
+    width: 50%;
+    h4 {
+      color: $dark-blue;
+    }
+    p {
+      font-weight: $fw-500;
+      color: $black;
+    }
+    .ecomarket-list{
+        li{
+          display:flex;
+          align-items:center;
+          margin-bottom:12px;
+          &:last-child{
+            margin-bottom:0;
+          }
+          .mrk-img{
+            width:100px;
+            height:100px;
+            border-radius:50%;
+            object-fit:cover;
+            margin-right:15px;
+          }
+          .right-mrklst{
+            width:calc(100% - 110px);
+            display:flex;
+            align-items:center;
+            .mrk-inner{
+              display:flex;
+              align-items:center;
+              margin-right:10px;
+              &:last-child{
+                margin-right:0;
+              }
+              img{
+                margin-right:15px;
+              }
+              p{
+                margin-bottom:0;
+                font-weight:$fw-500;
+              }
+            }
+          }
+        }
+    }
+    .mark-tsts {
+      padding-left: 20px;
+      li {
+        span {
+          color: $black;
+          font-weight: $fw-500;
+        }
+        &::marker {
+          color: $skey-blue;
+        }
+      }
+    }
+  }
+}
+.bg-watermarklogo{
+  background-image:url(../../images/sample-img.png);
+
+}
+.disclaimer-home{
+  font-size:14px;
+  line-height:18px;
+  margin-bottom:0;
+}
+
+.analysis-mainArea {
+  display: flex;
+  .assets-analysis {
+    background-color: $dark-blue;
+    padding: 15px;
+    width: calc(50% - 5px);
+    margin-right: 5px;
+    &:last-child {
+      margin-right: 0;
+    }
+    .detch-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      img {
+        filter: brightness(0) invert(1);
+        margin-right: 7px;
+      }
+      span {
+        color: $white;
+        display: inline-block;
+        line-height: initial;
+        font-weight:$fw-700;
+      }
+    }
+    .sales-row {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      p {
+        color: $white;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 20px;
+       & > span{
+          font-weight:$fw-700;
+        }
+        &.pera-price {
+          color: $skey-blue;
+          font-size: 24px;
+          line-height: 28px;
+          
+          span {
+            font-weight: $fw-700;
+            &.month-pd {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//======================== one pager 02 css start ===========================//
+.marketDir{
+  &.ashishProf-box{
+    background-color:#e1f4fd;
+    padding:25px 45px;
+    .preAshish-row{
+      padding-bottom:0;
+      .preAshish{
+        .leftImg-c{
+          img{
+            background-color:$white;
+            padding-top: 8px;
+          }
+        } 
+        .rightDataA{
+          p{
+            font-weight:$fw-500;
+          }
+        } 
+      } 
+      .homeLogo{
+        img{
+          width:230px;
+        }
+      }
+    } 
+  }
+}
+.time-market{
+  &.novoStar-box{
+    .time-headDR{
+      margin-bottom: -50px;
+      @media ( 1100px <= width){
+        margin-bottom:-20px;
+      }
+      h1{
+        font-size: 34px;
+        line-height: 44px;
+        span{
+          &::after{
+            bottom:-12px;
+          }
+        }
+      }
+      p{
+        text-align:center;
+        font-weight:$fw-500;
+      }
+    } 
+    .hrs-row{
+      margin-bottom:0px;
+      align-items: center;
+      .left-sec{
+        h4{
+          margin-top:35px;
+          font-size: 20px;
+          line-height: 24px;
+          font-weight:$fw-700;
+          color:$dark-blue;
+          max-width:80%;
+        }
+        img{
+          width:100%;
+        }
+        .bavinRD-box{
+          border:1px solid $skey-blue;
+          padding:24px 16px;
+          position: relative;
+          // overflow: hidden;
+          .corner{
+            background:#fff;
+            height:20px;
+            width:20px;    
+            position:absolute;
+            &.topLeft{
+              left: -1px;
+              top: -2px;
+              border-radius: 0px 0px 20px 0px;
+              border-bottom: 2px solid #67d3e9;
+              border-right: 2px solid #67d3e9;
+            }
+            &.topRight{
+              right: -2px;
+              top: -2px;
+              border-radius: 0px 0px 0px 20px;
+              border-bottom: 2px solid #67d3e9;
+              border-left: 2px solid #67d3e9;
+            }
+            &.bottomLeft{
+              left: -1px;
+              bottom: -1px;
+              border-radius: 0px 20px 0px 0px;
+              border-top: 2px solid #67d3e9;
+              border-right: 2px solid #67d3e9;
+            }
+            &.bottomRight{
+              right: -2px;
+              bottom: -1px;
+              border-radius: 20px 0px 0px 0px;
+              border-top: 2px solid #67d3e9;
+              border-left: 2px solid #67d3e9;
+            }
+          }
+          .bavinRD-list{
+            li{
+              list-style:none;
+              font-size:24px;
+              line-height:25px;
+              color:$skey-blue;
+              max-width:80%;
+              margin: auto;
+              font-weight:$fw-500;
+              &.li-left{
+                  &.li-big{
+                    font-size:32px;
+                    line-height:16px;
+                    font-weight:$fw-500;
+                    max-width:95%;
+                  }
+              }
+              &.li-right{
+                text-align:right;
+                font-weight:$fw-500;
+                font-size:30px;
+                line-height:30px;
+                max-width:85%;
+                &.li-small{
+                  font-size:20px;
+                line-height:24px;
+                font-weight:$fw-500;
+                }
+              }
+              &.li-center{
+                text-align:center;
+                font-size:18px;
+                line-height:24px;
+              }
+            }
+          }
+        }
+      }
+      .right-sec{
+        .outImg-box{
+          position: relative;
+          img{
+            width:100%;
+            max-width:440px;
+          }
+          .inner-dataBox{
+            position:absolute;
+            width: calc(100% - 155px);
+            height: calc(100% - 120px);
+            left: 45px;
+            top: 108px;
+            background-color:#e3e5e6;
+            max-width:280px;
+            // max-height:258px;
+            padding:15px;
+            @media ( 1000px <= width){
+             top:111px;
+            }
+            .item-inslist{
+              padding-left:15px;
+              li{
+                font-size: 13px;
+                line-height: 18px;
+                font-weight: 600;
+                &::marker{
+                  color:$skyblue-light;
+                  font-size:20px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .marketStats-dirSec{
+      h3{
+        font-size:20px;
+        line-height:24px;
+        text-transform:uppercase;
+        color:$dark-blue;
+        font-weight:$fw-700;
+      }
+      .left-sts{
+        height:100%;
+        .analysis-mainArea{
+          height:100%;
+        }
+      }
+      .right-sts{
+        
+        p{
+          font-size:15px;
+          line-height:22px;
+        }
+        img{
+          border:1px solid $skyblue-light-8d;
+          border-radius:0 0 30px 0;
+        }
+      }
+    }
+  }
+}  
+.findQR-code{
+  &.findOR-codenew{
+    margin-bottom:20px;
+    .findText{
+      h3{
+        font-size:20px;
+        line-height:20px;
+      }
+    } 
+    .imgQR{
+      img{
+        width:120px;
+        min-width:120px;
+        height:120px;
+      }
+    } 
+  }
+} 
+.btmtxt-kd{
+  margin-bottom:20px;
+  p{
+    margin-bottom:0;
+    font-size:11px;
+    line-height:14px;
+    font-style:italic;
+  }
+}
+.time-market{
+  &.spring-box{
+    .time-headDR{
+      margin-bottom:25px;
+      h1{
+        font-size: 34px;
+        line-height: 44px;
+        span{
+          &::after{
+            bottom:-11px;
+          }
+        }
+      }
+    } 
+    .missAsset-box{
+      margin-bottom:30px;
+      [class*=col-]{
+        &:first-child{
+          padding-right:0;
+        }
+      }
+      .left-img{
+        img{
+          width:100%;
+        }
+      }
+      .right-data{
+        border:1px solid $skeyBlue-light;
+        border-radius:0 0 20px 0;
+        border-left:none;
+        padding:22px;
+        .priceRow-sld{
+          display:flex;
+          align-items:center;
+          justify-content:space-between;
+          margin-bottom:10px;
+          .left-sld{
+            display:flex;
+            align-items:center;
+            h3{
+              font-size:26px;
+              line-height:30px;
+              font-weight:$fw-700;
+              margin:0 10px 0 0;
+            }
+            .soldTag{
+              display:inline-block;
+              background-color:$red;
+              color:$white;
+              border-radius:5px;
+              padding:5px 12px;
+              font-size:15px;
+              line-height:18px;
+              font-weight:$fw-600;
+              margin-bottom:0;
+            }
+          }
+          .right-sld{
+            p{
+              text-transform:uppercase;
+              margin-bottom:0;
+              font-weight:$fw-500;
+              span{
+                color:$red;
+                display:inline-block;
+                font-weight:$fw-600;
+              }
+            }
+          }
+        }
+        .addr-aser{
+          max-width:270px;
+          font-weight:$fw-500;
+        }
+        .assets-listss{
+          display:flex;
+          align-items:center;
+          li{
+            display:inline-flex;
+            align-items:center;
+            margin-right:16px;
+            font-weight:$fw-500;
+            img{
+              margin-right:8px;
+            }
+            &:last-child{
+              margin-right:0;
+            }
+          }
+        }
+        .homeSlt-sumr{
+          h4{
+            font-weight:$fw-700;
+            margin-bottom:8px;
+            font-size:22px;
+            line-height:25px;
+            color:#58595b;
+          }
+          p{
+            font-weight:$fw-500;
+            font-size: 15px;
+            line-height: 21px;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .baseLine-pulsebox{
+      margin-bottom:40px;
+      h5{
+        text-transform:uppercase;
+        color:$dark-blue;
+        font-weight:$fw-700;
+      }
+      .left-pulse{
+        h6{
+          color:#58595b;
+          font-weight:$fw-800;
+          font-size:18px;
+          line-height:24px;
+          margin-bottom:12px;
+        }
+        .basePrc-box{
+          display:flex;
+          align-items:center;
+          margin-bottom:22px;
+          .left-bse{
+            .prcbtn-bse{
+              background-color:$green;
+              color:$white;
+              border-radius:6px;
+              padding: 10px 24px;
+              margin-right: 8px;
+              display: inline-block;
+              font-size: 32px;
+              line-height: 35px;
+              font-weight:$fw-600;
+            }
+          }
+          .right-bse{
+            h6{
+              font-size:18px;
+              line-height:20px;
+              font-weight:$fw-600;
+              color:$green;
+              margin-bottom:2px;
+            }
+            p{
+              font-size:14px;
+              line-height:16px;
+              margin-bottom:0;
+              font-weight:$fw-500;
+              color:#58595b;
+              text-transform:uppercase;
+            }
+          }
+        }
+        .priceChange-dv{
+          display:flex;
+          align-items:center;
+          margin-bottom:16px;
+          p{
+            margin:0 10px 0 0;
+            font-size:26px;
+            line-height:32px;
+            font-weight:$fw-700;
+            span{
+              color:$green;
+            }
+          }
+        }
+      }
+      .right-pulse{
+        .pulseNab-list{
+          margin:0;
+          padding:0;
+          li{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            padding:12px 0;
+            border-bottom:1px solid #bbbdbf;
+            font-size:16px;
+            line-height:20px;
+            span{
+              font-weight:$fw-500;
+            }
+            &:first-child{
+              border-top:1px solid #bbbdbf;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.bestPropery-box{
+  background-image:linear-gradient(45deg , #0cafd8  , #0061aa);
+  padding:30px;
+  display:flex;
+  align-items:center;
+  position: relative;
+  .left-book{
+    width:30%;
+    img{
+      width: 240px;
+      position: absolute;
+      top: -12px;
+      margin-right: 40px;
+    }
+  }
+  .right-bookdetails{
+    width:70%;
+    h2{
+      font-size: 25px;
+      line-height: 32px;
+      text-transform:uppercase;
+      color:$white;
+      font-weight:$fw-700;
+    }
+    .marketList{
+      margin:10px 0;
+      padding-left:36px;
+      li{
+        display: block;
+        margin-bottom:8px;
+        font-size: 16px;
+        line-height: 22px;
+        color:$white;
+        position: relative;
+        &::before{
+          content:url(../../images/icon/green-check-icon.png);
+          position: absolute;
+          left: -36px;
+          top:0;
+        }
+      }
+    }
+  }
+}
+// ========================================================================= Media query start from here ===================================================================//
+
+@media only screen and (max-width: 1330px) {
+  .findQR-code {
+    .findText {
+      width: calc(85% - 60px);
+    }
+
+    .imgQR {
+      width: 15%;
+    }
+  }
+
+  .hero-bannerSec {
+    .rightHero {
+      h2 {
+        font-size: 34px;
+        line-height: 38px;
+      }
+    }
+
+    .leftBanner {
+      h2 {
+        font-size: 32px;
+        line-height: 38px;
+      }
+    }
+  }
+
+  .time-market {
+    .time-headDR {
+      h1 {
+        font-size: 45px;
+        line-height: 48px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Fw-tracker,
+  .onePager {
+    h1 {
+      font-size: 36px;
+      line-height: 38px;
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 25px;
+    }
+  }
+
+  .hero-bannerSec {
+    .rightHero {
+      h2 {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+
+    .leftBanner {
+      h2 {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+  .appPage-header {
+    h3 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+  .findQR-code{
+    .findText{
+      min-height:120px;
+      &::before{
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+        border-top: 50px solid #81cc2a;
+        right: -85px;
+        top: 35px;
+      }
+      h3{
+        font-size:24px;
+        line-height:26px;
+      }
+      p{
+        font-size: 16px;
+        line-height: 20px;
+      }
+    } 
+  } 
+}
+
+@media only screen and (max-width: 1100px) {
+  .Fw-tracker,
+  .onePager {
+    h1 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+
+    p {
+      font-size: 22px;
+      line-height: 24px;
+    }
+  }
+
+  .time-market {
+    .time-row {
+      .left-grp {
+        h3 {
+          font-size: 28px;
+          line-height: 32px;
+        }
+      }
+
+      .right-couple {
+        .couple-row {
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .Fw-tracker,
+  .onePager {
+    h1 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 22px;
+    }
+  }
+  .appPage-header {
+    h3 {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+  .appReview-section {
+    .leftImg img {
+      height: 764px;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .appReview-section {
+    .leftImg img {
+      height: 799px;
+    }
+  }
+}

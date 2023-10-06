@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | HomeOptima</title>
+    <link rel="stylesheet" href="assets/style/css/frontpage.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap"
+        rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/centrale-sans-regular" rel="stylesheet" />
+    <link href="assets/lib/slick/slick.css" rel="stylesheet" />
+    <link href="assets/lib/slick/slick-theme.css" rel="stylesheet" />
+</head>
+
+<body class="">
+    <header class="mainHeaer">
+        <div class="container navBar">
+            <a href="#" class="logo">
+                <img class="img-fluid" src="assets/images/logo.png" alt="" />
+            </a>
+            <ul class="menuList">
+                <li class="menuItem"><a href="javascript:void(0)">Buy</a></li>
+                <li class="menuItem">
+                    <a href="javascript:void(0)">My Home<span class="innerItem">(3)</span></a>
+                </li>
+                <li class="menuItem">
+                    <a href="javascript:void(0)">Feed<span class="innerItem">(101)</span></a>
+                </li>
+                <li class="menuItem">
+                    <a href="javascript:void(0)">Favorites<span class="innerItem">(25)</span></a>
+                </li>
+                <li class="menuItem"><a href="javascript:void(0)">Mortgage</a></li>
+                <li class="menuItem"><a href="javascript:void(0)">About</a></li>
+                <li class="menuItem loginBtn">
+                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#loginModal">Log in</a>
+                </li>
+            </ul>
+            <div class="mobiLIcon">
+                <div class="mobileMenu">
+                    <span class="lineH lineOne"></span>
+                    <span class="lineH lineTwo"></span>
+                    <span class="lineH lineThree"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+    <div class="agent-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="banner-content">
+                        <h1>Listing optimizer</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- agent banner section end -->
+    <div class="preparedBy-ashish">
+        <div class="ashish-img">
+            <img class="img-fluid " src="assets/images/ashish-team-img01.png" alt="">
+        </div>
+        <div class="basic-data">
+            <p>Prepared by <span>Ashish Saxena</span> Real Estate Broker & CEO Homeoptima Inc. Brokerage May 10,2021</p>
+        </div>
+    </div>
+    <section class="main_agent_sec listOptimiser-table">
+        <div class="myDeal_sec client_sec_table">
+            <div class="container">
+                <div class="alert alert-info" id="alert-search" role="alert" style="display:none;"></div>
+
+                <h2>Clients</h2>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="newDeal">
+                            <button class="btn newDealbtn">+ Add New Client Listing</button>
+                            <button class="btn deleteBtn">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-responsive myDeal_table clientTable">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="" scope="col"></th>
+                                <th class="" scope="col">Name</th>
+                                <th class="" scope="col">Listing Address</th>
+                                <th class="" scope="col">Created Date</th>
+                                <th scope="col">Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="" scope="row" style="background-color: #edf9fc;">
+                                    <input type="checkbox" class="form-fontrol customCheckbox" value="128">
+                                </th>
+                                <td class="c-name">
+                                    <div class="lS-name">
+                                        <p user-id="c23857ac-9e7e-4298-acfb-bd6d3cb87254"
+                                            class="edit-link edit-link-web">
+                                            <span>Harshit Tailor</span></p>
+                                        <a href="javascript:void(0);" t-id="128" class="edit-row"><img class="img-fluid"
+                                                src="assets/images/pen-img.png" alt=""></a>
+                                    </div>
+
+                                </td>
+                                <td>99 Magill Drive, Ajax, ON, Canada</td>
+                                <td>13 Mar, 2021</td>
+                                <td class="u-link">
+                                    <a href="javascript:void(0);" user-id="c23857ac-9e7e-4298-acfb-bd6d3cb87254"
+                                        class="move-realtor-modal">Share</a>
+                                </td>
+                            </tr>
+                            <!-- row end -->
+                            <tr>
+                                <th class="" scope="row" style="background-color: #edf9fc;">
+                                    <input type="checkbox" class="form-fontrol customCheckbox" value="128">
+                                </th>
+                                <td class="c-name">
+                                    <div class="lS-name">
+                                        <p user-id="c23857ac-9e7e-4298-acfb-bd6d3cb87254"
+                                            class="edit-link edit-link-web">
+                                            <span>Vineet Arora</span></p>
+                                    </div>
+
+                                </td>
+                                <td>22 Coxhead Lane, Ajax, ON, Canada</td>
+                                <td>22 Feb, 2021</td>
+                                <td class="u-link">
+                                    <a href="javascript:void(0);" user-id="c23857ac-9e7e-4298-acfb-bd6d3cb87254"
+                                        class="move-realtor-modal">Share</a>
+                                </td>
+                            </tr>
+                            <!-- row end -->
+                            <tr>
+                                <th class="" scope="row" style="background-color: #edf9fc;">
+                                    <input type="checkbox" class="form-fontrol customCheckbox" value="128">
+                                </th>
+                                <td class="c-name">
+                                    <div class="lS-name">
+                                        <p user-id="c23857ac-9e7e-4298-acfb-bd6d3cb87254"
+                                            class="edit-link edit-link-web">
+                                            <span>Alwin Thambidurai</span></p>
+                                    </div>
+                                </td>
+                                <td>3455 Fountain Park Avenue, ON, Canada</td>
+                                <td>15 Jan, 2021</td>
+                                <td class="u-link">
+                                    <a href="javascript:void(0);" user-id="c23857ac-9e7e-4298-acfb-bd6d3cb87254"
+                                        class="move-realtor-modal">Share</a>
+                                </td>
+                            </tr>
+                            <!-- row end -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- desktop view end  -->
+                <a href="javascript:void(0)" class="hideClient-tb">Hide Clients</a>
+            </div>
+        </div>
+        <div class="my-route-box">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Listing optimizer</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="address-box">
+                                    <li>
+                                        <p>Client</p>
+                                        <p class="p-add">Harshit Tailor</p>
+                                    </li>
+                                    <li>
+                                        <p>Listing Address</p>
+                                        <p class="p-add">147-2095 Roche Crt, Mississauga</p>
+                                    </li>
+                                    <li>
+                                        <p>Start</p>
+                                        <p class="p-add">June 5, 2022</p>
+                                    </li>
+                                    <li>
+                                        <p>Day</p>
+                                        <p class="p-add">13th</p>
+                                    </li>
+                                </ul>
+                                <div class="table-responsive myDeal_table plan-route-table">
+                                    <p>Listing History</p>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Price</th>
+                                                <th>Status</th>
+                                                <th>DOM</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>15 May</td>
+                                                <td>$750,000</td>
+                                                <td>Price Change</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15 May</td>
+                                                <td>$750,000</td>
+                                                <td>Price Change</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15 May</td>
+                                                <td>$750,000</td>
+                                                <td>Price Change</td>
+                                                <td>2</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="recommanDate-plan">
+                                    <h3>Recommendation</h3>
+                                    <div class="DoNothing-cir">
+                                        <img class="img-fluid" src="assets/images/thumup-img.png" alt="">
+                                        <p>Do nothing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- my route table section end -->
+
+        <div class="listingOPT-map">
+            <div class="container">
+                <h3>MY MAP</h3>
+                <div class="pinaddress-sec">
+                    <button id="pin-address" class="btn drowMap-p pin-b">Pin
+                        Address</button>
+                    <button class="btn drowMap-p">Draw</button>
+                    <button class="btn drowMap-p">Criteria</button>
+                    <button class="btn drowMap-p">Save</button>
+                    <button class="btn drowMap-p">Reset</button>
+                    <button class="btn drowMap-p">Search</button>
+                    <div class="pinaddress-box">
+                        <p>Type Address</p>
+                        <textarea class="form-control pac-target-input" placeholder="" id="pinAddressSearch"
+                            autocomplete="off"></textarea>
+                        <div class="btm-ftr">
+                            <button class="btn drowMap" id="submit-pin-address">Submit</button>
+                            <button class="btn drowMap cancel-btn" id="cancel-pin-address">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="optimizerMap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14229.526909933118!2d75.72550785!3d26.9231104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1655460151879!5m2!1sen!2sin"
+                        width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                </div>
+                <a href="javascript:void(0)" class="hideMap-my">Hide map</a>
+            </div>
+        </div>
+        <!-- my map section end -->
+
+        <div class="stateStatus">
+            <div class="container">
+                <h3>Stats june 5 to june 9</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content-box">
+                            <h5>City</h5>
+                            <div class="puls-sec-p">
+                              <div class="puls-box-b">
+                                <span>Inventory</span>
+                                <h3>
+                                    27 Days (-22.2%)
+                                  <!-- <i class="fa fa-arrow-down" aria-hidden="true" style="color: red"></i> -->
+                                  <img class="img-fluid" src="assets/images/down-arrow-red-16.png" alt="">
+                                </h3>
+                              </div>
+                              <div class="puls-box-b">
+                                <span>Days On Market</span>
+                                <h3>
+                                    13 (-23.8%)
+                                  <!-- <i class="fa fa-arrow-down" aria-hidden="true" style="color: red"></i> -->
+                                  <img class="img-fluid" src="assets/images/down-arrow-red-16.png" alt="">
+                                </h3>
+                              </div>
+                              <div class="puls-box-b">
+                                <span>Media Price</span>
+                                <h3>
+                                    $1,447,548(4.1%)
+                                  <!-- <i class="fa fa-arrow-up" aria-hidden="true" style="color: green"></i> -->
+                                  <img class="img-fluid" src="assets/images/up-arrow-green-16.png" alt="">
+                                </h3>
+                              </div>
+                              <div class="puls-box-b">
+                                <span>Sold/List Price</span>
+                                <h3>
+                                  108.2% (1.3%)
+                                  <!-- <i class="fa fa-arrow-up" aria-hidden="true" style="color: green"></i> -->
+                                  <img class="img-fluid" src="assets/images/up-arrow-green-16.png" alt="">
+                                </h3>
+                              </div>
+                              <div class="puls-box-b">
+                                <span>Multiple Offer</span>
+                                <h3>
+                                  20%
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- col end -->
+                    <div class="col-md-6">
+                        <div class="content-box">
+                            <h5>Neighbourhood</h5>
+                            <div class="puls-sec-p">
+                              <div class="puls-box-b">
+                                <span>Inventory</span>
+                                <h3>
+                                    27 Days (-22.2%)
+                                  <!-- <i class="fa fa-arrow-down" aria-hidden="true" style="color: red"></i> -->
+                                  <img class="img-fluid" src="assets/images/down-arrow-red-16.png" alt="">
+                                </h3>
+                              </div>
+                              <div class="puls-box-b">
+                                <span>Days On Market</span>
+                                <h3>
+                                    13 (-23.8%)
+                                  <!-- <i class="fa fa-arrow-down" aria-hidden="true" style="color: red"></i> -->
+                                  <img class="img-fluid" src="assets/images/down-arrow-red-16.png" alt="">
+                                </h3>
+                              </div>
+                              <div class="puls-box-b">
+                                <span>Media Price</span>
+                                <h3>
+                                    $1,447,548(4.1%)
+                                  <!-- <i class="fa fa-arrow-up" aria-hidden="true" style="color: green"></i> -->
+                                  <img class="img-fluid" src="assets/images/up-arrow-green-16.png" alt="">
+                                </h3>
+                              </div>
+                              <div class="puls-box-b">
+                                <span>Sold/List Price</span>
+                                <h3>
+                                  108.2% (1.3%)
+                                  <!-- <i class="fa fa-arrow-up" aria-hidden="true" style="color: green"></i> -->
+                                  <img class="img-fluid" src="assets/images/up-arrow-green-16.png" alt="">
+                                </h3>
+                              </div>
+                              <div class="puls-box-b">
+                                <span>Multiple Offer</span>
+                                <h3>
+                                  20%
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- col end -->
+                </div>
+            </div>
+        </div>
+        <div class="stateStatus dailySnapshort">
+            <div class="container">
+                <h3>Daily inventory snapshot</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="snap-graph">
+                            <img class="img-fluid" src="assets/images/daily-snapshort-graph.png" alt="">
+                        </div>
+                    </div>
+                    <!-- col end -->
+                </div>
+            </div>
+        </div>
+        <!-- daily snapshot section end -->
+        <div class="stateStatus inventryDetail-table">
+            <div class="container">
+                <h3>Inventory details <span>(3 properties)</span></h3>
+                <div class="table-responsive myDeal_table">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th class="addressTh" scope="col">Address</th>
+                          <th class="" scope="col">Event</th>
+                          <th class="" scope="col">Price</th>
+                          <th class="" scope="col">Date</th>
+                          <th class="" scope="col">Status</th>
+                          <th class="" scope="col">Beds</th>
+                          <th class="" scope="col">Wash</th>
+                          <th class="" scope="col">Taxes</th>
+                          <th class="" scope="col">MLS</th>
+                          <th class="" scope="col">DOM</th>
+                          <th class="" scope="col">Highlights</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="addressTd">
+                            <p>99 Magill Drive, Ajax, ON, ...</p>
+                          </td>
+                          <td class="">
+                            <p>2</p>
+                          </td>
+                          <td class="">
+                            <p>$1,000,000</p>
+                          </td>
+                          <td class="">
+                            <p>11 Mar , 2021</p>
+                          </td>
+                          <td class="">
+                            <p>Listed</p>
+                          </td>
+                          <td class="">
+                            <p>4+1</p>
+                          </td>
+                          <td class="">
+                            <p>4</p>
+                          </td>
+                          <td class="">
+                            <p>$2,200</p>
+                          </td>
+                          <td class="">
+                            <p>W5534698</p>
+                          </td>
+                          <td class="">
+                            <p>12</p>
+                          </td>
+                          <td class="highLightTD">
+                            <p>A Unique Opportunity To Own In One Of Ki...</p>
+                          </td>
+                        </tr>
+                        <!-- row end -->
+                        <tr>
+                            <td class="addressTd">
+                              <p>99 Magill Drive, Ajax, ON, ...</p>
+                            </td>
+                            <td class="">
+                              <p>2</p>
+                            </td>
+                            <td class="">
+                              <p>$1,000,000</p>
+                            </td>
+                            <td class="">
+                              <p>11 Mar , 2021</p>
+                            </td>
+                            <td class="">
+                              <p>Listed</p>
+                            </td>
+                            <td class="">
+                              <p>4+1</p>
+                            </td>
+                            <td class="">
+                              <p>4</p>
+                            </td>
+                            <td class="">
+                              <p>$2,200</p>
+                            </td>
+                            <td class="">
+                              <p>W5534698</p>
+                            </td>
+                            <td class="">
+                              <p>12</p>
+                            </td>
+                            <td class="highLightTD">
+                              <p>A Unique Opportunity To Own In One Of Ki...</p>
+                            </td>
+                          </tr>
+                          <!-- row end -->
+                          <tr>
+                            <td class="addressTd">
+                              <p>99 Magill Drive, Ajax, ON, ...</p>
+                            </td>
+                            <td class="">
+                              <p>2</p>
+                            </td>
+                            <td class="">
+                              <p>$1,000,000</p>
+                            </td>
+                            <td class="">
+                              <p>11 Mar , 2021</p>
+                            </td>
+                            <td class="">
+                              <p>Listed</p>
+                            </td>
+                            <td class="">
+                              <p>4+1</p>
+                            </td>
+                            <td class="">
+                              <p>4</p>
+                            </td>
+                            <td class="">
+                              <p>$2,200</p>
+                            </td>
+                            <td class="">
+                              <p>W5534698</p>
+                            </td>
+                            <td class="">
+                              <p>12</p>
+                            </td>
+                            <td class="highLightTD">
+                              <p>A Unique Opportunity To Own In One Of Ki...</p>
+                            </td>
+                          </tr>
+                          <!-- row end -->
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+
+    <footer class="ourFooter">
+        <div class="container">
+            <div class="topFooter">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 logoCol">
+                        <div class="footerLogo">
+                            <a href="#">
+                                <img class="img-fluid" src="assets/images/footer-logo.png" alt="" />
+                            </a>
+                            <div class="f-des">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <img class="img-fluid" src="assets/images/VC-img.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mobileContact">
+                        <div class="footerMenu">
+                            <p class="fPera">Contact us</p>
+                            <ul class="menuList">
+                                <li class="fItem mobileItem">
+                                    <a href="javascript:void(0)">905.749.8000</a>
+                                </li>
+                                <li class="fItem">
+                                    <a href="javascript:void(0)">info@homeoptima.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="row midMenuRow">
+                            <div class="col-lg-5 col-md-4">
+                                <div class="footerMenu">
+                                    <p class="fPera">Get Started</p>
+                                    <ul class="menuList">
+                                        <li class="fItem">
+                                            <a href="javascript:void(0)">Buy first, sell later</a>
+                                        </li>
+                                        <li class="fItem">
+                                            <a href="javascript:void(0)">Browse Homes</a>
+                                        </li>
+                                        <li class="fItem">
+                                            <a href="javascript:void(0)">Get Home Estimate</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <div class="footerMenu">
+                                    <p class="fPera">Learn</p>
+                                    <ul class="menuList">
+                                        <li class="fItem">
+                                            <a href="javascript:void(0)">FAQ</a>
+                                        </li>
+                                        <li class="fItem">
+                                            <a href="javascript:void(0)">Blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="footerMenu">
+                                    <p class="fPera">About</p>
+                                    <ul class="menuList">
+                                        <li class="fItem">
+                                            <a href="javascript:void(0)">Who we are</a>
+                                        </li>
+                                        <li class="fItem">
+                                            <a href="javascript:void(0)">Careers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <div class="footerMenu desktopContact">
+                            <p class="fPera">Contact us</p>
+                            <ul class="menuList">
+                                <li class="fItem mobileItem">
+                                    <a href="javascript:void(0)">905.749.8000</a>
+                                </li>
+                                <li class="fItem">
+                                    <a href="javascript:void(0)">info@homeoptima.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- top footer end -->
+            <div class="midFooter">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mobileApp">
+                            <h4>Looking to buy or sell?</h4>
+                            <div class="appRate">
+                                <img class="img-fluid appHomeIMG" src="assets/images/app-home.png" alt="" />
+                                <div class="downLoadHead">
+                                    <p>Download our Top Rated Home Search App now!</p>
+                                    <ul class="stareRate">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star-half-alt"></i></li>
+                                    </ul>
+                                </div>
+                                <div class="playStore">
+                                    <a href="#">
+                                        <img class="img-fluid" src="assets/images/iphone-store.png" alt="" />
+                                    </a>
+                                    <a href="#">
+                                        <img class="img-fluid" src="assets/images/android-store.png" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mobileDevice">
+                            <div class="innerImg">
+                                <img class="img-fluid" src="assets/images/mobile-img.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mid footer end -->
+            <div class="bottomFooter">
+                <img class="img-fluid partnerImg" src="assets/images/partner-img.png" alt="" />
+                <p class="ftrNote">
+                    Not intended to solicit parties under an exclusive contract with a
+                    brokerage. MLS®, REALTOR® and the associated logos are trademarks of
+                    the Canadian Real Estate Association. Ashish Saxena, Broker,
+                    HomeOptima Inc., Brokerage is a member of TREB® & CREA® The listing
+                    data is provided under copyright by the Toronto Real Estate Board -
+                    TREB®. The listing data is deemed reliable but is not guaranteed
+                    accurate by the Toronto Real Estate Board. Canadian and US patents
+                    pending.
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="termCondition">
+                            <p>
+                                © 2015-2021 HomeOptima Inc., Brokerage All Rights Reserved
+                                HomeOptima Inc. Updated February 2018: By searching you agree
+                                to the <a href="#"> Terms of Use </a> and
+                                <a href="#">Privacy Polic</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="socialLink">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <div class="mobileBox">
+        <div class="container">
+            <ul class="mobMenu">
+                <li><a href="javascript:void(0)">Buy</a></li>
+                <li>
+                    <a href="javascript:void(0)" class="">My Home<span>(3)</span></a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="">Feed<span>(101)</span></a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="">Favorites<span>(25)</span></a>
+                </li>
+                <li><a href="javascript:void(0)" class="">Mortgage</a></li>
+                <li class="aboutMenu-mob">
+                    <a href="javascript:void(0)" class="">About</a>
+                </li>
+                <li><a href="javascript:void(0)" class="btn btn-green">Log in</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- login modal box  -->
+    <div class="modal fade registerMdal-box" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="left-img">
+                        <img class="img-fluid desktop-img" src="assets/images/register-modal-img.png" alt="" />
+                        <img class="img-fluid mobile-img" src="assets/images/register-modal-img-mob.png" alt="" />
+                    </div>
+                    <div class="right-data">
+                        <img class="img-fluid" src="assets/images/logo.png" alt="" />
+                        <h2> <span> Welcome</span> account</h2>
+                        <!-- <ul class="r-list">
+                    <li>Listings updated 12 times a day</li>
+                      <li>AI based market value of most listings</li>
+                      <li>Track your home's value. Updated daily</li>
+                      <li>Active, Sold and Terminated Listings</li>
+                  </ul> -->
+                        <form class="registerForm">
+                            <!-- <div class="row">
+                          <div class="form-group col-md-6">
+                              <input class="form-control" type="text" name="" placeholder="First Name"/>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <input class="form-control" type="text" name="" placeholder="Last Name"/>
+                        </div>
+                      </div> -->
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <input class="form-control" type="email" name="" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <input class="form-control" type="password" name="" placeholder="password" />
+                                </div>
+                            </div>
+                            <button class="btn btn-green">Sign in</button>
+                        </form>
+                        <div class="r-links">
+                            <p>By Registering you agree to our <a href="#">Forgot your password?</a></p>
+                            <p>Don’t have an account? <a href="javascript:void(0)" data-bs-toggle="modal"
+                                    data-bs-target="#registerModal">Register Now</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- register modal box  -->
+    <div class="modal fade registerMdal-box" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="left-img">
+                        <img class="img-fluid desktop-img" src="assets/images/register-modal-img.png" alt="" />
+                        <img class="img-fluid mobile-img" src="assets/images/register-modal-img-mob.png" alt="" />
+                    </div>
+                    <div class="right-data">
+                        <img class="img-fluid" src="assets/images/logo.png" alt="" />
+                        <h2>Free <span> premium</span> account</h2>
+                        <ul class="r-list">
+                            <li>Listings updated 12 times a day</li>
+                            <li>AI based market value of most listings</li>
+                            <li>Track your home's value. Updated daily</li>
+                            <li>Active, Sold and Terminated Listings</li>
+                        </ul>
+                        <form class="registerForm">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <input class="form-control" type="text" name="" placeholder="First Name" />
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input class="form-control" type="text" name="" placeholder="Last Name" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <input class="form-control" type="email" name="" placeholder="Email" />
+                                </div>
+                            </div>
+                            <button class="btn btn-green">Create Premium Account</button>
+                        </form>
+                        <div class="r-links">
+                            <p>By Registering you agree to our <a href="#">Terms of Use</a> and <a> Privacy Policy</a>
+                            </p>
+                            <p>We do not share your email with anyone.</p>
+                            <p>Already have an account? <a href="javascript:void(0)" data-bs-toggle="modal"
+                                    data-bs-target="#loginModal">Sign in Now</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/lib/bs5/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome js start -->
+    <script src="assets/lib/fw/fontawesome.js"></script>
+    <!-- slick js start -->
+    <script src="assets/lib/slick/slick.js"></script>
+
+    <script src="assets/js/layout.js"></script>
+    <script src="assets/js/homepage.js"></script>
+    <script>
+        $("document").ready(function () {
+            $("#pin-address").on("click", function () {
+                $(".pinaddress-box").toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>
